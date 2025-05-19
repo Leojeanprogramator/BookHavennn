@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book Haven - Catálogo e Detalhes</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Botão de menu para categorias */
+    .menu-categorias {
+      background-color: #00c853;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      display: none;
+      margin: 10px auto;
+      width: fit-content;
+      box-shadow: 0 4px 10px rgba(0, 200, 83, 0.3);
+    }
+
+    @media (max-width: 600px) {
+      .menu-categorias {
+        display: block;
+      }
+
+      .categorias {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .categorias.ativo {
+        display: flex;
+      }
+
+      .categorias button {
+        width: 100%;
+        max-width: 300px;
+        margin: 6px auto;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <img src="https://i.postimg.cc/yxZdWLYP/logo-transparente.png" alt="Logo Book Haven" />
+      <span>Book Haven</span>
+    </div>
+    <input
+      type="text"
+      id="searchInput"
+      class="search-input"
+      placeholder="O que você quer ler?"
+      onkeyup="buscar()" />
+  </header>
+
+  <!-- Botão de menu visível apenas em dispositivos pequenos -->
+  <button id="toggleCategorias" class="menu-categorias">&#9776; Categorias</button>
+
+  <nav class="categorias">
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('desenvolvimento')">Desenvolvimento Pessoal</button>
+    <button onclick="filtrar('romance')">Romance</button>
+    <button onclick="filtrar('ficcao')">Ficção Científica</button>
+    <button onclick="filtrar('drama')">Drama</button>
+    <button onclick="filtrar('suspense')">Suspense</button>
+  </nav>
+
+  <main>
+    <section id="catalogoView">
+      <div class="produtos" id="produtos"></div>
+      <div class="paginacao" id="paginacao"></div>
+    </section>
+
+    <section id="detalhesView" class="detalhes-view" style="display: none;">
+      <button class="btn-voltar" onclick="voltarCatalogo()">← Voltar ao catálogo</button>
+      <div id="detalhesProduto" class="detalhes-produto"></div>
+    </section>
+  </main>
+
+  <button id="topoBtn" class="topo-btn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+  <script>
+    // Mostrar/ocultar categorias em telas pequenas
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('toggleCategorias');
+      const categorias = document.querySelector('.categorias');
+
+      toggleBtn.addEventListener('click', () => {
+        categorias.classList.toggle('ativo');
+      });
+    });
+  </script>
+
+</body>
+</html>
