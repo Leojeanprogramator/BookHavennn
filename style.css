@@ -3,25 +3,25 @@
 :root {
   --bg-color: #1b1b1b;
   --text-color: #f5f5f5;
-  --primary-color: #00c853;
-  --primary-gradient-start: #00e676;
-  --primary-gradient-end: #00c853;
+  --primary-color: #7b2ff7;
+  --primary-gradient-start: #7b2ff7;
+  --primary-gradient-end: #9d4edd;
   --card-bg: rgba(33, 33, 33, 0.8);
   --card-bg-glass: rgba(255, 255, 255, 0.1);
   --border-color: rgba(255, 255, 255, 0.15);
-  --shadow-color: rgba(0, 200, 83, 0.4);
+  --shadow-color: rgba(123, 47, 247, 0.4);
 }
 
 body.light-theme {
   --bg-color: #f5f5f5;
   --text-color: #121212;
-  --primary-color: #00c853;
-  --primary-gradient-start: #00c853;
-  --primary-gradient-end: #009624;
+  --primary-color: #7b2ff7;
+  --primary-gradient-start: #9d4edd;
+  --primary-gradient-end: #7b2ff7;
   --card-bg: rgba(255, 255, 255, 0.9);
   --card-bg-glass: rgba(255, 255, 255, 0.3);
   --border-color: rgba(0, 0, 0, 0.1);
-  --shadow-color: rgba(0, 200, 83, 0.6);
+  --shadow-color: rgba(123, 47, 247, 0.6);
 }
 
 * {
@@ -32,28 +32,31 @@ body.light-theme {
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 body {
-  font-family: 'Inter', Arial, sans-serif;
   background: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
   transition: background 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
 }
 
-header {
+/* Header */
+header.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #121212;
   padding: 16px 24px;
   flex-wrap: wrap;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(123, 47, 247, 0.4);
   transition: background 0.3s ease;
 }
 
-body.light-theme header {
+body.light-theme header.header {
   background: #eaeaea;
 }
 
@@ -94,14 +97,25 @@ body.light-theme #searchInput {
 .menu-categorias {
   background-color: var(--primary-color);
   color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
   font-size: 1rem;
   cursor: pointer;
   display: none;
-  margin: 12px 0;
+  margin: 10px auto;
+  width: fit-content;
   box-shadow: 0 4px 10px var(--shadow-color);
   transition: background-color 0.3s ease;
+}
+
+.menu-categorias:hover {
+  background-color: #6a0dad;
+}
+
+.categoria-btn.ativa {
+  background-color: #4b0082;
+  color: #fff;
 }
 
 .categorias {
@@ -113,12 +127,14 @@ body.light-theme #searchInput {
   background: #272727;
   animation: fadeIn 0.4s ease;
   transition: background 0.3s ease;
+  border-radius: 10px;
 }
 
 body.light-theme .categorias {
   background: #f0f0f0;
 }
 
+/* Botões das categorias */
 .categorias button {
   padding: 12px 20px;
   border: none;
@@ -132,7 +148,29 @@ body.light-theme .categorias {
 }
 
 .categorias button:hover {
-  background: linear-gradient(135deg, var(--primary-gradient-end), #009624);
+  background: linear-gradient(135deg, var(--primary-gradient-end), #6a0dad);
+  transform: scale(1.05);
+}
+
+/* Botão Explore Agora - com o mesmo estilo roxo */
+.btn-explore {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--primary-gradient-start), var(--primary-gradient-end));
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px var(--shadow-color);
+  transition: all 0.3s ease;
+  margin: 16px auto;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+}
+
+.btn-explore:hover {
+  background: linear-gradient(135deg, var(--primary-gradient-end), #6a0dad);
   transform: scale(1.05);
 }
 
@@ -161,7 +199,7 @@ body.light-theme .categorias {
 .livro:hover {
   transform: translateY(-5px) scale(1.03);
   box-shadow: 0 10px 24px var(--shadow-color);
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(123, 47, 247, 0.15);
 }
 
 .livro img {
@@ -176,7 +214,6 @@ body.light-theme .categorias {
   margin-top: 10px;
   font-size: 1.1rem;
   color: var(--primary-gradient-start);
-  transition: color 0.3s ease;
 }
 
 body.light-theme .livro h3 {
@@ -186,7 +223,6 @@ body.light-theme .livro h3 {
 .livro p {
   font-size: 1rem;
   color: #ccc;
-  transition: color 0.3s ease;
 }
 
 body.light-theme .livro p {
@@ -198,11 +234,10 @@ body.light-theme .livro p {
   margin-top: 10px;
   color: var(--primary-color);
   cursor: pointer;
-  transition: color 0.3s ease;
 }
 
 .livro .ver-mais:hover {
-  color: #009624;
+  color: #6a0dad;
 }
 
 .paginacao {
@@ -215,10 +250,9 @@ body.light-theme .livro p {
   padding: 10px 16px;
   border-radius: 6px;
   border: none;
-  background: #333;
+  background: #4b0082;
   color: white;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
 .paginacao button.active {
@@ -235,7 +269,6 @@ body.light-theme .livro p {
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  transition: background 0.3s ease;
 }
 
 body.light-theme #detalhesView {
@@ -256,7 +289,6 @@ body.light-theme #detalhesView {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border-color);
-  transition: background 0.3s ease, color 0.3s ease;
 }
 
 body.light-theme .detalhes-produto {
@@ -271,94 +303,164 @@ body.light-theme .detalhes-produto {
   width: 100%;
   background-color: #333;
   box-shadow: 0 4px 15px var(--shadow-color);
-  transition: box-shadow 0.3s ease;
 }
 
 body.light-theme .detalhes-produto img {
   background-color: #eee;
-  box-shadow: 0 4px 15px rgba(0, 200, 83, 0.7);
+  box-shadow: 0 4px 15px rgba(123, 47, 247, 0.7);
 }
 
 .detalhes-produto .info {
-  flex: 2 1 350px;
+  flex: 1 1 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15px;
+  gap: 12px;
 }
 
-.detalhes-produto h1 {
+.detalhes-produto h2 {
+  color: var(--primary-gradient-start);
   font-size: 2rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  transition: color 0.3s ease;
+  margin-bottom: 12px;
 }
 
 .detalhes-produto p {
-  font-size: 1rem;
-  color: #ccc;
-  transition: color 0.3s ease;
+  font-size: 1.1rem;
+  color: var(--text-color);
 }
 
-body.light-theme .detalhes-produto p {
-  color: #333;
-}
-
-.detalhes-produto .botao {
-  background: linear-gradient(135deg, var(--primary-gradient-start), var(--primary-gradient-end));
-  padding: 14px 28px;
-  border-radius: 8px;
+.detalhes-produto .btn-voltar {
+  background: var(--primary-color);
+  border: none;
   color: white;
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
-  max-width: 240px;
-  box-shadow: 0 6px 15px var(--shadow-color);
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.detalhes-produto .btn-voltar:hover {
+  background: #6a0dad;
+}
+
+.comprar-agora {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre o texto e o botão */
+  margin-top: 20px; /* Espaçamento acima do botão */
+}
+
+.btn-comprar {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #7b2ff7, #9d4edd); /* Cor roxa */
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(123, 47, 247, 0.4);
   transition: all 0.3s ease;
 }
 
-.detalhes-produto .botao:hover {
-  background: linear-gradient(135deg, var(--primary-gradient-end), #009624);
+.btn-comprar:hover {
+  background: linear-gradient(135deg, #9d4edd, #7b2ff7); /* Efeito ao passar o mouse */
   transform: scale(1.05);
 }
 
-#topoBtn {
+.topo-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   color: white;
-  padding: 12px 16px;
   border: none;
   border-radius: 50%;
-  font-size: 22px;
+  width: 42px;
+  height: 42px;
+  font-size: 24px;
   cursor: pointer;
-  display: none;
-  z-index: 1000;
-  box-shadow: 0 6px 12px var(--shadow-color);
-  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 14px var(--shadow-color);
+  z-index: 999;
 }
 
-/* Responsividade para celular */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
+.topo-btn:hover {
+  background: #6a0dad;
+}
 
-  .logo {
-    justify-content: center;
-    width: 100%;
+/* Responsivo */
+@media (max-width: 768px) {
+  header.header {
+    flex-direction: column;
+    gap: 12px;
   }
 
   #searchInput {
     width: 100%;
-    max-width: 100%;
+  }
+
+  .produtos {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
   .detalhes-produto {
     flex-direction: column;
-    padding: 20px;
   }
+
+  .detalhes-produto img, .detalhes-produto .info {
+    flex: 1 1 100%;
+  }
+}
+
+/* Hero Section */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #7b2ff7, #9d4edd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 8px rgba(123, 47, 247, 0.7), 0 0 15px rgba(157, 78, 221, 0.6);
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #ddd;
+  text-shadow: 0 0 6px rgba(75, 0, 130, 0.7);
+  margin-bottom: 40px;
+}
+
+.hero .btn-comprar {
+  background: #7b1fa2;
+  box-shadow: 0 6px 15px rgba(123, 31, 162, 0.6);
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  font-size: 1.3rem;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  box-sizing: border-box;
+  width: max-content;
+  user-select: none;
+}
+
+.hero .btn-comprar:hover {
+  background: linear-gradient(135deg, #9c27b0, #6a1b9a);
+  box-shadow: 0 8px 20px rgba(156, 39, 176, 0.8);
+  transform: scale(1.05);
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
