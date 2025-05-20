@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Book Haven - Catálogo e Detalhes</title>
+  <title>Book Haven - Seu Refugio Literario</title>
   <link rel="stylesheet" href="style.css" />
   <style>
     /* Botão de menu para categorias */
@@ -19,6 +19,12 @@
       margin: 10px auto;
       width: fit-content;
       box-shadow: 0 4px 10px rgba(0, 200, 83, 0.3);
+    }
+
+    /* Categoria ativa (botão selecionado) */
+    .categoria-btn.ativa {
+      background-color: #333;
+      color: #fff;
     }
 
     @media (max-width: 600px) {
@@ -43,6 +49,117 @@
         text-align: center;
       }
     }
+
+    /* Fundo animado com vídeo no topo */
+    .hero {
+      position: relative;
+      height: 80vh; /* ocupa 80% da altura da tela */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+      font-family: 'Inter', Arial, sans-serif;
+    }
+
+    .hero video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.4);
+      z-index: -1;
+    }
+
+    .hero-text {
+      position: relative;
+      max-width: 900px;
+      padding: 20px;
+      z-index: 10;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+    }
+
+    .hero .cta {
+      padding: 14px 32px;
+      border-radius: 30px;
+      background: #00c853;
+      color: white;
+      font-weight: 700;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(0, 200, 83, 0.6);
+      transition: background 0.3s ease;
+      display: inline-block;
+    }
+
+    .hero .cta:hover {
+      background: #009624;
+    }
+
+    /* Ajuste o header para ficar um pouco mais pra baixo e com z-index para estar acima do vídeo */
+    header.header {
+      position: relative;
+      z-index: 20;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      font-family: 'Inter', Arial, sans-serif;
+    }
+
+    /* Logo dentro do header */
+    .header .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #00c853;
+    }
+
+    .header .logo img {
+      height: 40px;
+      width: auto;
+    }
+
+    /* Input de busca */
+    .search-input {
+      padding: 8px 12px;
+      font-size: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      max-width: 300px;
+      width: 100%;
+    }
+
+    /* Responsividade para o texto do hero */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1.1rem;
+      }
+      .hero {
+        height: 60vh;
+      }
+    }
   </style>
 </head>
 <body>
@@ -60,16 +177,29 @@
       onkeyup="buscar()" />
   </header>
 
+  <section class="hero">
+    <video autoplay muted loop playsinline>
+  <source src="https://cdn.pixabay.com/video/2020/09/08/49375-459436752_large.mp4" type="video/mp4" />
+  Seu navegador não suporta vídeo.
+</video>
+    <div class="hero-text">
+      <h1>Seu Refúgio Literário 
+        <p>Encontre o livro perfeito para você</p>
+        </h1>
+      <a href="#catalogoView" class="cta">Ver Mais</a>
+    </div>
+  </section>
+
   <!-- Botão de menu visível apenas em dispositivos pequenos -->
   <button id="toggleCategorias" class="menu-categorias">&#9776; Categorias</button>
 
   <nav class="categorias">
-    <button onclick="filtrar('todos')">Todos</button>
-    <button onclick="filtrar('desenvolvimento')">Desenvolvimento Pessoal</button>
-    <button onclick="filtrar('romance')">Romance</button>
-    <button onclick="filtrar('ficcao')">Ficção Científica</button>
-    <button onclick="filtrar('drama')">Drama</button>
-    <button onclick="filtrar('suspense')">Suspense</button>
+    <button class="categoria-btn" data-categoria="todos" onclick="filtrar('todos')">Todos</button>
+    <button class="categoria-btn" data-categoria="desenvolvimento" onclick="filtrar('desenvolvimento')">Desenvolvimento Pessoal</button>
+    <button class="categoria-btn" data-categoria="romance" onclick="filtrar('romance')">Romance</button>
+    <button class="categoria-btn" data-categoria="ficcao" onclick="filtrar('ficcao')">Ficção Científica</button>
+    <button class="categoria-btn" data-categoria="drama" onclick="filtrar('drama')">Drama</button>
+    <button class="categoria-btn" data-categoria="suspense" onclick="filtrar('suspense')">Suspense</button>
   </nav>
 
   <main>
