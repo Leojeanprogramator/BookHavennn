@@ -145,13 +145,26 @@ function atualizarPaginacao(totalItems) {
 
 function filtrar(categoria) {
   currentFilter = categoria;
+
+  // Marcar botão ativo
+  const botoes = document.querySelectorAll('.categoria-btn');
+  botoes.forEach(btn => {
+    btn.classList.toggle('ativa', btn.dataset.categoria === categoria);
+  });
+
   mostrarPagina(1);
+
+  // Rolagem para o topo do catálogo
+  document.getElementById('catalogoView').scrollIntoView({ behavior: 'smooth' });
 }
 
 function buscar() {
   const input = document.getElementById('searchInput');
   currentSearch = input.value.toLowerCase();
   mostrarPagina(1);
+
+  // Rolagem para o topo do catálogo
+  document.getElementById('catalogoView').scrollIntoView({ behavior: 'smooth' });
 }
 
 function mostrarDetalhes(id) {
@@ -183,3 +196,4 @@ function voltarCatalogo() {
 window.onload = () => {
   mostrarPagina(1);
 };
+
