@@ -219,7 +219,7 @@ function voltarCatalogo() {
   mostrarPagina(currentPage);
 }
 
-// NOVO: Toggle do menu de categorias com classe `.mostrar`
+// ✅ NOVO: Toggle do menu de categorias com classe `.mostrar`
 function toggleMenuCategorias() {
   const btn = document.getElementById('toggleCategorias');
   const menu = document.getElementById('categoriasMenu');
@@ -257,4 +257,3 @@ window.onload = () => {
     btnCategorias.addEventListener('click', toggleMenuCategorias);
   }
 };
-
