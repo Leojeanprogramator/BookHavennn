@@ -44,6 +44,74 @@ body {
   min-height: 100vh;
 }
 
+/* --- HERO SECTION COM VÍDEO --- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  background: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  filter: brightness(0.4);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Botão "Ver Mais" na hero com estilo roxo */
+.btn-explore {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--primary-gradient-start), var(--primary-gradient-end));
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px var(--shadow-color);
+  transition: all 0.3s ease;
+  margin: 16px auto;
+  display: inline-block;
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-explore:hover {
+  background: linear-gradient(135deg, var(--primary-gradient-end), #6a0dad);
+  transform: scale(1.05);
+}
+
 /* Header */
 header.header {
   display: flex;
@@ -88,29 +156,52 @@ body.light-theme header.header {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
+/* Ajuste para celular */
+@media (max-width: 600px) {
+  header.header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  #searchInput {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
 body.light-theme #searchInput {
   background: #ddd;
   color: #121212;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Botão "Categorias" - inicialmente escondido */
 .menu-categorias {
-  background-color: var(--primary-color);
+  background: linear-gradient(135deg, var(--primary-gradient-start), var(--primary-gradient-end));
   color: white;
   border: none;
-  padding: 10px 16px;
-  border-radius: 6px;
+  padding: 12px 24px;
+  border-radius: 10px;
   font-size: 1rem;
   cursor: pointer;
-  display: none;
   margin: 10px auto;
   width: fit-content;
   box-shadow: 0 4px 10px var(--shadow-color);
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  display: none; /* será ativado no mobile */
+  text-align: center;
+  font-weight: 600;
+  user-select: none;
 }
 
-.menu-categorias:hover {
-  background-color: #6a0dad;
+.menu-categorias:hover,
+.menu-categorias:focus {
+  background: linear-gradient(135deg, var(--primary-gradient-end), #6a0dad);
+  transform: scale(1.05);
+  outline: none;
+  box-shadow: 0 6px 15px rgba(123, 47, 247, 0.6);
 }
 
 .categoria-btn.ativa {
@@ -145,33 +236,57 @@ body.light-theme .categorias {
   cursor: pointer;
   box-shadow: 0 4px 10px var(--shadow-color);
   transition: all 0.3s ease;
-}
-
-.categorias button:hover {
-  background: linear-gradient(135deg, var(--primary-gradient-end), #6a0dad);
-  transform: scale(1.05);
-}
-
-/* Botão Explore Agora - com o mesmo estilo roxo */
-.btn-explore {
-  padding: 12px 20px;
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--primary-gradient-start), var(--primary-gradient-end));
-  color: white;
-  font-weight: 600;
-  cursor: pointer;
-  box-shadow: 0 4px 10px var(--shadow-color);
-  transition: all 0.3s ease;
-  margin: 16px auto;
-  display: block;
-  max-width: 200px;
+  user-select: none;
+  width: auto;
+  min-width: 120px;
   text-align: center;
 }
 
-.btn-explore:hover {
+.categorias button:hover,
+.categorias button:focus {
   background: linear-gradient(135deg, var(--primary-gradient-end), #6a0dad);
   transform: scale(1.05);
+  outline: none;
+  box-shadow: 0 6px 15px rgba(123, 47, 247, 0.6);
+}
+
+/* --- MOBILE CONFIGURAÇÕES --- */
+@media (max-width: 768px) {
+  .menu-categorias {
+    display: inline-block; /* mostra o botão apenas no mobile */
+  }
+
+  /* Oculta o menu de categorias no mobile por padrão */
+  #categoriasMenu {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    margin: 0 20px;
+  }
+
+  /* Mostrar menu ao adicionar a classe .mostrar */
+  #categoriasMenu.mostrar {
+    max-height: 1000px; /* ajuste para caber todo o conteúdo */
+    opacity: 1;
+  }
+
+  /* Empilha os botões em coluna no mobile */
+  .categorias {
+    flex-direction: column !important;
+    gap: 12px;
+    padding: 16px;
+    background: #272727;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+
+  /* Botões ocupam 100% da largura e ficam empilhados */
+  .categorias button {
+    width: 100% !important;
+    margin: 0;
+  }
 }
 
 .produtos {
@@ -213,31 +328,71 @@ body.light-theme .categorias {
 .livro h3 {
   margin-top: 10px;
   font-size: 1.1rem;
-  color: var(--primary-gradient-start);
-}
-
-body.light-theme .livro h3 {
   color: var(--primary-color);
 }
 
 .livro p {
-  font-size: 1rem;
-  color: #ccc;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin-top: 6px;
 }
 
-body.light-theme .livro p {
-  color: #444;
-}
-
-.livro .ver-mais {
-  display: inline-block;
-  margin-top: 10px;
-  color: var(--primary-color);
+/* Botão comprar agora no card do livro */
+.btn-comprar {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--primary-gradient-start), var(--primary-gradient-end));
+  color: white;
+  font-weight: 600;
   cursor: pointer;
+  box-shadow: 0 4px 10px var(--shadow-color);
+  transition: all 0.3s ease;
+  user-select: none;
+  display: inline-block;
+  text-align: center;
+  max-width: 200px;
 }
 
-.livro .ver-mais:hover {
+.btn-comprar:hover,
+.btn-comprar:focus {
+  background: linear-gradient(135deg, var(--primary-gradient-end), #6a0dad);
+  transform: scale(1.05);
+  outline: none;
+  box-shadow: 0 6px 15px rgba(123, 47, 247, 0.6);
+}
+
+
+/* ANIMAÇÃO simples */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ROLAGEM SUAVE NOS LINKS */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
   color: #6a0dad;
+}
+
+/* OUTROS AJUSTES */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
 }
 
 .paginacao {
@@ -259,6 +414,31 @@ body.light-theme .livro p {
   background: var(--primary-color);
   font-weight: bold;
   cursor: default;
+}
+
+.btn-voltar {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--primary-gradient-start), var(--primary-gradient-end));
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px var(--shadow-color);
+  transition: all 0.3s ease;
+  user-select: none;
+  display: inline-block;
+  text-align: center;
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.btn-voltar:hover,
+.btn-voltar:focus {
+  background: linear-gradient(135deg, var(--primary-gradient-end), #6a0dad);
+  transform: scale(1.05);
+  outline: none;
+  box-shadow: 0 6px 15px rgba(123, 47, 247, 0.6);
 }
 
 #detalhesView {
@@ -327,140 +507,4 @@ body.light-theme .detalhes-produto img {
 .detalhes-produto p {
   font-size: 1.1rem;
   color: var(--text-color);
-}
-
-.detalhes-produto .btn-voltar {
-  background: var(--primary-color);
-  border: none;
-  color: white;
-  padding: 12px 24px;
-  font-size: 1rem;
-  border-radius: 12px;
-  cursor: pointer;
-  margin-bottom: 20px;
-  align-self: flex-start;
-}
-
-.detalhes-produto .btn-voltar:hover {
-  background: #6a0dad;
-}
-
-.comprar-agora {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Espaçamento entre o texto e o botão */
-  margin-top: 20px; /* Espaçamento acima do botão */
-}
-
-.btn-comprar {
-  padding: 12px 20px;
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #7b2ff7, #9d4edd); /* Cor roxa */
-  color: white;
-  font-weight: 600;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(123, 47, 247, 0.4);
-  transition: all 0.3s ease;
-}
-
-.btn-comprar:hover {
-  background: linear-gradient(135deg, #9d4edd, #7b2ff7); /* Efeito ao passar o mouse */
-  transform: scale(1.05);
-}
-
-.topo-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: var(--primary-color);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 42px;
-  height: 42px;
-  font-size: 24px;
-  cursor: pointer;
-  box-shadow: 0 4px 14px var(--shadow-color);
-  z-index: 999;
-}
-
-.topo-btn:hover {
-  background: #6a0dad;
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-  header.header {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  #searchInput {
-    width: 100%;
-  }
-
-  .produtos {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-
-  .detalhes-produto {
-    flex-direction: column;
-  }
-
-  .detalhes-produto img, .detalhes-produto .info {
-    flex: 1 1 100%;
-  }
-}
-
-/* Hero Section */
-.hero {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  background: linear-gradient(90deg, #7b2ff7, #9d4edd);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 8px rgba(123, 47, 247, 0.7), 0 0 15px rgba(157, 78, 221, 0.6);
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-size: 1.25rem;
-  color: #ddd;
-  text-shadow: 0 0 6px rgba(75, 0, 130, 0.7);
-  margin-bottom: 40px;
-}
-
-.hero .btn-comprar {
-  background: #7b1fa2;
-  box-shadow: 0 6px 15px rgba(123, 31, 162, 0.6);
-  color: white;
-  border: none;
-  padding: 18px 40px;
-  font-size: 1.3rem;
-  border-radius: 14px;
-  cursor: pointer;
-  font-weight: 700;
-  text-transform: uppercase;
-  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  display: inline-block;
-  box-sizing: border-box;
-  width: max-content;
-  user-select: none;
-}
-
-.hero .btn-comprar:hover {
-  background: linear-gradient(135deg, #9c27b0, #6a1b9a);
-  box-shadow: 0 8px 20px rgba(156, 39, 176, 0.8);
-  transform: scale(1.05);
-}
-
-/* Fade In Animation */
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
 }
