@@ -97,35 +97,54 @@ const itemsPerPage = 10;
 let currentFilter = 'todos';
 let currentSearch = '';
 
-function mostrarPagina(page) {
+// Função para normalizar texto (remover acentos e transformar em minúsculo)
+function normalizeText(text) {
+  return text
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+}
+
+function mostrarPagina(page, rolarParaTopo = false) {
   currentPage = page;
   const produtosContainer = document.getElementById('produtos');
   produtosContainer.innerHTML = '';
 
-  let filteredLivros = livros.filter(l =>
-    (currentFilter === 'todos' || l.categoria === currentFilter) &&
-    l.titulo.toLowerCase().includes(currentSearch)
-  );
+  const normalizedSearch = normalizeText(currentSearch);
 
-  const start = (page - 1) * itemsPerPage;
-  const end = start + itemsPerPage;
-  const livrosPagina = filteredLivros.slice(start, end);
-
-  livrosPagina.forEach(livro => {
-    const livroDiv = document.createElement('div');
-    livroDiv.classList.add('livro');
-    livroDiv.dataset.categoria = livro.categoria;
-    livroDiv.addEventListener('click', () => mostrarDetalhes(livro.id));
-    livroDiv.innerHTML = `
-      <img src="${livro.img}" alt="${livro.titulo}" />
-      <h3>${livro.titulo}</h3>
-      <p>R$ ${livro.preco.toFixed(2)}</p>
-      <span class="ver-mais">Clique para ver mais</span>
-    `;
-    produtosContainer.appendChild(livroDiv);
+  const filteredLivros = livros.filter(livro => {
+    const normalizedTitle = normalizeText(livro.titulo);
+    const categoriaMatch = currentFilter === 'todos' || livro.categoria === currentFilter;
+    const titleMatch = normalizedTitle.includes(normalizedSearch);
+    return categoriaMatch && titleMatch;
   });
 
+  const start = (page - 1) * itemsPerPage;
+  const livrosPagina = filteredLivros.slice(start, start + itemsPerPage);
+
+  if (livrosPagina.length === 0) {
+    produtosContainer.innerHTML = '<p style="text-align:center; margin-top:20px;">Nenhum livro encontrado.</p>';
+  } else {
+    livrosPagina.forEach(livro => {
+      const livroDiv = document.createElement('div');
+      livroDiv.className = 'livro';
+      livroDiv.dataset.categoria = livro.categoria;
+      livroDiv.addEventListener('click', () => mostrarDetalhes(livro.id));
+      livroDiv.innerHTML = `
+        <img src="${livro.img}" alt="${livro.titulo}" />
+        <h3>${livro.titulo}</h3>
+        <p>R$ ${livro.preco.toFixed(2)}</p>
+        <span class="ver-mais">Clique para ver mais</span>
+      `;
+      produtosContainer.appendChild(livroDiv);
+    });
+  }
+
   atualizarPaginacao(filteredLivros.length);
+
+  if (rolarParaTopo) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
 
 function atualizarPaginacao(totalItems) {
@@ -137,8 +156,8 @@ function atualizarPaginacao(totalItems) {
   for (let i = 1; i <= totalPages; i++) {
     const btn = document.createElement('button');
     btn.innerText = i;
-    if (i === currentPage) btn.classList.add('active');
-    btn.addEventListener('click', () => mostrarPagina(i));
+    btn.classList.toggle('active', i === currentPage);
+    btn.addEventListener('click', () => mostrarPagina(i, true));
     paginacaoContainer.appendChild(btn);
   }
 }
@@ -146,54 +165,96 @@ function atualizarPaginacao(totalItems) {
 function filtrar(categoria) {
   currentFilter = categoria;
 
-  // Marcar botão ativo
-  const botoes = document.querySelectorAll('.categoria-btn');
-  botoes.forEach(btn => {
+  document.querySelectorAll('.categoria-btn').forEach(btn => {
     btn.classList.toggle('ativa', btn.dataset.categoria === categoria);
+    btn.setAttribute('aria-pressed', btn.dataset.categoria === categoria ? 'true' : 'false');
   });
 
   mostrarPagina(1);
 
-  // Rolagem para o topo do catálogo
-  document.getElementById('catalogoView').scrollIntoView({ behavior: 'smooth' });
+  const produtosSection = document.getElementById('catalogoView');
+  if (produtosSection) {
+    produtosSection.scrollIntoView({ behavior: 'smooth' });
+  }
 }
 
 function buscar() {
   const input = document.getElementById('searchInput');
-  currentSearch = input.value.toLowerCase();
+  currentSearch = input.value.trim();
   mostrarPagina(1);
-
-  // Rolagem para o topo do catálogo
-  document.getElementById('catalogoView').scrollIntoView({ behavior: 'smooth' });
 }
 
 function mostrarDetalhes(id) {
   const livro = livros.find(l => l.id === id);
   if (!livro) return;
 
-  const catalogoView = document.getElementById('catalogoView');
-  const detalhesView = document.getElementById('detalhesView');
-  const detalhes = document.getElementById('detalhesProduto');
+  document.getElementById('header').style.display = 'none';
+  document.getElementById('toggleCategorias').style.display = 'none';
+  document.getElementById('categoriasMenu').style.display = 'none';
+  document.getElementById('heroSection').style.display = 'none';
 
-  catalogoView.style.display = 'none';
-  detalhesView.style.display = 'block';
+  document.getElementById('catalogoView').style.display = 'none';
+  document.getElementById('detalhesView').style.display = 'block';
 
-  detalhes.innerHTML = `
+  document.getElementById('detalhesProduto').innerHTML = `
     <h1>${livro.titulo}</h1>
     <img src="${livro.img}" alt="${livro.titulo}" />
     <p>${livro.descricao}</p>
     <p><strong>Preço:</strong> R$ ${livro.preco.toFixed(2)}</p>
-    <a href="${livro.link}" class="botao" target="_blank">Comprar agora</a>
+    <a href="${livro.link}" class="btn-comprar" target="_blank" rel="noopener noreferrer">Comprar agora</a>
   `;
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function voltarCatalogo() {
   document.getElementById('detalhesView').style.display = 'none';
   document.getElementById('catalogoView').style.display = 'block';
+
+  document.getElementById('header').style.display = '';
+  document.getElementById('toggleCategorias').style.display = '';
+  document.getElementById('categoriasMenu').style.display = '';
+  document.getElementById('heroSection').style.display = '';
+
   mostrarPagina(currentPage);
 }
 
+// ✅ NOVO: Toggle do menu de categorias com classe `.mostrar`
+function toggleMenuCategorias() {
+  const btn = document.getElementById('toggleCategorias');
+  const menu = document.getElementById('categoriasMenu');
+
+  if (!menu || !btn) return;
+
+  const isOpen = menu.classList.contains('mostrar');
+
+  if (isOpen) {
+    menu.classList.remove('mostrar');
+    btn.setAttribute('aria-expanded', 'false');
+  } else {
+    menu.classList.add('mostrar');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+}
+
+// Inicialização
 window.onload = () => {
   mostrarPagina(1);
+
+  document.getElementById('searchInput')?.addEventListener('input', buscar);
+
+  document.querySelectorAll('.categoria-btn').forEach(btn => {
+    btn.addEventListener('click', () => filtrar(btn.dataset.categoria));
+  });
+
+  const btnVoltar = document.querySelector('.btn-voltar');
+  if (btnVoltar) {
+    btnVoltar.addEventListener('click', voltarCatalogo);
+  }
+
+  const btnCategorias = document.getElementById('toggleCategorias');
+  if (btnCategorias) {
+    btnCategorias.addEventListener('click', toggleMenuCategorias);
+  }
 };
 
