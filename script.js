@@ -182,7 +182,7 @@ const livros = [
   {
     id: 59,
     titulo: "O Homem Mais Rico da Babilônia",
-    categoria: "negocios",
+    categoria: "desenvolvimento",
     preco: 4.99,
     img: "https://m.media-amazon.com/images/I/81ehX6Quw2L._SL1500_.jpg",
     link: "https://drive.google.com/file/d/13HP3tDvtVwL-7ib-Gs08yTq_tdhawLtD/view?usp=drive_link",
@@ -191,7 +191,7 @@ const livros = [
   {
     id: 60,
     titulo: "Poder e Manipulação - Jacob Petry",
-    categoria: "psicologia",
+    categoria: "desenvolvimento",
     preco: 4.99,
     img: "https://m.media-amazon.com/images/I/717diaFhKoL._SL1500_.jpg",
     link: "https://drive.google.com/file/d/1CUbI3xd7oEo2NrBP-Y6KvADBX7mKnFGb/view?usp=drive_link",
@@ -200,7 +200,7 @@ const livros = [
   {
     id: 61,
     titulo: "Comece Pelo Porquê - Simon Sinek",
-    categoria: "negocios",
+    categoria: "desenvolvimento",
     preco: 4.99,
     img: "https://m.media-amazon.com/images/I/71M6czhxmTL._SL1500_.jpg",
     link: "https://drive.google.com/file/d/1b-Q2e-OPMH2FQxNpgljwoikeFYLm7ebL/view?usp=drive_link",
@@ -209,7 +209,7 @@ const livros = [
   {
     id: 62,
     titulo: "Mindset - Carol Dweck",
-    categoria: "psicologia",
+    categoria: "desenvolvimento",
     preco: 4.99,
     img: "https://m.media-amazon.com/images/I/71Ils+Co9fL._SL1500_.jpg",
     link: "https://drive.google.com/file/d/1rsQA5szK5t7YK_qP5DkILccUsK5TZfAh/view?usp=drive_link",
@@ -227,7 +227,7 @@ const livros = [
   {
     id: 64,
     titulo: "Quebrando o Hábito de Ser Você Mesmo",
-    categoria: "psicologia",
+    categoria: "desenvolvimento",
     preco: 4.99,
     img: "https://m.media-amazon.com/images/I/61me0V6JIKL._SL1360_.jpg",
     link: "https://drive.google.com/file/d/1clGpBXn70aobVDezmBwlTMOXiuMKapjn/view?usp=drive_link",
@@ -497,435 +497,403 @@ const livros = [
  {
     "id": 95,
     "titulo": "CRÔNICA DE UMA NAMORADA",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Uma narrativa envolvente sobre os altos e baixos de um relacionamento amoroso, explorando sentimentos reais com leveza e humor.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/912tV6+SLLL._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/1Jj_IDcVwPOhjipwACG5MN-EF7WyjDPI9/view?usp=drive_link"
-  },
-  {
-    "id": 96,
-    "titulo": "Vivendo de Amor",
-    "categoria": "Romance",
-    "descricao": "Bell Hooks reflete sobre como o amor pode ser um princípio transformador para a vida pessoal e coletiva, com profundidade e sensibilidade.",
-    "img": "",
-    "link": "https://drive.google.com/file/d/1EtmAsFrE_Q1IOBH4VQpoGizzmeX7jkmf/view?usp=drive_link"
   },
   {
     "id": 97,
     "titulo": "Vidas Secas",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "Obra-prima de Graciliano Ramos, retrata a vida difícil de uma família de retirantes nordestinos em meio à seca e à miséria.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/61kIG+4RESL._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/1pbBv1x27jFeVAtACboy-8UW4Sv0KZvan/view?usp=drive_link"
   },
   {
-    "id": 98,
-    "titulo": "Vamos Conversar?",
-    "categoria": "Drama",
-    "descricao": "Elisama Santos convida o leitor a refletir sobre como se comunicar com empatia e autenticidade, em busca de relações mais saudáveis.",
-    "img": "",
-    "link": "https://drive.google.com/file/d/1CqcnGrQQPgRp8-BGL59HgNWtr2IAptpH/view?usp=drive_link"
-  },
-  {
+  "id": 98,
+  "titulo": "Vamos Conversar?",
+  "categoria": "drama",
+  "descricao": "Elisama Santos convida o leitor a refletir sobre como se comunicar com empatia e autenticidade, em busca de relações mais saudáveis.",
+  "img": "https://m.media-amazon.com/images/I/81ttjntgszL._SL1500_.jpg",
+  "link": "https://drive.google.com/file/d/1CqcnGrQQPgRp8-BGL59HgNWtr2IAptpH/view?usp=drive_link"
+},
+{
     "id": 99,
     "titulo": "Uma Vida Pequena",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "Um romance intenso sobre amizade, trauma e superação, que acompanha a vida de quatro amigos ao longo de décadas em Nova York.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/91mdEwOzdGS._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/1ab6_3Zm7vqvY5_W6N1faqGYwT6bTahiC/view?usp=drive_link"
   },
   {
     "id": 100,
     "titulo": "Uma Mulher no Escuro",
-    "categoria": "Suspense",
+    "categoria": "suspense",
     "descricao": "Raphael Montes entrega um thriller psicológico sobre traumas do passado e segredos obscuros que voltam à tona de forma surpreendente.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/91OyxWEVdDL._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/12y2jb8ep4OauSTgC8xWVEP6CbMOASCYf/view?usp=drive_link"
   },
   {
     "id": 101,
     "titulo": "Um de Nós Está Mentindo",
-    "categoria": "Suspense",
+    "categoria": "suspense",
     "descricao": "Cinco estudantes entram em detenção. Apenas quatro saem vivos. Uma trama envolvente cheia de segredos e reviravoltas.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/91JOybMpUVL._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/1NjXiGWWHbIxInLmN1mlwEsvzcRvV-BNs/view?usp=drive_link"
   },
   {
     "id": 102,
     "titulo": "Tudo sobre Amor",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Bell Hooks analisa o amor em suas múltiplas formas, oferecendo uma visão crítica e inspiradora sobre como amar conscientemente.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/71jsAzQaTsL._UF894,1000_QL80_.jpg",
     "link": "https://drive.google.com/file/d/1qqNnpz67_Qyu5Io5rQ4sOsUEqhhyrgg2/view?usp=drive_link"
   },
   {
     "id": 103,
     "titulo": "Tudo é Rio",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "Carla Madeira apresenta uma história intensa e poética sobre amor, perdas e escolhas, marcada por profundidade emocional.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/816Udvs9O7L._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/13nz70paFAhEOirqNgmThYTjf09DR_yXe/view?usp=drive_link"
   },
   {
     "id": 104,
     "titulo": "Trono de Vidro - Capítulos Extras",
-    "categoria": "Fantasia",
+    "categoria": "fantasia",
     "descricao": "Complemento da série 'Trono de Vidro', esses capítulos extras expandem o universo de Celaena com mais ação e mistérios.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/8149sHa46sL._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/1J52Mg8EUUbRW-V0DFctH5XoGZ2E1njpH/view?usp=drive_link"
   },
   {
     "id": 105,
-    "titulo": "Teto Para Dois Suicidas",
-    "categoria": "Terror",
+    "titulo": "Teto Para Dois",
+    "categoria": "terror",
     "descricao": "Raphael Montes mistura suspense e drama em uma narrativa que envolve segredos, solidão e redenção.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/61TAfUkC13L._SL1434_.jpg",
     "link": "https://drive.google.com/file/d/1yQ_uNoYehJ0ts4k0C6D1gW76ioqgUN8i/view?usp=drive_link"
-  },
-  {
-    "id": 106,
-    "titulo": "O Diário de Jack, o Estripador",
-    "categoria": "Terror",
-    "descricao": "Shirley Harrison investiga o suposto diário do famoso assassino de Whitechapel, explorando teorias e mistérios históricos.",
-    "img": "",
-    "link": "https://drive.google.com/file/d/14JYf5SrVXSjChHLiTVCQVDqHzc4Rj3fb/view?usp=drive_link"
   },
   {
     "id": 107,
     "titulo": "Sete Minutos Depois da Meia-Noite",
-    "categoria": "Fantasia",
+    "categoria": "fantasia",
     "descricao": "Uma história comovente sobre perda e aceitação, com elementos fantásticos que ajudam um garoto a enfrentar sua dor.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/817RXVIiekL._SL1437_.jpg",
     "link": "https://drive.google.com/file/d/1JGLxFh-6JSKyoxr5Uck3-q-1itAPQHLA/view?usp=drive_link"
   },
   {
     "id": 108,
     "titulo": "Psicologia do Inconsciente",
-    "categoria": "Ficção",
+    "categoria": "ficcao",
     "descricao": "Obra essencial de Carl Gustav Jung, onde o autor explora os fundamentos do inconsciente coletivo e da psique humana.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/71-XrpD4XAL._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/1o5lNIkgYemwKlTZwwPZiSreI0o4TmgZC/view?usp=drive_link"
-},
-{
+  },
+  {
     "id": 109,
     "titulo": "Por-que-gritamos",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "Exploração profunda dos motivos emocionais que nos levam a expressar a raiva e a frustração, buscando autoconhecimento.",
-    "img": "",
+    "img": "https://m.media-amazon.com/images/I/71V2Zu9CAYL._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/1bDjgxiYJ6aAjYWD04Bm_IvNe4NL5bswe/view?usp=drive_link"
   },
   {
     "id": 110,
     "titulo": "Pessoas Normais - Sally Rooney",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Retrato sensível da complexidade dos relacionamentos modernos entre dois jovens na Irlanda contemporânea.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71jrp43TCcL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1J8bPtDn6iMf5MMOjYz25I0L4fA97MtDy/view?usp=drive_link"
   },
   {
     "id": 111,
     "titulo": "Os Imperfeitos",
-    "categoria": "Ficção",
+    "categoria": "ficcao",
     "descricao": "História que aborda a imperfeição humana, mostrando personagens que buscam aceitação e transformação.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/616U6mSP3lL._SL1000_.jpg",
+    "link": "https://drive.google.com/file/d/1dGPHzVC86fsNQL-VGOFBTBmP2hsz8mF8/view?usp=drive_link"
   },
   {
     "id": 112,
     "titulo": "Os Cinco Sobreviventes - Holly Jackson",
-    "categoria": "Suspense",
+    "categoria": "suspense",
     "descricao": "Cinco adolescentes lutam para sobreviver após um acidente misterioso, revelando segredos perigosos.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71XZ+xbghOL._SL1005_.jpg",
+    "link": "https://drive.google.com/file/d/1Nibqz0aO1PIav_bYZgkERzDa-kLfbUJt/view?usp=drive_link"
   },
   {
     "id": 113,
     "titulo": "Orgulho e Preconceito",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Clássico de Jane Austen que explora amor, classe social e preconceitos em uma sociedade inglesa do século XIX.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71Xta4Nf7uL._SL1360_.jpg",
+    "link": "https://drive.google.com/file/d/1GWwT-tqCE_37sPEmWgrBRcSEVcyaB7U4/view?usp=drive_link"
   },
   {
     "id": 114,
     "titulo": "Olhos D'água - Conceição Evaristo",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "Narrativas que discutem questões raciais e sociais a partir da perspectiva negra feminina brasileira.",
-    "img": "",
-    "link": ""
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-YE98yONDjfpHRIT8EyKBTccY1tTQpEkqJw&s",
+    "link": "https://drive.google.com/file/d/1598Oqt38PLr_gyL4s_IAuJKZ-UQSEQss/view?usp=drive_link"
   },
   {
     "id": 115,
     "titulo": "O que é Interseccionalidade - Carla Akotirene",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Uma abordagem que explica como diferentes formas de opressão se cruzam e afetam a vida das pessoas.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/717MIllMQuL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1f7D975QeXIaTrGjYjdfn4kmViJqxjsZp/view?usp=drive_link"
   },
   {
     "id": 116,
     "titulo": "O Segredo da Empregada - Freida McFadden",
-    "categoria": "Suspense",
+    "categoria": "suspense",
     "descricao": "Um thriller psicológico envolvendo segredos guardados por uma empregada, que podem mudar tudo.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81qwX4O+XIL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1_dRs_JjnmBjUvnfJYdBbxMgwmwOWs9Q6/view?usp=drive_link"
   },
   {
     "id": 117,
     "titulo": "O Colecionador",
     "categoria": "Suspense",
     "descricao": "Clássico thriller psicológico onde um homem sequestra uma jovem em uma obsessão perturbadora.",
-    "img": "",
-    "link": ""
+    "img": "https://darkside.vtexassets.com/arquivos/ids/167609/111-o-colecionador.jpg?v=636802523172600000",
+    "link": "https://drive.google.com/file/d/1evyMkwQ4brJYt8Jd2EEEcD99SuL4r8fg/view?usp=drive_link"
   },
   {
     "id": 118,
     "titulo": "O Poder do Subconsciente - Joseph Murphy",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Obra que explora como usar o poder da mente subconsciente para transformar sua vida e alcançar objetivos.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/91kLesOuQwL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1IsGfqind7N_OwNpJ7-PakX0-21Gg4Act/view?usp=drive_link"
   },
   {
     "id": 119,
     "titulo": "O Poder do Agora - Eckhart Tolle",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Guia para viver o presente, com foco na consciência plena para superar o sofrimento mental e encontrar paz interior.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71sh8JtiZbL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1yz8pw9QVe0b0fyjBFzo5ol5_fUGQyH93/view?usp=drive_link"
   },
   {
     "id": 120,
     "titulo": "Novembro, 9",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Romance emocionante sobre encontros e desencontros, passado e presente entre dois jovens que se apaixonam.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/91YbRs+x+cL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1u-2_etvKqpgwVjDDy7mKpnFnABJVekXh/view?usp=drive_link"
   },
   {
     "id": 121,
     "titulo": "Neville Goddard - A Coleção Completa",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Compilação das obras de Neville Goddard sobre o poder da imaginação para manifestar a realidade desejada.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71YDjyokhcL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1a_g_jQClHAzPgLdkUbaudtAGMenBB7_M/view?usp=drive_link"
   },
   {
     "id": 122,
     "titulo": "Não é como nos Filmes - Lynn Painter",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Um romance jovem adulto que desconstrói clichês do amor idealizado, mostrando a realidade dos relacionamentos.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71KrPChpFXL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/10UQHF8Sr5sHWDdUnpGbqadshaiBrOVW6/view?usp=drive_link"
   },
   {
     "id": 123,
     "titulo": "Mulheres, Raça e Classe - Angela Davis",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Análise histórica e crítica sobre como raça, gênero e classe interagem na opressão das mulheres negras.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81PP53v0mML._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1OgZAxY611BqBimlz_LsP6MjaYIEe7EVR/view?usp=drive_link"
   },
   {
     "id": 124,
     "titulo": "Mesa 27: Ao Fugir do Destino - Adriana Nicolodi",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "Histórias que exploram encontros e desencontros, reflexões sobre escolhas e destinos entrelaçados.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81449FBxi3L._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1v4ThhA18yWHnbfzTnCr3HH9fYPUuZwGX/view?usp=drive_link"
   },
   {
     "id": 125,
     "titulo": "Maternidade Ordinária",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "Relatos reais e sensíveis sobre as experiências e desafios da maternidade no cotidiano.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81pjl7QwQHL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1ubnBmlG-T7447zbjqB0sOFdsstFV7ocP/view?usp=drive_link"
   },
   {
     "id": 126,
     "titulo": "Malcolm X - Uma Vida de Reinvenções - Manning Marable",
-    "categoria": "Ficção",
+    "categoria": "ficcao",
     "descricao": "Biografia detalhada da vida e legado do ativista Malcolm X, suas transformações e impacto social.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/8111jFHDARL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1NGQLCtFOpZ-fqS86s9INHvsqqrwGovN-/view?usp=drive_link"
   },
   {
     "id": 127,
     "titulo": "Inteligência Emocional - Daniel Goleman",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Estudo sobre a importância da inteligência emocional para o sucesso pessoal e profissional.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71f9R8hY23L._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1qlpJkXWRV4bzEibeklRtojf1GUsY3Srw/view?usp=drive_link"
   },
   {
     "id": 128,
     "titulo": "Ikigai: Os Segredos dos Japoneses para uma Vida Longa e Feliz",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Guia para encontrar propósito e felicidade inspirada na cultura japonesa do ikigai.",
-    "img": "",
-    "link": ""
-  },
-  {
-    "id": 129,
-    "titulo": "HQ - Dom Casmurro - Ivan Jaf",
-    "categoria": "Romance",
-    "descricao": "Adaptação em quadrinhos do clássico 'Dom Casmurro', explorando ciúmes e mistérios do casamento.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/717ksSGStoL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1vYHvR_FjwL0sUYAIHtrBcMyivxVEUeO3/view?usp=drive_link"
   },
   {
     "id": 130,
     "titulo": "Gente Ansiosa",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Reflexões e estratégias para entender e lidar com a ansiedade na vida moderna.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/91ou97JFpKL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1gbsrkLusW-R7VXqlYMKlSSy3Oybt0-5x/view?usp=drive_link"
   },
   {
     "id": 131,
     "titulo": "Gabriela, Cravo e Canela - Jorge Amado",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Romance regionalista que retrata a sensualidade e cultura da Bahia através da personagem Gabriela.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81IyZdXmUqL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1Je-_JmqKBXZ6-4XoG4vUEhC0KQmUbS0y/view?usp=drive_link"
   },
   {
     "id": 132,
     "titulo": "From Imagination to Reality - Abiola Abrams",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Livro que incentiva a transformação dos sonhos em realidade através do poder da imaginação e ação.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81ZE-evnR3L._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1wpz0UVdX1D9gy5-RdTzHGkzc4EqRhkLE/view?usp=drive_link"
   },
   {
     "id": 133,
     "titulo": "Flores para Algernon",
-    "categoria": "Ficção",
+    "categoria": "ficcao",
     "descricao": "Um clássico emocionante que aborda a inteligência, humanidade e ética através da história de Charlie.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71VrMtcmE9L._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1D7AKYPsY2SJl8Ve-bbYLn_SjpNix_GC3/view?usp=drive_link"
   },
   {
     "id": 134,
     "titulo": "Flamingos - Clary Avelino",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Romance contemporâneo que explora temas como autoconhecimento e superação pessoal.",
-    "img": "",
-    "link": ""
-  },
-  {
-    "id": 135,
-    "titulo": "Eu não sou uma mulher - Bell Hooks",
-    "categoria": "Desenvolvimento",
-    "descricao": "Discussões sobre raça, gênero e identidade, questionando estereótipos e papéis sociais.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/61+tRKqyEYL._SL1334_.jpg",
+    "link": "https://drive.google.com/file/d/1H7j2INQPvQbikjK8VYmUcKwTmm6kt2Ae/view?usp=drive_link"
   },
   {
     "id": 136,
     "titulo": "Em Busca de Cinderela - Colleen Hoover",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Uma releitura moderna de contos de fadas com toques emocionais e narrativas de superação.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/91hnhxCy8LL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1A_oSMiMNAIuC4U3ORcKvqISfLYYYjPbI/view?usp=drive_link"
   },
   {
     "id": 137,
     "titulo": "Educação Não Violenta - Elisama Santos",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Métodos e reflexões para aplicar a educação com empatia, respeito e paciência.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81gXbrZlIgL._SL1482_.jpg",
+    "link": "https://drive.google.com/file/d/1cmc7pE8qPWmXKW1uGpEeLUSMcprpxt_p/view?usp=drive_link"
   },
   {
     "id": 138,
     "titulo": "De Repente Adulta - Turner Sarah",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "História sobre as dificuldades e descobertas do amadurecimento na transição para a vida adulta.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71nAqXl2ADL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1Vc77rOu-01YCft95wiJJTiPVo6-rW6Eq/view?usp=drive_link"
   },
   {
     "id": 139,
     "titulo": "Cutelo e Corvo - Brynne Weaver",
-    "categoria": "Fantasia",
+    "categoria": "fantasia",
     "descricao": "Fantasia sombria com elementos místicos, intrigas e jornadas de autoconhecimento.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81dfmzsNDwL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1mNSgZ1wBi7maRKLcvFuk4k74MjIkf8iL/view?usp=drive_link"
   },
   {
     "id": 140,
     "titulo": "Cordialmente Cruel 2: A Escada Furtiva - Maureen Johnson",
-    "categoria": "Suspense",
+    "categoria": "suspense",
     "descricao": "Continuação da saga cheia de mistério, intrigas e eventos sobrenaturais.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81MSDwQ0xYS._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/19ioDddHUfgVjWGsdbZuKm5V4Bk81R96N/view?usp=drive_link"
   },
   {
     "id": 141,
     "titulo": "Tudo que Quiser é Seu",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "História de amor e escolhas difíceis, com personagens complexos e emocionantes.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81ZHdAPogEL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1z5zYRXwjuGlzFpL6HrCFtWhKNKKszcRE/view?usp=drive_link"
   },
   {
     "id": 142,
     "titulo": "Contos de Amor Rasgados",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Coleção de contos que exploram diferentes faces do amor, com emoção e realismo.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/711j3sBMqgS._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1RCB9c8NRlJtyk83ahyqYdJ_IrjQI7Whb/view?usp=drive_link"
   },
   {
     "id": 143,
     "titulo": "Conflitos de Sangue - Jennifer Lynn Barnes",
-    "categoria": "Fantasia",
+    "categoria": "fantasia",
     "descricao": "Fantasia juvenil com temas de magia, poder e conflitos familiares.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81-oNZ9wUnL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1jwu9gPc6oVs68cHNiJLMKRiz8p8XNf3z/view?usp=drive_link"
   },
   {
     "id": 144,
     "titulo": "Comunicação Não Violenta",
-    "categoria": "Desenvolvimento",
+    "categoria": "desenvolvimento",
     "descricao": "Guia prático para melhorar as relações pessoais e profissionais através da empatia e diálogo.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/51Gx35khLzL._SL1360_.jpg",
+    "link": "https://drive.google.com/file/d/19yJuYUrodkDAv4a6kdH6WqvdRCHJ8xyT/view?usp=drive_link"
   },
   {
     "id": 145,
     "titulo": "Nunca Saia Sozinho - Charlie Donlea",
-    "categoria": "Suspense",
+    "categoria": "suspense",
     "descricao": "Um thriller envolvente que acompanha uma investigação policial cheia de reviravoltas.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81YPhNJpdRL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1lYRY-jB_wANVnWk5YYnRzZahF6CQqV4D/view?usp=drive_link"
   },
   {
     "id": 146,
     "titulo": "Assistente do Vilão - Hannah Nicole Maehrer",
-    "categoria": "Fantasia",
+    "categoria": "fantasia",
     "descricao": "Uma aventura em mundo fantástico, focada em personagens complexos e seus dilemas morais.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/81DkKVIavBL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1KZSzEqreh89PjNqQMxLwaVRf_tKR0zw0/view?usp=drive_link"
   },
   {
     "id": 147,
     "titulo": "As Coisas Que Guardamos Em Segredo - Lucy Score",
-    "categoria": "Romance",
+    "categoria": "romance",
     "descricao": "Romance contemporâneo que mistura segredos do passado com a possibilidade de um novo começo.",
-    "img": "",
-    "link": ""
+    "img": "https://m.media-amazon.com/images/I/71XzXzjWwlL._SL1461_.jpg",
+    "link": "https://drive.google.com/file/d/1WE1wwwu-7cyvbVGLA85oQfxcz8P6xKwX/view?usp=drive_link"
   },
   {
     "id": 148,
     "titulo": "As Vantagens de Ser Você - Ray Tavares",
-    "categoria": "Drama",
+    "categoria": "drama",
     "descricao": "História sobre autoconhecimento, aceitação e a luta para ser quem realmente somos.",
-    "img": "",
-    "link": ""
-  }
+    "img": "https://m.media-amazon.com/images/I/81e0FqCFxhL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/162mI6s5gkboJYd3GgRlk0q32MU6yGK1s/view?usp=drive_link"
+  },
   ];
 let currentPage = 1;
 const itemsPerPage = 25;
