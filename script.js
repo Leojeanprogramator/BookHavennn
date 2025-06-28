@@ -3,18 +3,18 @@ const livros = [
     id: 1,
     titulo: "As 48 Leis Do Poder",
     categoria: "desenvolvimento",
-    preco: 4.99,
-    img: "https://i.postimg.cc/MTn8pqvm/Livro-As-48-Leis-do-Poder-por-Robert-Greene.jpg",
-    link: "https://pay.kirvano.com/809f6bc1-92b4-4314-b7a7-c2ac2289ae97",
+    Formato:"PDF",
+    img: "https://livrista.com.br/thumb/l600/capas/2014/7967/102690.jpg",
+    link: "https://drive.google.com/file/d/1o94RQQq9jDxRYNx9-N2Ud8JoUiDEW2h8/view?usp=drive_link",
     descricao: "Em As 48 leis do poder, o leitor aprende a manipular pessoas e situações para alcançar seus objetivos. E descobre por que alguns conseguem ser tão bem-sucedidos, enquanto outros estão sempre sendo passados para trás. Querer ser melhor do que o chefe, por exemplo, é um erro fatal."
   },
   {
     id: 2,
-    titulo: "Verity Coleen Hoover",
+    titulo: "Verity - Colleen Hoover",
     categoria: "romance",
-    preco: 4.99,
+   Formato:"PDF",
     img: "https://i.postimg.cc/FKkbcb9S/Chat-GPT-Image-2-05-2025-18-39-44.png",
-    link: "https://pay.kirvano.com/a4c0538a-4ec5-46b3-b904-ad4eb0f7b086",
+    link: "https://drive.google.com/file/d/1Dxux7OvO1ZZuOfQ277dVYm7YlxIAaISw/view?usp=drive_link",
     descricao: "O livro 'Verity', de Colleen Hoover, é um thriller psicológico que acompanha Lowen Ashleigh, uma escritora contratada para terminar a série de livros de sucesso de Verity Crawford, uma autora que se encontra em estado catatônico após um grave acidente."
   },
   {
@@ -22,82 +22,916 @@ const livros = [
     titulo: "A Sutil Arte de Ligar o F*da-Se",
     categoria: "desenvolvimento",
     preco: 4.99,
-    img: "https://m.media-amazon.com/images/I/51KP4VQOF1L._SY445_SX342_.jpg",
-    link: "https://pay.kirvano.com/c5f1f73e-be56-41f0-b9e1-6805314bf41f",
+    img: "https://m.media-amazon.com/images/I/6175IU0qFgL._SL1000_.jpg",
+    link: "https://drive.google.com/file/d/1GbVTY1shOVrgsI3LrcpnIjtFiJ7H9fEI/view?usp=drive_link",
     descricao: "Com uma linguagem bem-humorada e ácida, A sutil arte de ligar o f*da-se propõe um novo olhar para a vida, mais coerente com a realidade uma oposição à pressão social para sempre demonstrar otimismo."
   },
-{id: 4, titulo:"Corte de Espinhos e Rosas", categoria:"romance", preco:4.99, img:"https://cdn.record.com.br/wp-content/uploads/2020/08/25155421/6123-600x889.jpeg", link:"https://pay.kirvano.com/8d0010b7-5455-4a05-8488-d1e49f5b5c38", descricao:"Num mundo dividido uma muralha mágica separa duas espécies. De um lado, os feéricos vivem dentro de suas fronteiras cheias de beleza e mistério; do outro, os humanos possuem apenas medo, desconfiança e dificuldades. Feyre, filha de um casal de mercadores humanos e falidos, se torna caçadora para sustentar a família."},
+{id: 4, titulo:"Corte de Espinhos e Rosas", categoria:"romance", preco:4.99, img:"https://cdn.record.com.br/wp-content/uploads/2020/08/25155421/6123-600x889.jpeg", link:"https://drive.google.com/file/d/1mJIqRJGmQOTsAJRKiXStVS_3XTOBWtNi/view?usp=drive_link", descricao:"Num mundo dividido uma muralha mágica separa duas espécies. De um lado, os feéricos vivem dentro de suas fronteiras cheias de beleza e mistério; do outro, os humanos possuem apenas medo, desconfiança e dificuldades. Feyre, filha de um casal de mercadores humanos e falidos, se torna caçadora para sustentar a família."},
   {
   id: 5,
   titulo: "Garota exemplar",
   categoria: "drama",
   preco: 4.99,
   img: "https://m.media-amazon.com/images/I/510k5EkYuWL._SY425_.jpg",
-  link: "https://pay.kirvano.com/c711620e-5890-47a8-8af9-f49050881bd2",
+  link: "https://drive.google.com/file/d/1jYTFHSUtqsLQ4tJx5GdolcfXjIdW-cFp/view?usp=drive_link",
   descricao: "Garota exemplar é tipicamente descrita como uma pessoa com bom comportamento, responsabilidade e sucesso acadêmico. Ela é conhecida por ser uma aluna dedicada, obediente, e que se destaca positivamente em suas atividades. Além disso, uma garota exemplar geralmente demonstra respeito, empatia e boas atitudes em suas interações sociais."
 },
-  {id: 6, titulo:"Os Segredos da Mente Milionaria - T. Harv Eker", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/41W22mT8L-L._SY445_SX342_.jpg", link:"https://pay.kirvano.com/ef104585-cbab-419c-b8b7-80edff0348e8", descricao:"Eker mostra como substituir uma mentalidade destrutiva – que você talvez nem perceba que tem – pelos, 17 modos de pensar e agir que distinguem os ricos das demais pessoas."},
-  {id: 7, titulo:"Hábitos Atómicos", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/51DOkmV31rL._SY445_SX342_.jpg", link:"https://pay.kirvano.com/42fff375-a38a-4bfb-bdeb-e6618b4863a5", descricao:"Hábitos Atômicos é um livro do James Clear que explora a importância de pequenas mudanças diárias para alcançar grandes resultados. A ideia central é que, ao focar em melhorias de 1% por dia, acumuladas ao longo do tempo. podemos criar um efeito composto que leva a mudanças significativas em nossa vida."},
-  {id: 8, titulo:"Pai Rico Pai Pobre", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/51UjO3YMafL._SY445_SX342_.jpg", link:"https://pay.kirvano.com/9d16ffce-ec50-4b13-b392-43802612471d", descricao:"Pai Rico, Pai Pobre é o primeiro best-seller de Robert Kiyosaki e Sharon Lechter. Ele advoga a busca pela independência financeira através de investimento, imóveis, ter seu próprio negócio e o uso de táticas financeiras de proteção do patrimônio."},
-  {id: 9, titulo:"O Milagre Da Manhã Hal-Elrod", categoria:"desenvolvimento", preco:4.99, img:"https://static.estantevirtual.com.br/book/00/01F-2069-000/01F-2069-000_detail1.jpg?ts=1712761633425&ims=fit-in/600x800/filters:fill(fff):quality(100)", link:"https://pay.kirvano.com/bdae02b6-9100-43e6-8f82-3c2d82d05afa", descricao:"Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional."},
-  {id: 10, titulo:"Até o Verão Terminar - Collen Hoover", categoria:"romance", preco:4.99, img:"https://i.postimg.cc/FKrhF0HL/Whats-App-Image-2025-05-07-at-17-34-18.jpg", link:"https://pay.kirvano.com/b9cda7d8-e82f-406d-bf70-90172672a4b3", descricao:"Uma vida de dor e abandono fizeram de Beyah uma pessoa cética, desconfiada e boa em guardar segredos. Mas, até o verão terminar, ela terá que rever tudo o que acredita. Da mesma autora dos sucessos É assim que acaba, Layla e Verity ."},
-  {id: 11, titulo:"12 Regras Para a Vida: Um Antídoto Para o Caos", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/71geoUmEoQL._SY425_.jpg", link:"https://pay.kirvano.com/0adda8dd-c071-49a2-98e6-469b6c0d4295", descricao:"Aclamado psicólogo clínico, Jordan Peterson tem influenciado a compreensão moderna sobre a personalidade e, agora, se transformou em um dos pensadores públicos mais populares do mundo, com suas palestras sobre tópicos que variam da bíblia, às relações amorosas e à mitologia, atraindo dezenas de milhões de espectadores. Em uma era de mudanças sem precedentes e polarização da política, sua mensagem franca e revigorante sobre o valor da responsabilidade individual e da sabedoria ancestral tem ecoado em todos os cantos do mundo. Neste livro, ele oferece doze princípios profundos e práticos sobre como viver uma vida com significado."},
-  {id: 12, titulo:"Manual de persuasão do FBI", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/715Y9D5zNWL._SY425_.jpg", link:"https://pay.kirvano.com/96029433-d570-406c-99f4-d2ab44f7d6e7", descricao:"Como um agente especial para o Programa de Análise Comportamental da Divisão de Segurança Nacional do FBI, Dr. Jack Schafer desenvolveu estratégias dinâmicas e inovadoras para entrevistar terroristas e detectar mentiras.  Agora, Dr. Schafer evoluiu suas táticas e nos ensina como aplicá-las no cotidiano para obter sucesso nas relações interpessoais."},
-  {id: 13, titulo:"Amor & gelato", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81EE1CAUoEL._SY425_.jpg", link:"https://pay.kirvano.com/54e97c33-a294-4d5b-ac64-b4472ff68eb2", descricao:"Depois da morte da mãe, Lina fica com a missão de realizar um último pedido: ir até a Itália para conhecer o pai. Do dia para a noite, ela se vê na famosa paisagem da Toscana, morando em uma casa localizada no mesmo terreno de um cemitério memorial de soldados americanos da Segunda Guerra Mundial, com um homem que nunca tinha ouvido falar."},
-  {id: 14, titulo:"Todas as suas (im)perfeições", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81Vhnel+xxL._SY425_.jpg", link:"https://pay.kirvano.com/4448e112-4b64-4585-8d82-9f21c31b9408", descricao:"Todas as suas imperfeições narra a história de Quinn e Graham. Eles se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto."},
-  {id: 15, titulo:"É assim que começa", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81Izv2GRWoL._SY425_.jpg", link:"https://pay.kirvano.com/0f423d55-af25-407b-abe9-92399bccaadf", descricao:"Preparem os corações. Lily e Atlas estão de volta na aguardada sequência de É assim que acaba. É assim que começa chega para consagrar novamente Colleen Hoover como a autora mais vendida do Brasil. Colleen é um fenômeno editorial, acumulando não só milhões de visualizações no TikTok, mas também milhões de exemplares vendidos."},
-  {id: 16, titulo:"Livro 16", categoria:"romance", preco:30.50, img:"https://m.media-amazon.com/images/I/81EE1CAUoEL._SY425_.jpg", link:"#", descricao:"Descrição detalhada do Livro 16."},
-  {id: 17, titulo:"Sem esperança (Vol. 2 Hopeless) ", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91DszGVK+2L._SY425_.jpg", link:"https://pay.kirvano.com/f8f7868b-88ff-443a-80a1-0ffb47f05a2d", descricao:"Após se apaixonar por Sky e Holder em Um caso perdido, agora é a hora de conhecer o outro lado da história. Sem esperança oferece a perspectiva única dos impactantes acontecimentos através do olhar de Holder. Da autora dos best-sellersÉ assim que acaba e Verity, Colleen Hoover chega com mais um romance arrebatador e emocionante, nesta nova edição com capa inédita da artista Carmell Louize."},
-  {id: 18, titulo:"Livro 18", categoria:"ficcao", preco:38.90, img:"https://m.media-amazon.com/images/I/81Izv2GRWoL._AC_UY218_.jpg", link:"https://pay.kirvano.com/0f423d55-af25-407b-abe9-92399bccaadf", descricao:"Preparem os corações. Lily e Atlas estão de volta na aguardada sequência de É assim que acaba. É assim que começa chega para consagrar novamente Colleen Hoover como a autora mais vendida do Brasil."},
-  {id: 19, titulo:"O poder do hábito: Por que fazemos o que fazemos na vida e nos negócios", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/815iPX0SgkL._SY425_.jpg", link:"https://pay.kirvano.com/e2d6de7f-c5e5-424d-b69e-4ebbac312473", descricao:"Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela mudaram de maneira fundamental. "},
-  {id: 20, titulo:"Os sete maridos de Evelyn Hugo", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91yEPgRcELL._SY425_.jpg", link:"https://pay.kirvano.com/38059f54-3c73-48fa-97ad-82a54ce12e37", descricao:"Lendária estrela de Hollywood, Evelyn Hugo sempre esteve sob os holofotes ― seja estrelando uma produção vencedora do Oscar, protagonizando algum escândalo ou aparecendo com um novo marido… pela sétima vez."},
-  {id: 21, titulo:"A paciente silenciosa", categoria:"suspense", preco:4.99, img:"https://m.media-amazon.com/images/I/91R8S52UP6L._SY425_.jpg", link:"https://pay.kirvano.com/70181965-1a87-4bad-a2e5-621fa2686cc9", descricao:"Após cometer o assassinado de seu marido, uma mulher se recusa a falar qualquer coisa, deixando suspeitas e mistérios não resolvidos sobre o caso. E o terapeuta Theo Faber  está obcecado em descobrir o motivo da violencia e do silencio. Só ela sabe o que aconteceu. Só ele pode fazê-la falar.  A paciente silenciosa é um daqueles livros que não saem da cabeça do leitor, quer ele queira, quer não."},
-  {id: 22, titulo:"Boa garota nunca mais: Manual de assassinato para boas garotas (vol. 3)", categoria:"suspense", preco:4.99, img:"https://m.media-amazon.com/images/I/81atsbPweKL._SY425_.jpg", link:"https://pay.kirvano.com/6b1923e0-43da-4a17-a470-9e028bc4a8f3", descricao:"Após uma série de eventos estranhos, Pip percebe que está sendo perseguida de verdade. E pior: seu stalker pode estar conectado a um assassino que aterrorizou a região na mesma época do caso de Andie Bell. Com a ajuda de Ravi, a garota precisa descobrir quem está por trás disso… antes que se torne a próxima vítima."},
-  {id: 23, titulo:"Boa garota, segredo mortal(Vol.2)", categoria:"suspense", preco:4.99, img:"https://m.media-amazon.com/images/I/81JPQxDDNeL._SY425_.jpg", link:"https://pay.kirvano.com/0251a98b-a49d-4ad6-a9e6-365fee1d43cd", descricao:"Um ano após a investigação obsessiva que reescreveu a história de sua pacata cidade, Pip acredita que seus dias de detetive amadora chegaram ao fim. Prometendo nunca mais se envolver no emaranhado de segredos de Little Kilton, a garota planeja lançar um podcast sobre a resolução do caso e voltar a ter uma vida normal."},
-  {id: 24, titulo:"Uma segunda chance", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/813WvRoZ0HL._SY466_.jpg", link:"https://pay.kirvano.com/ff78631c-f5fc-4623-87b8-7a3bac77ca4d", descricao:"Será que todos merecem uma segunda chance? É o que mais deseja Kenna Rowan, na luta para recuperar os pedaços estilhaçados de sua antiga vida após um trágico acidente ter colocado tudo a perder. Uma segunda chance é o tão esperado novo romance de Colleen Hoover, CoHo para os íntimos, autora fenômeno de vendas, que já ultrapassou a marca de 1 milhão de exemplares vendidos no Brasil. "},
-  {id: 25, titulo:"O lado feio do amor", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81FEytag46L._SY466_.jpg", link:"https://pay.kirvano.com/3d937b36-9103-4080-8a3c-d63834d575f0", descricao:"Quando começou a se envolver com Miles, Tate prometeu não se apaixonar. Mas vai descobrir que nenhuma regra é capaz de controlar o amor e o desejo...Da autora-fenômeno Colleen Hoover, que acumula best- sellers , visualizações no TikTok e milhares de leitores apaixonados no mundo todo."},
-  {id: 26, titulo:"É Assim que Acaba: 1", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91r5G8RxqfL._SY466_.jpg", link:"https://pay.kirvano.com/580ee354-9830-4dbb-b654-6f7c7df964b7", descricao:"Considerado o livro do ano, que virou febre no TikTok e sozinho já acumulou mais de um milhão de exemplares vendidos no Brasil. É assim que acaba é o romance mais pessoal da carreira de Colleen Hoover, discutindo temas como violência doméstica e abuso psicológico de forma sensível e direta. "},
-  {id: 27, titulo:"A Biblioteca da Meia-Noite", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81iqH8dpjuL._SY425_.jpg", link:"https://pay.kirvano.com/a40adda7-38b1-41b6-97ba-1c35e34b3f6e", descricao:"A Biblioteca da Meia-Noite é um romance incrível que fala dos infinitos rumos que a vida pode tomar e da busca incessante pelo rumo certo."},
-  {id: 28, titulo:"Vermelho, branco e sangue azul", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/41QaXCahKrL._SY445_SX342_.jpg", link:"https://pay.kirvano.com/3a2d741a-3fdc-4095-81ed-d708577e1b80", descricao:"Quando sua mãe foi eleita presidenta dos Estados Unidos, Alex Claremont-Diaz se tornou o novo queridinho da mídia norte-americana. Bonito, carismático e com personalidade forte, Alex tem tudo para seguir os passos de seus pais e conquistar uma carreira na política, como tanto deseja. Mas quando sua família é convidada para o casamento real do príncipe britânico Philip, Alex tem que encarar o seu primeiro desafio diplomático: lidar com Henry, irmão mais novo de Philip, o príncipe mais adorado do mundo, com quem ele é constantemente comparado ― e que ele não suporta."},
-  {id: 29, titulo:"Coraline: Neil Gaiman & Chris Riddell", categoria:"ficcao", preco:4.99, img:"https://m.media-amazon.com/images/I/818565mPygL._SY466_.jpg", link:"https://pay.kirvano.com/d43c5ee2-878f-49f7-97e4-994a88ca9478", descricao:"Não é a névoa, nem o gato que parece estar sempre a observá-la, nem os sinais de perigo que a Srta. Spink e a Srta. Forcible, suas novas vizinhas, leem nas folhas de chá. É a outra casa – aquela atrás da velha porta da sala de estar. Outra mãe e um pai com olhos de botão preto e pele fina como papel esperam que Coraline se junte a eles. E querem que ela fique com eles. Para sempre. Ela sabe que, se se aventurar por aquela porta, pode nunca mais voltar."},
-  {id: 30, titulo:"O verão que mudou minha vida: (Trilogia Verão vol. 1)", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91UjIwmok9L._SY425_.jpg", link:"https://pay.kirvano.com/ad17e3d9-2de6-4246-8eb6-54d86bc90f97", descricao:"Com uma história encantadora e personagens inesquecíveis, a Trilogia Verão acompanha os amores, as desilusões e os dilemas da protagonista Belly dos 15 aos 24 anos. Em meio a descobertas e mudanças, ela se apaixona, se envolve em um triângulo amoroso, entra na universidade e descobre que amadurecer também significa tomar decisões difíceis. A trama escrita por Jenny Han, autora de Para todos os garotos que já amei, inspirou a série de sucesso O verão que mudou minha vida, do Amazon Prime Video."},
-  {id: 31, titulo:"Sem você não é verão: (Trilogia Verão vol. 2) ", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81RAaO1bJ1L._SY425_.jpg", link:"https://pay.kirvano.com/7d30c01a-eba7-446e-9f02-35443ff83733", descricao:"Com uma história encantadora e personagens inesquecíveis, a Trilogia Verão acompanha os amores, as desilusões e os dilemas da protagonista Belly dos 15 aos 24 anos. Em meio a descobertas e mudanças, ela se apaixona, se envolve em um triângulo amoroso, entra na universidade e descobre que amadurecer também significa tomar decisões difíceis. A trama escrita por Jenny Han, autora de Para todos os garotos que já amei, inspirou a série de sucesso O verão que mudou minha vida, do Amazon Prime Video."},
-  {id: 32, titulo:"Sempre teremos o verão: (Trilogia Verão vol. 3)", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91-szq3u4AL._SY425_.jpg", link:"https://pay.kirvano.com/0b10ea4e-ec99-4b61-b2ce-ecc0f4853f95", descricao:"Com uma história encantadora e personagens inesquecíveis, a Trilogia Verão acompanha os amores, as desilusões e os dilemas da protagonista Belly dos 15 aos 24 anos. Em meio a descobertas e mudanças, ela se apaixona, se envolve em um triângulo amoroso, entra na universidade e descobre que amadurecer também significa tomar decisões difíceis. A trama escrita por Jenny Han, autora de Para todos os garotos que já amei, inspirou a série de sucesso O verão que mudou minha vida, do Amazon Prime Video."},
-  {id: 33, titulo:"O príncipe cruel (Vol. 1 O Povo do Ar)", categoria:"ficcao", preco:4.99, img:"https://m.media-amazon.com/images/I/81FH6q0EqYS._SY425_.jpg", link:"https://pay.kirvano.com/fba4892c-82b9-45e1-b8c7-a1b808dd2492", descricao:"Jude tinha apenas sete anos quando seus pais foram brutalmente assasinados e ela e as irmãs levadas para viver no traiçoeiro Reino das Fadas. Dez anos depois, tudo o que Jude quer é se encaixar, mesmo sendo uma garota mortal. Mas todos os feéricos parecem desprezar os humanos... Especialmente o príncipe Cardan, o mais jovem e mais perverso dos filhos do Grande Rei de Elfhame."},
-  {id: 34, titulo:"Livro 34", categoria:"negocios", preco:29.00, img:"https://via.placeholder.com/120x180?text=Livro+34", link:"#", descricao:"Descrição detalhada do Livro 34."},
-  {id: 35, titulo:"Livro 35", categoria:"autoajuda", preco:30.00, img:"https://via.placeholder.com/120x180?text=Livro+35", link:"#", descricao:"Descrição detalhada do Livro 35."},
-  {id: 36, titulo:"Livro 36", categoria:"desenvolvimento", preco:31.90, img:"https://via.placeholder.com/120x180?text=Livro+36", link:"#", descricao:"Descrição detalhada do Livro 36."},
-  {id: 37, titulo:"Livro 37", categoria:"romance", preco:23.90, img:"https://via.placeholder.com/120x180?text=Livro+37", link:"#", descricao:"Descrição detalhada do Livro 37."},
-  {id: 38, titulo:"Livro 38", categoria:"ficcao", preco:41.90, img:"https://via.placeholder.com/120x180?text=Livro+38", link:"#", descricao:"Descrição detalhada do Livro 38."},
-  {id: 39, titulo:"Livro 39", categoria:"negocios", preco:27.00, img:"https://via.placeholder.com/120x180?text=Livro+39", link:"#", descricao:"Descrição detalhada do Livro 39."},
-  {id: 40, titulo:"Livro 40", categoria:"autoajuda", preco:30.90, img:"https://via.placeholder.com/120x180?text=Livro+40", link:"#", descricao:"Descrição detalhada do Livro 40."},
-  {id: 41, titulo:"Livro 41", categoria:"desenvolvimento", preco:29.90, img:"https://via.placeholder.com/120x180?text=Livro+41", link:"#", descricao:"Descrição detalhada do Livro 41."},
-  {id: 42, titulo:"Livro 42", categoria:"romance", preco:25.90, img:"https://via.placeholder.com/120x180?text=Livro+42", link:"#", descricao:"Descrição detalhada do Livro 42."},
-  {id: 43, titulo:"Livro 43", categoria:"ficcao", preco:44.90, img:"https://via.placeholder.com/120x180?text=Livro+43", link:"#", descricao:"Descrição detalhada do Livro 43."},
-  {id: 44, titulo:"Livro 44", categoria:"negocios", preco:28.90, img:"https://via.placeholder.com/120x180?text=Livro+44", link:"#", descricao:"Descrição detalhada do Livro 44."},
-  {id: 45, titulo:"Livro 45", categoria:"autoajuda", preco:33.90, img:"https://via.placeholder.com/120x180?text=Livro+45", link:"#", descricao:"Descrição detalhada do Livro 45."},
-  {id: 46, titulo:"Livro 46", categoria:"desenvolvimento", preco:27.50, img:"https://via.placeholder.com/120x180?text=Livro+46", link:"#", descricao:"Descrição detalhada do Livro 46."},
-  {id: 47, titulo:"Livro 47", categoria:"romance", preco:23.00, img:"https://via.placeholder.com/120x180?text=Livro+47", link:"#", descricao:"Descrição detalhada do Livro 47."},
-  {id: 48, titulo:"Livro 48", categoria:"ficcao", preco:39.50, img:"https://via.placeholder.com/120x180?text=Livro+48", link:"#", descricao:"Descrição detalhada do Livro 48."},
-  {id: 49, titulo:"Livro 49", categoria:"negocios", preco:26.90, img:"https://via.placeholder.com/120x180?text=Livro+49", link:"#", descricao:"Descrição detalhada do Livro 49."},
-  {id: 50, titulo:"Livro 50", categoria:"autoajuda", preco:31.50, img:"https://via.placeholder.com/120x180?text=Livro+50", link:"#", descricao:"Descrição detalhada do Livro 50."},
-  {id: 51, titulo:"Livro 51", categoria:"desenvolvimento", preco:29.90, img:"https://via.placeholder.com/120x180?text=Livro+51", link:"#", descricao:"Descrição detalhada do Livro 51."},
-  {id: 52, titulo:"Livro 52", categoria:"romance", preco:25.50, img:"https://via.placeholder.com/120x180?text=Livro+52", link:"#", descricao:"Descrição detalhada do Livro 52."},
-  {id: 53, titulo:"Livro 53", categoria:"ficcao", preco:43.00, img:"https://via.placeholder.com/120x180?text=Livro+53", link:"#", descricao:"Descrição detalhada do Livro 53."},
-  {id: 54, titulo:"Livro 54", categoria:"negocios", preco:28.00, img:"https://via.placeholder.com/120x180?text=Livro+54", link:"#", descricao:"Descrição detalhada do Livro 54."},
-  {id: 55, titulo:"Livro 55", categoria:"autoajuda", preco:30.90, img:"https://via.placeholder.com/120x180?text=Livro+55", link:"#", descricao:"Descrição detalhada do Livro 55."},
-  {id: 56, titulo:"Livro 56", categoria:"desenvolvimento", preco:27.90, img:"https://via.placeholder.com/120x180?text=Livro+56", link:"#", descricao:"Descrição detalhada do Livro 56."},
-  {id: 57, titulo:"Livro 57", categoria:"romance", preco:22.90, img:"https://via.placeholder.com/120x180?text=Livro+57", link:"#", descricao:"Descrição detalhada do Livro 57."},
-  {id: 58, titulo:"Livro 58", categoria:"ficcao", preco:40.00, img:"https://via.placeholder.com/120x180?text=Livro+58", link:"#", descricao:"Descrição detalhada do Livro 58."},
-  {id: 59, titulo:"Livro 59", categoria:"negocios", preco:25.00, img:"https://via.placeholder.com/120x180?text=Livro+59", link:"#", descricao:"Descrição detalhada do Livro 59."},
-  {id: 60, titulo:"Livro 60", categoria:"autoajuda", preco:32.00, img:"https://via.placeholder.com/120x180?text=Livro+60", link:"#", descricao:"Descrição detalhada do Livro 60."}
- ];
+  {id: 6, titulo:"Os Segredos da Mente Milionaria - T. Harv Eker", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/41W22mT8L-L._SY445_SX342_.jpg", link:"https://drive.google.com/file/d/1zgWY6oLSKT7yyk3KD5HgtKwqfGVotB5j/view?usp=drive_link", descricao:"Eker mostra como substituir uma mentalidade destrutiva – que você talvez nem perceba que tem – pelos, 17 modos de pensar e agir que distinguem os ricos das demais pessoas."},
+  {id: 7, titulo:"Hábitos Atómicos", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/51DOkmV31rL._SY445_SX342_.jpg", link:"https://drive.google.com/file/d/1fQ56FqVnhzQrQe5AJjulpFJ3nDVJ2aqx/view?usp=drive_link", descricao:"Hábitos Atômicos é um livro do James Clear que explora a importância de pequenas mudanças diárias para alcançar grandes resultados. A ideia central é que, ao focar em melhorias de 1% por dia, acumuladas ao longo do tempo. podemos criar um efeito composto que leva a mudanças significativas em nossa vida."},
+  {id: 8, titulo:"Pai Rico Pai Pobre", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/71V4lNR2gKL._SL1500_.jpg", link:"https://drive.google.com/file/d/10Ot0smEV5WFhk_fG5jYd_MFKYcQ4QTAx/view?usp=drive_link", descricao:"Pai Rico, Pai Pobre é o primeiro best-seller de Robert Kiyosaki e Sharon Lechter. Ele advoga a busca pela independência financeira através de investimento, imóveis, ter seu próprio negócio e o uso de táticas financeiras de proteção do patrimônio."},
+  {id: 9, titulo:"O Milagre Da Manhã Hal-Elrod", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/512zQ6qXkML._AC_UF1000,1000_QL80_.jpg", link:"https://drive.google.com/file/d/18_vZ3YT1AJwlTGKwMO_DuIuIkZeJBNv_/view?usp=drive_link", descricao:"Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional."},
+  {id: 10, titulo:"Até o Verão Terminar - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://i.postimg.cc/FKrhF0HL/Whats-App-Image-2025-05-07-at-17-34-18.jpg", link:"https://drive.google.com/file/d/1KINJJY8jvc3TYWg_yLp2ePP1KrxfiH9f/view?usp=drive_link", descricao:"Uma vida de dor e abandono fizeram de Beyah uma pessoa cética, desconfiada e boa em guardar segredos. Mas, até o verão terminar, ela terá que rever tudo o que acredita. Da mesma autora dos sucessos É assim que acaba, Layla e Verity ."},
+  {id: 11, titulo:"12 Regras Para a Vida: Um Antídoto Para o Caos", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/71geoUmEoQL._SY425_.jpg", link:"https://drive.google.com/file/d/11AldhqNTFzOc1YpHaLc0xArRQ0Ok0wYO/view?usp=drive_link", descricao:"Aclamado psicólogo clínico, Jordan Peterson tem influenciado a compreensão moderna sobre a personalidade e, agora, se transformou em um dos pensadores públicos mais populares do mundo, com suas palestras sobre tópicos que variam da bíblia, às relações amorosas e à mitologia, atraindo dezenas de milhões de espectadores. Em uma era de mudanças sem precedentes e polarização da política, sua mensagem franca e revigorante sobre o valor da responsabilidade individual e da sabedoria ancestral tem ecoado em todos os cantos do mundo. Neste livro, ele oferece doze princípios profundos e práticos sobre como viver uma vida com significado."},
+  {id: 12, titulo:"Manual de persuasão do FBI", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/715Y9D5zNWL._SY425_.jpg", link:"https://drive.google.com/file/d/1Mqcsbi8CMbJxIWgSdRgUt3u_sZMU3VFN/view?usp=drive_link", descricao:"Como um agente especial para o Programa de Análise Comportamental da Divisão de Segurança Nacional do FBI, Dr. Jack Schafer desenvolveu estratégias dinâmicas e inovadoras para entrevistar terroristas e detectar mentiras.  Agora, Dr. Schafer evoluiu suas táticas e nos ensina como aplicá-las no cotidiano para obter sucesso nas relações interpessoais."},
+  {id: 13, titulo:"Amor & gelato", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81EE1CAUoEL._SY425_.jpg", link:"https://drive.google.com/file/d/1iuuwRhyAgTt3m4kULeg_CLtCKLvTWFD9/view?usp=drive_link", descricao:"Depois da morte da mãe, Lina fica com a missão de realizar um último pedido: ir até a Itália para conhecer o pai. Do dia para a noite, ela se vê na famosa paisagem da Toscana, morando em uma casa localizada no mesmo terreno de um cemitério memorial de soldados americanos da Segunda Guerra Mundial, com um homem que nunca tinha ouvido falar."},
+  {id: 14, titulo:"Todas as suas (im)perfeições - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81Vhnel+xxL._SY425_.jpg", link:"https://drive.google.com/file/d/1J1fK7ERr6nFM5-VcZInr3Be8GGaD4xjL/view?usp=drive_link", descricao:"Todas as suas imperfeições narra a história de Quinn e Graham. Eles se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto."},
+  {id: 15, titulo:"É assim que começa - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81Izv2GRWoL._SY425_.jpg", link:"https://drive.google.com/file/d/11Y2f3PdOn54CDnVLHTaAPPuFOI1FHa5y/view?usp=sharing", descricao:"Preparem os corações. Lily e Atlas estão de volta na aguardada sequência de É assim que acaba. É assim que começa chega para consagrar novamente Colleen Hoover como a autora mais vendida do Brasil. Colleen é um fenômeno editorial, acumulando não só milhões de visualizações no TikTok, mas também milhões de exemplares vendidos."},
+  {id: 17, titulo:"Sem esperança (Vol. 2 Hopeless) - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91DszGVK+2L._SY425_.jpg", link:"https://drive.google.com/file/d/1fWqB6XqVAnGD4LL-9S1OuNpGV2G-952O/view?usp=drive_link", descricao:"Após se apaixonar por Sky e Holder em Um caso perdido, agora é a hora de conhecer o outro lado da história. Sem esperança oferece a perspectiva única dos impactantes acontecimentos através do olhar de Holder. Da autora dos best-sellersÉ assim que acaba e Verity, Colleen Hoover chega com mais um romance arrebatador e emocionante, nesta nova edição com capa inédita da artista Carmell Louize."},
+  {id: 19, titulo:"O poder do hábito: Por que fazemos o que fazemos na vida e nos negócios", categoria:"desenvolvimento", preco:4.99, img:"https://m.media-amazon.com/images/I/815iPX0SgkL._SY425_.jpg", link:"https://drive.google.com/file/d/1171s5qOBHWURilM8dzmEfonrXaIH2_pt/view?usp=drive_link", descricao:"Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela mudaram de maneira fundamental. "},
+  {id: 20, titulo:"Os sete maridos de Evelyn Hugo", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91yEPgRcELL._SY425_.jpg", link:"https://drive.google.com/file/d/1yORQU_xn2NOjrUMpXhg48T4hu4Ad5SGQ/view?usp=drive_link", descricao:"Lendária estrela de Hollywood, Evelyn Hugo sempre esteve sob os holofotes ― seja estrelando uma produção vencedora do Oscar, protagonizando algum escândalo ou aparecendo com um novo marido… pela sétima vez."},
+  {id: 21, titulo:"A paciente silenciosa", categoria:"suspense", preco:4.99, img:"https://m.media-amazon.com/images/I/91R8S52UP6L._SY425_.jpg", link:"https://drive.google.com/file/d/10ruwLQoiSG5dyY5G6I_5JGcepjLS09Sb/view?usp=drive_link", descricao:"Após cometer o assassinado de seu marido, uma mulher se recusa a falar qualquer coisa, deixando suspeitas e mistérios não resolvidos sobre o caso. E o terapeuta Theo Faber  está obcecado em descobrir o motivo da violencia e do silencio. Só ela sabe o que aconteceu. Só ele pode fazê-la falar.  A paciente silenciosa é um daqueles livros que não saem da cabeça do leitor, quer ele queira, quer não."},
+  {id: 22, titulo:"Boa garota nunca mais: Manual de assassinato para boas garotas (vol. 3)", categoria:"suspense", preco:4.99, img:"https://m.media-amazon.com/images/I/81atsbPweKL._SY425_.jpg", link:"https://drive.google.com/file/d/1rj6Qwpg5Slozxx0_3K2REFrKxMMuCm3g/view?usp=drive_link", descricao:"Após uma série de eventos estranhos, Pip percebe que está sendo perseguida de verdade. E pior: seu stalker pode estar conectado a um assassino que aterrorizou a região na mesma época do caso de Andie Bell. Com a ajuda de Ravi, a garota precisa descobrir quem está por trás disso… antes que se torne a próxima vítima."},
+  {id: 23, titulo:"Boa garota, segredo mortal(Vol.2)", categoria:"suspense", preco:4.99, img:"https://m.media-amazon.com/images/I/81JPQxDDNeL._SY425_.jpg", link:"https://drive.google.com/file/d/1Idn0SWgrvgouft6bCK6wqYSY9HWpyd-T/view?usp=drive_link", descricao:"Um ano após a investigação obsessiva que reescreveu a história de sua pacata cidade, Pip acredita que seus dias de detetive amadora chegaram ao fim. Prometendo nunca mais se envolver no emaranhado de segredos de Little Kilton, a garota planeja lançar um podcast sobre a resolução do caso e voltar a ter uma vida normal."},
+  {id: 24, titulo:"Uma segunda chance - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/813WvRoZ0HL._SY466_.jpg", link:"https://drive.google.com/file/d/1zAWBKBgIwXuI9v2dYjAKg8WPxdzNIztr/view?usp=drive_link", descricao:"Será que todos merecem uma segunda chance? É o que mais deseja Kenna Rowan, na luta para recuperar os pedaços estilhaçados de sua antiga vida após um trágico acidente ter colocado tudo a perder. Uma segunda chance é o tão esperado novo romance de Colleen Hoover, CoHo para os íntimos, autora fenômeno de vendas, que já ultrapassou a marca de 1 milhão de exemplares vendidos no Brasil. "},
+  {id: 25, titulo:"O lado feio do amor - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81FEytag46L._SY466_.jpg", link:"https://drive.google.com/file/d/1AMbXDEVskly_7UWn-rZpKNRB_6bjRCl5/view?usp=drive_link", descricao:"Quando começou a se envolver com Miles, Tate prometeu não se apaixonar. Mas vai descobrir que nenhuma regra é capaz de controlar o amor e o desejo...Da autora-fenômeno Colleen Hoover, que acumula best- sellers , visualizações no TikTok e milhares de leitores apaixonados no mundo todo."},
+  {id: 26, titulo:"É Assim que Acaba: 1 - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91r5G8RxqfL._SY466_.jpg", link:"https://drive.google.com/file/d/11Y2f3PdOn54CDnVLHTaAPPuFOI1FHa5y/view?usp=drive_link", descricao:"Considerado o livro do ano, que virou febre no TikTok e sozinho já acumulou mais de um milhão de exemplares vendidos no Brasil. É assim que acaba é o romance mais pessoal da carreira de Colleen Hoover, discutindo temas como violência doméstica e abuso psicológico de forma sensível e direta. "},
+  {id: 27, titulo:"A Biblioteca da Meia-Noite", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81iqH8dpjuL._SY425_.jpg", link:"https://drive.google.com/file/d/1wCK6osKyhWvvdlLqwbG3VHCsfgC_ZiRc/view?usp=drive_link", descricao:"A Biblioteca da Meia-Noite é um romance incrível que fala dos infinitos rumos que a vida pode tomar e da busca incessante pelo rumo certo."},
+  {id: 28, titulo:"Vermelho, branco e sangue azul", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/41QaXCahKrL._SY445_SX342_.jpg", link:"https://drive.google.com/file/d/1jDl-TW2lBfYhU6O0fbUZ73Mjwo-9obM7/view?usp=drive_link", descricao:"Quando sua mãe foi eleita presidenta dos Estados Unidos, Alex Claremont-Diaz se tornou o novo queridinho da mídia norte-americana. Bonito, carismático e com personalidade forte, Alex tem tudo para seguir os passos de seus pais e conquistar uma carreira na política, como tanto deseja. Mas quando sua família é convidada para o casamento real do príncipe britânico Philip, Alex tem que encarar o seu primeiro desafio diplomático: lidar com Henry, irmão mais novo de Philip, o príncipe mais adorado do mundo, com quem ele é constantemente comparado ― e que ele não suporta."},
+  {id: 29, titulo:"Coraline: Neil Gaiman & Chris Riddell", categoria:"ficcao", preco:4.99, img:"https://m.media-amazon.com/images/I/818565mPygL._SY466_.jpg", link:"https://drive.google.com/file/d/12zYqvFAY7mKy_86tAlA6HZdRPL49ukps/view?usp=drive_link", descricao:"Não é a névoa, nem o gato que parece estar sempre a observá-la, nem os sinais de perigo que a Srta. Spink e a Srta. Forcible, suas novas vizinhas, leem nas folhas de chá. É a outra casa – aquela atrás da velha porta da sala de estar. Outra mãe e um pai com olhos de botão preto e pele fina como papel esperam que Coraline se junte a eles. E querem que ela fique com eles. Para sempre. Ela sabe que, se se aventurar por aquela porta, pode nunca mais voltar."},
+  {id: 30, titulo:"O verão que mudou minha vida: (Trilogia Verão vol. 1)", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91UjIwmok9L._SY425_.jpg", link:"https://drive.google.com/file/d/1y9jQxhxsKd3JJn6V62TPliHFyQmEaiX5/view?usp=drive_link", descricao:"Com uma história encantadora e personagens inesquecíveis, a Trilogia Verão acompanha os amores, as desilusões e os dilemas da protagonista Belly dos 15 aos 24 anos. Em meio a descobertas e mudanças, ela se apaixona, se envolve em um triângulo amoroso, entra na universidade e descobre que amadurecer também significa tomar decisões difíceis. A trama escrita por Jenny Han, autora de Para todos os garotos que já amei, inspirou a série de sucesso O verão que mudou minha vida, do Amazon Prime Video."},
+  {id: 31, titulo:"Sem você não é verão: (Trilogia Verão vol. 2) ", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81RAaO1bJ1L._SY425_.jpg", link:"https://drive.google.com/file/d/15lCZCQt6qD1vAGth7VDRqXW8To8bB8JR/view?usp=drive_link", descricao:"Com uma história encantadora e personagens inesquecíveis, a Trilogia Verão acompanha os amores, as desilusões e os dilemas da protagonista Belly dos 15 aos 24 anos. Em meio a descobertas e mudanças, ela se apaixona, se envolve em um triângulo amoroso, entra na universidade e descobre que amadurecer também significa tomar decisões difíceis. A trama escrita por Jenny Han, autora de Para todos os garotos que já amei, inspirou a série de sucesso O verão que mudou minha vida, do Amazon Prime Video."},
+  {id: 32, titulo:"Sempre teremos o verão: (Trilogia Verão vol. 3)", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91-szq3u4AL._SY425_.jpg", link:"https://drive.google.com/file/d/1-td5vidn426JgKVhOfJ6DTts1fLisqqV/view?usp=drive_link", descricao:"Com uma história encantadora e personagens inesquecíveis, a Trilogia Verão acompanha os amores, as desilusões e os dilemas da protagonista Belly dos 15 aos 24 anos. Em meio a descobertas e mudanças, ela se apaixona, se envolve em um triângulo amoroso, entra na universidade e descobre que amadurecer também significa tomar decisões difíceis. A trama escrita por Jenny Han, autora de Para todos os garotos que já amei, inspirou a série de sucesso O verão que mudou minha vida, do Amazon Prime Video."},
+  {id: 33, titulo:"O príncipe cruel (Vol. 1 O Povo do Ar)", categoria:"ficcao", preco:4.99, img:"https://m.media-amazon.com/images/I/81FH6q0EqYS._SY425_.jpg", link:"https://drive.google.com/file/d/1eAfojYCtgf7NAG83hQTD4c7TGJdQ1EP8/view?usp=drive_link", descricao:"Jude tinha apenas sete anos quando seus pais foram brutalmente assasinados e ela e as irmãs levadas para viver no traiçoeiro Reino das Fadas. Dez anos depois, tudo o que Jude quer é se encaixar, mesmo sendo uma garota mortal. Mas todos os feéricos parecem desprezar os humanos... Especialmente o príncipe Cardan, o mais jovem e mais perverso dos filhos do Grande Rei de Elfhame."},
+   {
+    id: 34,
+    titulo: "Corte de Névoa e Fúria",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81yonPQS4zL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1s7FkV8ranAfpHHY839QKkj3A6Q9CWpWB/view?usp=drive_link",
+    descricao: "Feyre retorna à Corte Primaveril com poderes de Fada Suprema, mas enfrenta dilemas entre amor e liberdade enquanto uma ameaça antiga ressurge."
+  },
+  {
+    id: 35,
+    titulo: "Corte de Asas e Ruína",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81-VXYgospL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/122Y2Z4m5kzqAdJN4GaZtCWlkha5_B2XB/view?usp=drive_link",
+    descricao: "Feyre infiltra-se na Corte Primaveril para reunir informações sobre o rei que ameaça Prythian, enfrentando intrigas e perigos iminentes."
+  },
+  {
+    id: 36,
+    titulo: "Corte de Gelo e Estrelas",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81BFOwnB6AL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/172MqqPNM1OxPA3fL4-_T4FlvmIOk020b/view?usp=drive_link",
+    descricao: "Feyre e Rhysand trabalham para reconstruir Velaris após a guerra, enquanto enfrentam desafios pessoais e políticos na busca por paz."
+  },
+  {
+    id: 37,
+    titulo: "Corte de Chamas Prateadas",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/910yLnXkQnL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1QFoRk0Xmx2zp_rIrK3jtzmoo2_FHLpuZ/view?usp=drive_link",
+    descricao: "Nesta e Cassian enfrentam traumas e desafios internos enquanto buscam redenção e aceitação em um mundo pós-guerra."
+  },
+  {
+    id: 38, 
+    titulo: "Harry Potter e a Câmara Secreta",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81jbivNEVML._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1abAOJzOlkvcIiVNcVpG_nnnlp9pabLCG/view?usp=drive_link",
+    descricao: "Segunda aventura de Harry em Hogwarts, onde ele enfrenta mistérios na Câmara Secreta."
+  },
+  {
+    id: 39,
+    titulo: "Harry Potter e o Prisioneiro de Azkaban",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81u+ljPVifL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/16siF0TBaXyeVbPnJkt6zoGfim3ttIRUs/view?usp=drive_link",
+    descricao: "Harry descobre segredos sobre seu passado e enfrenta novos perigos com a fuga de Sirius Black."
+  },
+  {
+    id: 40,
+    titulo: "Harry Potter e o Cálice de Fogo",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81nTLN-kz7L._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1H4ijJnjo6ojsP0tybaMMOYh9l_NDdMd_/view?usp=drive_link",
+    descricao: "Harry compete no Torneio Tribruxo, enfrentando desafios mortais e ameaças crescentes."
+  },
+  {
+    id: 41,
+    titulo: "Harry Potter e a Ordem da Fênix",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81d6ESyPZwL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1Tuw0G4XfD2olBREeEenhs5bB-TY0Lik7/view?usp=drive_link",
+    descricao: "Harry lidera a resistência contra Voldemort e enfrenta a opressão no Ministério da Magia."
+  },
+  {
+    id: 42,
+    titulo: "Harry Potter e o Enigma do Príncipe",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81yFIh1yoZL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1JiE4VDm6zSlyxMZuZdszFFZMIWVnK342/view?usp=drive_link",
+    descricao: "Segredos sombrios do passado de Voldemort começam a ser revelados."
+  },
+  {
+    id: 43,
+    titulo: "Harry Potter e as Relíquias da Morte",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81rvO7xcJOL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1jm6xfRIyO1WOi8trOOVrH8iFL0CmdCCy/view?usp=drive_link",
+    descricao: "A batalha final contra Voldemort, com decisões que mudarão o destino do mundo mágico."
+  },
+  {
+    id: 44,
+    titulo: "Harry Potter e a Criança Amaldiçoada",
+    categoria: "fantasia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/91m1WPwTusL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1uW0Z98RHvLcNXIpg-xHYAjtOyezwwZ-6/view?usp=drive_link",
+    descricao: "Peça de teatro que continua a saga da família Potter, com novas aventuras e desafios."
+  },
+  {
+    id: 56,
+    titulo: "O milagre da manhã para se tornar um milionário.",
+    categoria: "desenvolvimento",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81sExobsgoL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1vhM-Zvo0tjB_ksI4Uv25odTXSSAJupkj/view?usp=drive_link",
+    descricao: "Método de Hal Elrod para transformar sua rotina matinal e alcançar mais sucesso e produtividade."
+  },
+  {
+    id: 58,
+    titulo: "Essencialismo",
+    categoria: "desenvolvimento",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/71HuZRl-XeL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1Qm94UZjWIM8oyLTDP_v5eiimixYeubCr/view?usp=drive_link",
+    descricao: "Um guia para focar no que realmente importa e eliminar o excesso na vida profissional e pessoal."
+  },
+  {
+    id: 59,
+    titulo: "O Homem Mais Rico da Babilônia",
+    categoria: "negocios",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/81ehX6Quw2L._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/13HP3tDvtVwL-7ib-Gs08yTq_tdhawLtD/view?usp=drive_link",
+    descricao: "Princípios financeiros atemporais para prosperar, contados através de parábolas da antiga Babilônia."
+  },
+  {
+    id: 60,
+    titulo: "Poder e Manipulação - Jacob Petry",
+    categoria: "psicologia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/717diaFhKoL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1CUbI3xd7oEo2NrBP-Y6KvADBX7mKnFGb/view?usp=drive_link",
+    descricao: "Um olhar profundo sobre as técnicas de influência e manipulação nas relações humanas."
+  },
+  {
+    id: 61,
+    titulo: "Comece Pelo Porquê - Simon Sinek",
+    categoria: "negocios",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/71M6czhxmTL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1b-Q2e-OPMH2FQxNpgljwoikeFYLm7ebL/view?usp=drive_link",
+    descricao: "Descubra o poder de liderar com propósito e por que algumas pessoas e empresas inspiram mais."
+  },
+  {
+    id: 62,
+    titulo: "Mindset - Carol Dweck",
+    categoria: "psicologia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/71Ils+Co9fL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1rsQA5szK5t7YK_qP5DkILccUsK5TZfAh/view?usp=drive_link",
+    descricao: "Como a mentalidade de crescimento pode impactar seu sucesso nos estudos, carreira e relacionamentos."
+  },
+  {
+    id: 63,
+    titulo: "Mais Esperto que o Diabo - Napoleon Hill",
+    categoria: "desenvolvimento",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/819ERrDHRcL._SL1500_.jpg",
+    link: "https://drive.google.com/file/d/1BVw1Z99PD8DA-pX_SQFi4AS7CQzmACcH/view?usp=drive_link",
+    descricao: "Reflexões profundas sobre medo, fé e sucesso, em uma entrevista imaginária com o 'Diabo'."
+  },
+  {
+    id: 64,
+    titulo: "Quebrando o Hábito de Ser Você Mesmo",
+    categoria: "psicologia",
+    preco: 4.99,
+    img: "https://m.media-amazon.com/images/I/61me0V6JIKL._SL1360_.jpg",
+    link: "https://drive.google.com/file/d/1clGpBXn70aobVDezmBwlTMOXiuMKapjn/view?usp=drive_link",
+    descricao: "Dr. Joe Dispenza ensina como mudar crenças e padrões mentais para transformar sua realidade."
+  },
+  {
+  id: 65,
+  titulo: "Seis Anos Depois",
+  categoria: "suspense",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/81BgOQJ4KUL._SL1500_.jpg", // Substitua pela capa real
+  link: "https://drive.google.com/file/d/1tLJrFQeW4hPk3D6EfUveCRDKe3q_UbCJ/view?usp=drive_link",
+  descricao: "Jake Fisher viu o amor da sua vida se casar com outro. Seis anos depois, ele descobre que nada era o que parecia. Uma trama de suspense e reviravoltas."
+},
+{
+  id: 66,
+  titulo: "O Jardim das Borboletas",
+  categoria: "suspense",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/91PdHkLLtNL._SL1500_.jpg", // Substitua pela capa real
+  link: "https://drive.google.com/file/d/1ER5dibqW41eSS6We9TKrc6Je_ey4uSaP/view?usp=drive_link",
+  descricao: "Um jardim secreto onde meninas são mantidas contra a vontade por um psicopata. Uma história perturbadora, intensa e psicologicamente densa."
+},
+{
+  id: 67,
+  titulo: "A Empregada",
+  categoria: "suspense",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/81BdpMhm3iL._SL1500_.jpg", // Substitua pela capa real
+  link: "https://drive.google.com/file/d/1ng80IF3F1efVay-OAoIWKhMUa_074k2E/view?usp=drive_link",
+  descricao: "Uma empregada doméstica descobre segredos obscuros dos patrões. Um thriller psicológico com viradas surpreendentes."
+},
+{
+  id: 68,
+  titulo: "Jantar Secreto",
+  categoria: "suspense",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/71AeB1+8dZL._SL1500_.jpg", // Substitua pela capa real
+  link: "https://drive.google.com/file/d/1GaKHX7E4nPq3hOi3Hg9BjHsMnieP42i2/view?usp=drive_link",
+  descricao: "Quatro amigos promovem jantares misteriosos para a elite carioca, mas segredos sinistros e perigosos estão no cardápio."
+},
+{
+  id: 69,
+  titulo: "Mentirosos – Sucesso no TikTok",
+  categoria: "drama",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/71bJYZfcrKL._SL1500_.jpg", // Substitua pela capa real
+  link: "https://drive.google.com/file/d/1eRZmysdBUz8LZKXNsZ8kNbMypRstTN2_/view?usp=drive_link",
+  descricao: "Um grupo de adolescentes ricos vive em uma ilha durante o verão. Uma tragédia, segredos e mentiras mudam tudo. Final impactante."
+},
+{
+  id: 70,
+  titulo: "O Homem de Giz",
+  categoria: "suspense",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/71oxE2vkZmL._SL1500_.jpg", // Substitua pela capa real
+  link: "https://drive.google.com/file/d/1zNvoz-froBOYGteNxo1E80xGGbZN-xSt/view?usp=drive_link",
+  descricao: "Desenhos de giz levam um grupo de amigos a descobrir um corpo. Anos depois, o passado volta com força e mistérios se intensificam."
+},
+{
+  id: 71,
+  titulo: "Todo esse tempo",
+  categoria: "romance",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/8132cJm73bL._SL1500_.jpg",
+  link: "https://pay.kirvano.com/faed6d73-1a2a-4f07-b163-33968cd753d1",
+  descricao: "Após um acidente devastador, Kyle precisa reconstruir sua vida e encontra esperança onde menos esperava."
+},
+{
+  id: 72,
+  titulo: "Roube como um artista",
+  categoria: "desenvolvimento",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/6106NkDT9hS._SL1213_.jpg",
+  link: "https://drive.google.com/file/d/1tCDp19Lj7duFAWS63JvyMim6mYLTnMZn/view?usp=drive_link",
+  descricao: "10 dicas práticas sobre criatividade para inovar, inspirar-se e desenvolver seu potencial criativo."
+},
+{
+  id: 73,
+  titulo: "A Cantiga dos Pássaros e das Serpentes",
+  categoria: "fantasia",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/81Iluivp1gL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1srUuLhZdsgZpvbkw3z_7Ycc62GeHkmyy/view?usp=drive_link",
+  descricao: "Prequel da saga Jogos Vorazes, revelando o passado do presidente Snow e os primórdios dos jogos."
+},
+{
+  id: 74,
+  titulo: "O Diário de Jack, o Estripador",
+  categoria: "true crime",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/A1D6YuNtv3L._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/14JYf5SrVXSjChHLiTVCQVDqHzc4Rj3fb/view?usp=drive_link",
+  descricao: "Investigação polêmica sobre um diário atribuído ao lendário assassino de Whitechapel."
+},
+{
+  id: 75,
+  titulo: "Quebre os seus sapatinhos de cristal",
+  categoria: "desenvolvimento",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/51fAimt1Y-L._SL1000_.jpg",
+  link: "https://drive.google.com/file/d/1ii77_VMzq88EqLDfVTJ_AjTkt-SejrWK/view?usp=drive_link",
+  descricao: "Uma coletânea poética feminista sobre empoderamento, libertação e reconstrução pessoal."
+},
+{
+  id: 76,
+  titulo: "Precisamos falar sobre o Kevin",
+  categoria: "drama",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/919g-oJ1tZL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1dwRPadVd0lcYDXYetMWXr-sbYDPk5IOT/view?usp=drive_link",
+  descricao: "Uma mãe tenta entender os motivos que levaram seu filho a cometer um crime brutal em sua escola."
+},
+{
+  id: 77,
+  titulo: "Por Lugares Incríveis",
+  categoria: "romance",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/918Maoi6OML._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/12lSBy_gHME5MwZXbLau7e9Fdco1Xv7e9/view?usp=drive_link",
+  descricao: "Dois jovens com passados traumáticos se encontram e embarcam em uma jornada transformadora."
+},
+{
+  id: 78,
+  titulo: "Os Dois Morrem No Final",
+  categoria: "drama",
+  preco: 4.99,
+  img: "https://books.google.com.br/books/publisher/content?id=vC84EAAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2AFp_OPTpal_1GTXv8Z13pULOhPw&w=1280",
+  link: "https://drive.google.com/file/d/1GYqYKWHVo7hPO7w2HbqqIlHQfK5aYPXe/view?usp=drive_link",
+  descricao: "Em um mundo onde é possível saber o dia da própria morte, dois jovens vivem seu último dia juntos."
+},
+{
+  id: 79,
+  titulo: "Os 13 porquês: Se você está ouvindo isso já é tarde demais",
+  categoria: "drama",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/81gDX2uuoiL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1oZubX1R4zdZUAbs3obZSj2xlGHpqmEzR/view?usp=drive_link",
+  descricao: "Clay recebe fitas deixadas por Hannah, explicando os motivos que a levaram a tirar a própria vida."
+},
+{
+  id: 80,
+  titulo: "O Deus que destrói sonhos",
+  categoria: "desenvolvimento",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/91VxtptiBgL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1ZnVNQOn4WuYavCYchVhUrRk-uR3lqOlT/view?usp=drive_link",
+  descricao: "Um convite a confiar em Deus mesmo quando Ele desmonta nossos planos para revelar algo maior."
+},
+{
+  id: 81,
+  titulo: "O Castelo Animado",
+  categoria: "fantasia",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/81JPLgU-EgS._SY385_.jpg",
+  link: "https://drive.google.com/file/d/1VMJjnExjRfqgebbPjnCzaa2KT4uGQ3c-/view?usp=drive_link",
+  descricao: "Sophie é amaldiçoada e busca ajuda no castelo de um mago imprevisível chamado Howl."
+},
+{
+  id: 82,
+  titulo: "O Último Rei Dragão",
+  categoria: "fantasia",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/91z92c6URXL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1zh0X8Mb1uJOX2n-sf51Q6sHZzV595E2c/view?usp=drive_link",
+  descricao: "Um herdeiro perdido retorna para salvar um reino à beira da destruição por criaturas mágicas."
+},
+{
+  id: 83,
+  titulo: "Mil beijos de garoto",
+  categoria: "romance",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/71PwlBLehAL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1rn_MbCqjh7C9cugKtJRx2DuNxr-y69az/view?usp=drive_link",
+  descricao: "Um romance comovente sobre amor, perda e a beleza das memórias que resistem ao tempo."
+},
+{
+  id: 84,
+  titulo: "Haunted Love",
+  categoria: "romance",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/91p-EDZgBzL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1OOv9cciEdJAWq9qswe00lCM5OD6hc4Og/view?usp=drive_link",
+  descricao: "Uma história de amor marcada por traumas do passado e segredos que ameaçam o presente."
+},
+{
+  id: 85,
+  titulo: "Love in The Dark",
+  categoria: "romance",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/71A5tOXn9GL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1-vTXBAH2aPBP4kA5dHxI8w_GnjKdiOEX/view?usp=drive_link",
+  descricao: "Duas almas quebradas encontram luz uma na outra, mas sombras do passado ainda assombram o futuro."
+},
+{
+  id: 86,
+  titulo: "Extraordinário",
+  categoria: "drama",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/41--5-gbIhL._SY445_SX342_.jpg",
+  link: "https://drive.google.com/file/d/1Hn2kNS2kshGHNf6bTPIhEqlk5GOJ1R6Z/view?usp=drive_link",
+  descricao: "A história inspiradora de Auggie, um garoto com uma deformidade facial, e sua luta por aceitação."
+},
+{
+  id: 87,
+  titulo: "Fabricante de Lágrimas",
+  categoria: "romance",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/51xezL8vrCL._SY445_SX342_.jpg",
+  link: "https://drive.google.com/file/d/1tirVi5d1w6heP2_Kx2M31CzUbkpFtbUc/view?usp=drive_link",
+  descricao: "Uma história intensa sobre amor, amadurecimento e cicatrizes emocionais que definem quem somos."
+},
+{
+  id: 89,
+  titulo: "Coroa de Sombras I",
+  categoria: "fantasia",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/91Mz6jcum1L._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1Fp8ZMKcPQO8pP1Qd9sU0jTBWc3vlDsVW/view?usp=drive_link",
+  descricao: "Uma guerreira com um passado sombrio parte em uma missão mortal para proteger o reino."
+},
+{
+  id: 90,
+  titulo: "BTK: Máscara da Maldade",
+  categoria: "suspense",
+  preco: 4.99,
+  img: "https://i0.wp.com/1.bp.blogspot.com/-4xCApK3G1aY/XVMQs-ArTiI/AAAAAAAAauI/bGPFxblAyO8uf-V1OuSoyO6BQod316NhACLcBGAs/s1600/BTK%2B-%2BPost%2B5.jpg?ssl=1",
+  link: "https://drive.google.com/file/d/1109MSllbXkH2XLR_d42FvJ9oRWsO0osz/view?usp=drive_link",
+  descricao: "A chocante história do assassino em série BTK, contada através de investigações reais e entrevistas."
+},
+{
+  id: 91,
+  titulo: "As Virgens Suicidas",
+  categoria: "drama",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/91CHrS6ZlYL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1s6NitdMwR_RpEUcfmE2hTBMRIVcxt0Pv/view?usp=drive_link",
+  descricao: "Cinco irmãs adolescentes marcadas por repressão e mistério, narradas por vizinhos obcecados."
+},
+{
+  id: 92,
+  titulo: "As Vantagens de Ser Invisível",
+  categoria: "drama",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/81tJ71gMtpL._SL1500_.jpg",
+  link: "https://drive.google.com/file/d/1Ex2Dg3I1tigHi_wj0r4XbKBGnVQoF1ZG/view?usp=drive_link",
+  descricao: "Charlie escreve cartas enquanto navega pela adolescência, trauma e amizades transformadoras."
+},
+{
+  id: 93,
+  titulo: "Xadrez Básico",
+  categoria: "técnico",
+  preco: 4.99,
+  img: "https://static.wixstatic.com/media/38961e_a3d67f3e6abf4884b20c4957bdd58e45~mv2.jpg/v1/fill/w_980,h_1695,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/38961e_a3d67f3e6abf4884b20c4957bdd58e45~mv2.jpg",
+  link: "https://drive.google.com/file/d/1v6bIG7XmhgvHbX7ta1kkqG8BpTMt9oXY/view?usp=drive_link",
+  descricao: "De acordo com a crítica especializada, Xadrez Básico é uma das melhores obras da literatura enxadrística moderna, apresentada em estilo agradável, que prima pela clareza e propriedade. Qualquer amador encontrará neste livro uma rica fonte de ensinamentos."
+},
+{
+  id: 94,
+  titulo: "Meu Sistema: O Primeiro Livro de Ensino de Xadrez",
+  categoria: "técnico",
+  preco: 4.99,
+  img: "https://m.media-amazon.com/images/I/61bMc7lQV5L._SL1434_.jpg",
+  link: "https://drive.google.com/file/d/11gxi8-VtbPWVSBHYYB_aiHnQJS0LtKhR/view?usp=drive_link",
+  descricao: "O livro Meu Sistema é considerado por muitos como o mais importante da literatura enxadrística. "
+},
+ {
+    "id": 95,
+    "titulo": "CRÔNICA DE UMA NAMORADA",
+    "categoria": "Romance",
+    "descricao": "Uma narrativa envolvente sobre os altos e baixos de um relacionamento amoroso, explorando sentimentos reais com leveza e humor.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1Jj_IDcVwPOhjipwACG5MN-EF7WyjDPI9/view?usp=drive_link"
+  },
+  {
+    "id": 96,
+    "titulo": "Vivendo de Amor",
+    "categoria": "Romance",
+    "descricao": "Bell Hooks reflete sobre como o amor pode ser um princípio transformador para a vida pessoal e coletiva, com profundidade e sensibilidade.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1EtmAsFrE_Q1IOBH4VQpoGizzmeX7jkmf/view?usp=drive_link"
+  },
+  {
+    "id": 97,
+    "titulo": "Vidas Secas",
+    "categoria": "Drama",
+    "descricao": "Obra-prima de Graciliano Ramos, retrata a vida difícil de uma família de retirantes nordestinos em meio à seca e à miséria.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1pbBv1x27jFeVAtACboy-8UW4Sv0KZvan/view?usp=drive_link"
+  },
+  {
+    "id": 98,
+    "titulo": "Vamos Conversar?",
+    "categoria": "Drama",
+    "descricao": "Elisama Santos convida o leitor a refletir sobre como se comunicar com empatia e autenticidade, em busca de relações mais saudáveis.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1CqcnGrQQPgRp8-BGL59HgNWtr2IAptpH/view?usp=drive_link"
+  },
+  {
+    "id": 99,
+    "titulo": "Uma Vida Pequena",
+    "categoria": "Drama",
+    "descricao": "Um romance intenso sobre amizade, trauma e superação, que acompanha a vida de quatro amigos ao longo de décadas em Nova York.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1ab6_3Zm7vqvY5_W6N1faqGYwT6bTahiC/view?usp=drive_link"
+  },
+  {
+    "id": 100,
+    "titulo": "Uma Mulher no Escuro",
+    "categoria": "Suspense",
+    "descricao": "Raphael Montes entrega um thriller psicológico sobre traumas do passado e segredos obscuros que voltam à tona de forma surpreendente.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/12y2jb8ep4OauSTgC8xWVEP6CbMOASCYf/view?usp=drive_link"
+  },
+  {
+    "id": 101,
+    "titulo": "Um de Nós Está Mentindo",
+    "categoria": "Suspense",
+    "descricao": "Cinco estudantes entram em detenção. Apenas quatro saem vivos. Uma trama envolvente cheia de segredos e reviravoltas.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1NjXiGWWHbIxInLmN1mlwEsvzcRvV-BNs/view?usp=drive_link"
+  },
+  {
+    "id": 102,
+    "titulo": "Tudo sobre Amor",
+    "categoria": "Romance",
+    "descricao": "Bell Hooks analisa o amor em suas múltiplas formas, oferecendo uma visão crítica e inspiradora sobre como amar conscientemente.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1qqNnpz67_Qyu5Io5rQ4sOsUEqhhyrgg2/view?usp=drive_link"
+  },
+  {
+    "id": 103,
+    "titulo": "Tudo é Rio",
+    "categoria": "Drama",
+    "descricao": "Carla Madeira apresenta uma história intensa e poética sobre amor, perdas e escolhas, marcada por profundidade emocional.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/13nz70paFAhEOirqNgmThYTjf09DR_yXe/view?usp=drive_link"
+  },
+  {
+    "id": 104,
+    "titulo": "Trono de Vidro - Capítulos Extras",
+    "categoria": "Fantasia",
+    "descricao": "Complemento da série 'Trono de Vidro', esses capítulos extras expandem o universo de Celaena com mais ação e mistérios.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1J52Mg8EUUbRW-V0DFctH5XoGZ2E1njpH/view?usp=drive_link"
+  },
+  {
+    "id": 105,
+    "titulo": "Teto Para Dois Suicidas",
+    "categoria": "Terror",
+    "descricao": "Raphael Montes mistura suspense e drama em uma narrativa que envolve segredos, solidão e redenção.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1yQ_uNoYehJ0ts4k0C6D1gW76ioqgUN8i/view?usp=drive_link"
+  },
+  {
+    "id": 106,
+    "titulo": "O Diário de Jack, o Estripador",
+    "categoria": "Terror",
+    "descricao": "Shirley Harrison investiga o suposto diário do famoso assassino de Whitechapel, explorando teorias e mistérios históricos.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/14JYf5SrVXSjChHLiTVCQVDqHzc4Rj3fb/view?usp=drive_link"
+  },
+  {
+    "id": 107,
+    "titulo": "Sete Minutos Depois da Meia-Noite",
+    "categoria": "Fantasia",
+    "descricao": "Uma história comovente sobre perda e aceitação, com elementos fantásticos que ajudam um garoto a enfrentar sua dor.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1JGLxFh-6JSKyoxr5Uck3-q-1itAPQHLA/view?usp=drive_link"
+  },
+  {
+    "id": 108,
+    "titulo": "Psicologia do Inconsciente",
+    "categoria": "Ficção",
+    "descricao": "Obra essencial de Carl Gustav Jung, onde o autor explora os fundamentos do inconsciente coletivo e da psique humana.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1o5lNIkgYemwKlTZwwPZiSreI0o4TmgZC/view?usp=drive_link"
+},
+{
+    "id": 109,
+    "titulo": "Por-que-gritamos",
+    "categoria": "Drama",
+    "descricao": "Exploração profunda dos motivos emocionais que nos levam a expressar a raiva e a frustração, buscando autoconhecimento.",
+    "img": "",
+    "link": "https://drive.google.com/file/d/1bDjgxiYJ6aAjYWD04Bm_IvNe4NL5bswe/view?usp=drive_link"
+  },
+  {
+    "id": 110,
+    "titulo": "Pessoas Normais - Sally Rooney",
+    "categoria": "Romance",
+    "descricao": "Retrato sensível da complexidade dos relacionamentos modernos entre dois jovens na Irlanda contemporânea.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 111,
+    "titulo": "Os Imperfeitos",
+    "categoria": "Ficção",
+    "descricao": "História que aborda a imperfeição humana, mostrando personagens que buscam aceitação e transformação.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 112,
+    "titulo": "Os Cinco Sobreviventes - Holly Jackson",
+    "categoria": "Suspense",
+    "descricao": "Cinco adolescentes lutam para sobreviver após um acidente misterioso, revelando segredos perigosos.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 113,
+    "titulo": "Orgulho e Preconceito",
+    "categoria": "Romance",
+    "descricao": "Clássico de Jane Austen que explora amor, classe social e preconceitos em uma sociedade inglesa do século XIX.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 114,
+    "titulo": "Olhos D'água - Conceição Evaristo",
+    "categoria": "Drama",
+    "descricao": "Narrativas que discutem questões raciais e sociais a partir da perspectiva negra feminina brasileira.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 115,
+    "titulo": "O que é Interseccionalidade - Carla Akotirene",
+    "categoria": "Desenvolvimento",
+    "descricao": "Uma abordagem que explica como diferentes formas de opressão se cruzam e afetam a vida das pessoas.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 116,
+    "titulo": "O Segredo da Empregada - Freida McFadden",
+    "categoria": "Suspense",
+    "descricao": "Um thriller psicológico envolvendo segredos guardados por uma empregada, que podem mudar tudo.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 117,
+    "titulo": "O Colecionador",
+    "categoria": "Suspense",
+    "descricao": "Clássico thriller psicológico onde um homem sequestra uma jovem em uma obsessão perturbadora.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 118,
+    "titulo": "O Poder do Subconsciente - Joseph Murphy",
+    "categoria": "Desenvolvimento",
+    "descricao": "Obra que explora como usar o poder da mente subconsciente para transformar sua vida e alcançar objetivos.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 119,
+    "titulo": "O Poder do Agora - Eckhart Tolle",
+    "categoria": "Desenvolvimento",
+    "descricao": "Guia para viver o presente, com foco na consciência plena para superar o sofrimento mental e encontrar paz interior.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 120,
+    "titulo": "Novembro, 9",
+    "categoria": "Romance",
+    "descricao": "Romance emocionante sobre encontros e desencontros, passado e presente entre dois jovens que se apaixonam.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 121,
+    "titulo": "Neville Goddard - A Coleção Completa",
+    "categoria": "Desenvolvimento",
+    "descricao": "Compilação das obras de Neville Goddard sobre o poder da imaginação para manifestar a realidade desejada.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 122,
+    "titulo": "Não é como nos Filmes - Lynn Painter",
+    "categoria": "Romance",
+    "descricao": "Um romance jovem adulto que desconstrói clichês do amor idealizado, mostrando a realidade dos relacionamentos.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 123,
+    "titulo": "Mulheres, Raça e Classe - Angela Davis",
+    "categoria": "Desenvolvimento",
+    "descricao": "Análise histórica e crítica sobre como raça, gênero e classe interagem na opressão das mulheres negras.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 124,
+    "titulo": "Mesa 27: Ao Fugir do Destino - Adriana Nicolodi",
+    "categoria": "Drama",
+    "descricao": "Histórias que exploram encontros e desencontros, reflexões sobre escolhas e destinos entrelaçados.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 125,
+    "titulo": "Maternidade Ordinária",
+    "categoria": "Drama",
+    "descricao": "Relatos reais e sensíveis sobre as experiências e desafios da maternidade no cotidiano.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 126,
+    "titulo": "Malcolm X - Uma Vida de Reinvenções - Manning Marable",
+    "categoria": "Ficção",
+    "descricao": "Biografia detalhada da vida e legado do ativista Malcolm X, suas transformações e impacto social.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 127,
+    "titulo": "Inteligência Emocional - Daniel Goleman",
+    "categoria": "Desenvolvimento",
+    "descricao": "Estudo sobre a importância da inteligência emocional para o sucesso pessoal e profissional.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 128,
+    "titulo": "Ikigai: Os Segredos dos Japoneses para uma Vida Longa e Feliz",
+    "categoria": "Desenvolvimento",
+    "descricao": "Guia para encontrar propósito e felicidade inspirada na cultura japonesa do ikigai.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 129,
+    "titulo": "HQ - Dom Casmurro - Ivan Jaf",
+    "categoria": "Romance",
+    "descricao": "Adaptação em quadrinhos do clássico 'Dom Casmurro', explorando ciúmes e mistérios do casamento.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 130,
+    "titulo": "Gente Ansiosa",
+    "categoria": "Desenvolvimento",
+    "descricao": "Reflexões e estratégias para entender e lidar com a ansiedade na vida moderna.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 131,
+    "titulo": "Gabriela, Cravo e Canela - Jorge Amado",
+    "categoria": "Romance",
+    "descricao": "Romance regionalista que retrata a sensualidade e cultura da Bahia através da personagem Gabriela.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 132,
+    "titulo": "From Imagination to Reality - Abiola Abrams",
+    "categoria": "Desenvolvimento",
+    "descricao": "Livro que incentiva a transformação dos sonhos em realidade através do poder da imaginação e ação.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 133,
+    "titulo": "Flores para Algernon",
+    "categoria": "Ficção",
+    "descricao": "Um clássico emocionante que aborda a inteligência, humanidade e ética através da história de Charlie.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 134,
+    "titulo": "Flamingos - Clary Avelino",
+    "categoria": "Romance",
+    "descricao": "Romance contemporâneo que explora temas como autoconhecimento e superação pessoal.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 135,
+    "titulo": "Eu não sou uma mulher - Bell Hooks",
+    "categoria": "Desenvolvimento",
+    "descricao": "Discussões sobre raça, gênero e identidade, questionando estereótipos e papéis sociais.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 136,
+    "titulo": "Em Busca de Cinderela - Colleen Hoover",
+    "categoria": "Romance",
+    "descricao": "Uma releitura moderna de contos de fadas com toques emocionais e narrativas de superação.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 137,
+    "titulo": "Educação Não Violenta - Elisama Santos",
+    "categoria": "Desenvolvimento",
+    "descricao": "Métodos e reflexões para aplicar a educação com empatia, respeito e paciência.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 138,
+    "titulo": "De Repente Adulta - Turner Sarah",
+    "categoria": "Drama",
+    "descricao": "História sobre as dificuldades e descobertas do amadurecimento na transição para a vida adulta.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 139,
+    "titulo": "Cutelo e Corvo - Brynne Weaver",
+    "categoria": "Fantasia",
+    "descricao": "Fantasia sombria com elementos místicos, intrigas e jornadas de autoconhecimento.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 140,
+    "titulo": "Cordialmente Cruel 2: A Escada Furtiva - Maureen Johnson",
+    "categoria": "Suspense",
+    "descricao": "Continuação da saga cheia de mistério, intrigas e eventos sobrenaturais.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 141,
+    "titulo": "Tudo que Quiser é Seu",
+    "categoria": "Romance",
+    "descricao": "História de amor e escolhas difíceis, com personagens complexos e emocionantes.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 142,
+    "titulo": "Contos de Amor Rasgados",
+    "categoria": "Romance",
+    "descricao": "Coleção de contos que exploram diferentes faces do amor, com emoção e realismo.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 143,
+    "titulo": "Conflitos de Sangue - Jennifer Lynn Barnes",
+    "categoria": "Fantasia",
+    "descricao": "Fantasia juvenil com temas de magia, poder e conflitos familiares.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 144,
+    "titulo": "Comunicação Não Violenta",
+    "categoria": "Desenvolvimento",
+    "descricao": "Guia prático para melhorar as relações pessoais e profissionais através da empatia e diálogo.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 145,
+    "titulo": "Nunca Saia Sozinho - Charlie Donlea",
+    "categoria": "Suspense",
+    "descricao": "Um thriller envolvente que acompanha uma investigação policial cheia de reviravoltas.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 146,
+    "titulo": "Assistente do Vilão - Hannah Nicole Maehrer",
+    "categoria": "Fantasia",
+    "descricao": "Uma aventura em mundo fantástico, focada em personagens complexos e seus dilemas morais.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 147,
+    "titulo": "As Coisas Que Guardamos Em Segredo - Lucy Score",
+    "categoria": "Romance",
+    "descricao": "Romance contemporâneo que mistura segredos do passado com a possibilidade de um novo começo.",
+    "img": "",
+    "link": ""
+  },
+  {
+    "id": 148,
+    "titulo": "As Vantagens de Ser Você - Ray Tavares",
+    "categoria": "Drama",
+    "descricao": "História sobre autoconhecimento, aceitação e a luta para ser quem realmente somos.",
+    "img": "",
+    "link": ""
+  }
+  ];
 let currentPage = 1;
-const itemsPerPage = 10;
+const itemsPerPage = 25;
 let currentFilter = 'todos';
 let currentSearch = '';
 
-// Função para normalizar texto (remover acentos e transformar em minúsculo)
 function normalizeText(text) {
   return text
     .normalize('NFD')
@@ -126,18 +960,18 @@ function mostrarPagina(page, rolarParaTopo = false) {
     produtosContainer.innerHTML = '<p style="text-align:center; margin-top:20px;">Nenhum livro encontrado.</p>';
   } else {
     livrosPagina.forEach(livro => {
-      const livroDiv = document.createElement('div');
-      livroDiv.className = 'livro';
-      livroDiv.dataset.categoria = livro.categoria;
-      livroDiv.addEventListener('click', () => mostrarDetalhes(livro.id));
-      livroDiv.innerHTML = `
-        <img src="${livro.img}" alt="${livro.titulo}" />
-        <h3>${livro.titulo}</h3>
-        <p>R$ ${livro.preco.toFixed(2)}</p>
-        <span class="ver-mais">Clique para ver mais</span>
-      `;
-      produtosContainer.appendChild(livroDiv);
-    });
+  const livroDiv = document.createElement('div');
+  livroDiv.className = 'livro';
+  livroDiv.dataset.categoria = livro.categoria;
+  livroDiv.addEventListener('click', () => mostrarDetalhes(livro.id));
+  livroDiv.innerHTML = `
+    <img src="${livro.img}" alt="${livro.titulo}" />
+    <h3>${livro.titulo}</h3>
+    <p><strong>Formato:</strong> ${livro.formato ? livro.formato : 'PDF'}</p>
+    <span class="ver-mais">Clique para ver mais</span>
+  `;
+  produtosContainer.appendChild(livroDiv);
+});
   }
 
   atualizarPaginacao(filteredLivros.length);
@@ -200,8 +1034,8 @@ function mostrarDetalhes(id) {
     <h1>${livro.titulo}</h1>
     <img src="${livro.img}" alt="${livro.titulo}" />
     <p>${livro.descricao}</p>
-    <p><strong>Preço:</strong> R$ ${livro.preco.toFixed(2)}</p>
-    <a href="${livro.link}" class="btn-comprar" target="_blank" rel="noopener noreferrer">Comprar agora</a>
+    <p><strong>Formato:</strong> ${livro.formato}</p>
+    <a href="${livro.link}" class="btn-comprar" target="_blank" rel="noopener noreferrer">Acessar agora</a>
   `;
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -219,7 +1053,6 @@ function voltarCatalogo() {
   mostrarPagina(currentPage);
 }
 
-// ✅ NOVO: Toggle do menu de categorias com classe `.mostrar`
 function toggleMenuCategorias() {
   const btn = document.getElementById('toggleCategorias');
   const menu = document.getElementById('categoriasMenu');
@@ -237,7 +1070,6 @@ function toggleMenuCategorias() {
   }
 }
 
-// Inicialização
 window.onload = () => {
   mostrarPagina(1);
 
