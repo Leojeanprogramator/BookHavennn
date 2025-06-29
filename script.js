@@ -894,6 +894,258 @@ const livros = [
     "img": "https://m.media-amazon.com/images/I/81e0FqCFxhL._SL1500_.jpg",
     "link": "https://drive.google.com/file/d/162mI6s5gkboJYd3GgRlk0q32MU6yGK1s/view?usp=drive_link"
   },
+  {
+    "id": 149,
+    "titulo": "As Mil Partes do Meu Coração - Colleen Hoover",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/814pUv-EGbL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/14ccZZWcu-NCWn4jsgEVfvVcmNbhSErFX/view?usp=sharing",
+    "descricao": "Um romance comovente sobre superação, perdão e os laços do amor."
+  },
+  {
+    "id": 150,
+    "titulo": "Amor(es) verdadeiro(s)",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/A1UvSKiOJGL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1CtooyY1FvfWedf6LPnjSG3oP23ibz-S8/view?usp=drive_link",
+    "descricao": "Uma jornada emocional de descobertas sobre o verdadeiro amor."
+  },
+  {
+    "id": 151,
+    "titulo": "Amor em Roma - Sarah Adams",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81BVc61FjoL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1OlsBJg0jXl7RsbK0e0_cHz3EULlsVmQW/view?usp=drive_link",
+    "descricao": "Um romance leve e divertido ambientado na romântica cidade de Roma."
+  },
+  {
+    "id": 152,
+    "titulo": "Almas Antigas - Tom Shroder",
+    "categoria": "desenvolvimento",
+    "formato": "PDF",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_933653-MLB80842784478_122024-O.webp",
+    "link": "https://drive.google.com/file/d/1ADXnvpVadna3LjIx8ZcH58PstO3d8y12/view?usp=drive_link",
+    "descricao": "Investigação sobre reencarnação e as memórias inexplicáveis de crianças."
+  },
+  {
+    "id": 153,
+    "titulo": "Alerta-de-Spoiler-Olivia-Dade",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61YTa4iiEXL._UF1000,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1wmVVcTYIgoY_V1jG2Gi2QBTFQ917I4S8/view?usp=drive_link",
+    "descricao": "Romance divertido entre uma fã de fanfics e um astro de série de TV."
+  },
+  {
+    "id": 154,
+    "titulo": "Acolhendo sua criança interior",
+    "categoria": "desenvolvimento",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81fyJqqSEIL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1nW0M1YluXwNa8ng7aXddKO2dDmH51sOK/view?usp=drive_link",
+    "descricao": "Um guia terapêutico para curar feridas emocionais da infância."
+  },
+  {
+    "id": 155,
+    "titulo": "Abd_Allah_Teacher_Healer",
+    "categoria": "desenvolvimento",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/51OwcnbBhkL._SL1360_.jpg",
+    "link": "https://drive.google.com/file/d/1iSihCgKPqZwfdILZ6SkMadNShHznMkFg/view?usp=drive_link",
+    "descricao": "Relato inspirador de cura espiritual e autoconhecimento."
+  },
+  {
+    "id": 156,
+    "titulo": "A Teoria Da Conspiração de Nós Dois - Talia Hibbert",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71uqywS8aZL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1qyeJYQ-_IuGrwmQapGcoau7IOI2A9B3B/view?usp=drive_link",
+    "descricao": "Comédia romântica com personagens carismáticos e uma trama envolvente."
+  },
+  {
+    "id": 157,
+    "titulo": "A razão do Amor",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81bkmJnflPL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/167RgfanBfnK-S2nv6Pz9-U0rUUxx0O_4/view?usp=drive_link",
+    "descricao": "Uma reflexão sobre os motivos que nos levam a amar e persistir."
+  },
+  {
+    "id": 158,
+    "titulo": "A natureza da mordida - Carla Madeira",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91B5NWWKuzL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1bh74JqmlAJzUsAwm1oWkC8BAaa_pt9qn/view?usp=drive_link",
+    "descricao": "Narrativa intensa sobre dor, obsessão e os limites do desejo humano."
+  },
+  {
+    "id": 159,
+    "titulo": "A Moreninha",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71P6H2vSsEL._SL1360_.jpg",
+    "link": "https://drive.google.com/file/d/123gIQn8hdEHdPSMENf1b5A0CiI3l_6Qa/view?usp=drive_link",
+    "descricao": "Clássico do romantismo brasileiro sobre amor juvenil e promessas do passado."
+  },
+  {
+    "id": 160,
+    "titulo": "A guarda-costas - Katherine Center",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81L+gOP5vRL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1gO9rPPFh76iK-sQU4MiD42z3KogYVvyg/view?usp=drive_link",
+    "descricao": "Uma guarda-costas precisa proteger um astro de cinema – e o amor pode estar no caminho."
+  },
+  {
+    "id": 161,
+    "titulo": "Amor Por Engano",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61NIKTSzi1L._SL1005_.jpg",
+    "link": "https://drive.google.com/file/d/1b9RPUG8c3hFkp-4y3a9resQl13Zw_oqj/view?usp=drive_link",
+    "descricao": "Encontros inesperados levam a um amor que ninguém esperava."
+  },
+  {
+    "id": 162,
+    "titulo": "A Casa dos 20",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/51XiRD9HjcL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1wdNRhx2ghtqoV3QIUbjb3TwS0hF9bdQ7/view?usp=drive_link",
+    "descricao": "Reflexões e descobertas de jovens na faixa dos 20 anos em uma casa compartilhada."
+  },
+  {
+    "id": 163,
+    "titulo": "Prometa Não Se Apaixonar",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71TGEtUpIVL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1vz6DEbqWXd98JXYZN6Vp_IFknml-XvB_/view?usp=drive_link",
+    "descricao": "Um pacto para não amar pode se tornar o começo de uma história inesquecível."
+  },
+  {
+    "id": 164,
+    "titulo": "Se Deus Me Chamar, Não Vou - Mariana Salomão",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81VxBlEGeTL.jpg",
+    "link": "https://drive.google.com/file/d/1dRXXvOPy0dDKWFEJUstN3f1IrAK8QHEO/view?usp=drive_link",
+    "descricao": "Crônica sensível sobre juventude, autodescoberta e espiritualidade."
+  },
+  {
+    "id": 165,
+    "titulo": "Antes Que Tudo Acabe - Jéssica Dias",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71UDjsw77BL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1MbWqxKC8agFGsfKox-VLOqur8EP9ZnNK/view?usp=drive_link",
+    "descricao": "Uma reflexão sobre o tempo, as escolhas e as perdas da vida."
+  },
+  {
+    "id": 166,
+    "titulo": "Talvez Você Deva Conversar com Alguém",
+    "categoria": "desenvolvimento",
+    "formato": "PDF",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwVBGzidneNWjj1OcP_TRNh3InZUrv5HnQRA&s",
+    "link": "https://drive.google.com/file/d/1NK20Zf-Erx2Fx9VJ95ucVgBOgHmf1ehY/view?usp=drive_link",
+    "descricao": "Uma terapeuta e seus pacientes – um olhar tocante sobre a psicoterapia."
+  },
+  {
+    "id": 167,
+    "titulo": "Minha Vida Com Os Garotos Walter - Ali Novak",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/511vqWRSpKL.jpg",
+    "link": "https://drive.google.com/file/d/1avGG7RhCQxyV41l6Y_1hU5jH2beIXesR/view?usp=drive_link",
+    "descricao": "Uma garota vai morar com uma família cheia de irmãos... e tudo muda."
+  },
+  {
+    "id": 168,
+    "titulo": "O Peso Do Pássaro Morto - Aline Bei",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61QCWnAtMJL.jpg",
+    "link": "https://drive.google.com/file/d/1k9AdseODy0rbUxdx1YB15tTwOsMhe0Py/view?usp=drive_link",
+    "descricao": "Poético e sensível, narra perdas e dores desde a infância até a vida adulta."
+  },
+  {
+    "id": 169,
+    "titulo": "Exu do Ouro - Rodrigo Queiroz",
+    "categoria": "desenvolvimento",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91RH3KUf5UL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1PpQ3DTYVr_ANtdajoke3LVyLKfPf6e8g/view?usp=drive_link",
+    "descricao": "Livro espiritual sobre a linha de Exu e sua atuação na prosperidade e equilíbrio."
+  },
+  {
+    "id": 170,
+    "titulo": "Antes Que o Café Esfrie - Toshikazu Kawaguchi",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71ebvuM3t-L._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1rO2IQvD1xubjw3Nmvm88YVTlHIXqg03r/view?usp=drive_link",
+    "descricao": "Em uma cafeteria, é possível viajar no tempo – mas apenas até o café esfriar."
+  },
+  {
+    "id": 171,
+    "titulo": "O Livro Que Gostaria Que Seus Pais Tivessem Lido - Philippa Perry",
+    "categoria": "desenvolvimento",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71BROqAwZtL.jpg",
+    "link": "https://drive.google.com/file/d/1CtRVdyuliyoAVegD2J3j5zEGbj5Pz6HG/view?usp=drive_link",
+    "descricao": "Reflexões práticas e emocionais para fortalecer vínculos entre pais e filhos."
+  },
+  {
+    "id": 172,
+    "titulo": "Quarto de Despejo",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71z42zpEwbL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1bzqw_HZi4J7N_ThpOQnkPx2j4K7mu4FN/view?usp=drive_link",
+    "descricao": "Diário real e impactante de Carolina Maria de Jesus sobre a vida na favela."
+  },
+  {
+    "id": 173,
+    "titulo": "Textos Cruéis Demais Para Serem Lidos Rapidamente",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61mzLkXJdXL._SL1360_.jpg",
+    "link": "https://drive.google.com/file/d/1bTODLq-qRTjFzTmSmHfoQqjE-HMV6pPS/view?usp=drive_link",
+    "descricao": "Textos e poesias que exploram a intensidade dos sentimentos humanos."
+  },
+  {
+    "id": 174,
+    "titulo": "Dry.",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71InG0u6nsL.jpg",
+    "link": "https://drive.google.com/file/d/1QguLaz4pCXJRnXMQbQlb7e4I4FdtVvLy/view?usp=drive_link",
+    "descricao": "Quando a água acaba na Califórnia, a sobrevivência se torna uma luta diária."
+  },
+  {
+    "id": 175,
+    "titulo": "Orgulho e Preconceito - Jane Austen",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71UHNHdoCqL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1GWwT-tqCE_37sPEmWgrBRcSEVcyaB7U4/view?usp=drive_link",
+    "descricao": "Clássico absoluto da literatura sobre orgulho, preconceito e amor improvável."
+  },
+  {
+    "id": 176,
+    "titulo": "Vencendo a Ansiedade",
+    "categoria": "desenvolvimento",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71TLZfo0tdL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/17rGySiJpQoJurhBU6hehTf8OdebdrpCb/view?usp=drive_link",
+    "descricao": "Técnicas e orientações para entender e superar a ansiedade no dia a dia."
+  },
   ];
 let currentPage = 1;
 const itemsPerPage = 25;
