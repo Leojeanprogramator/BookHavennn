@@ -1129,15 +1129,6 @@ const livros = [
     "descricao": "Quando a água acaba na Califórnia, a sobrevivência se torna uma luta diária."
   },
   {
-    "id": 175,
-    "titulo": "Orgulho e Preconceito - Jane Austen",
-    "categoria": "romance",
-    "formato": "PDF",
-    "img": "https://m.media-amazon.com/images/I/71UHNHdoCqL._SL1500_.jpg",
-    "link": "https://drive.google.com/file/d/1GWwT-tqCE_37sPEmWgrBRcSEVcyaB7U4/view?usp=drive_link",
-    "descricao": "Clássico absoluto da literatura sobre orgulho, preconceito e amor improvável."
-  },
-  {
     "id": 176,
     "titulo": "Vencendo a Ansiedade",
     "categoria": "desenvolvimento",
