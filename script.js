@@ -1351,7 +1351,7 @@ const livros = [
   
   ];
 let currentPage = 1;
-const itemsPerPage = 25;
+const itemsPerPage = 35;
 let currentFilter = 'todos';
 let currentSearch = '';
 
