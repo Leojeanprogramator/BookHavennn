@@ -4,7 +4,7 @@ const livros = [
     titulo: "As 48 Leis Do Poder",
     categoria: "desenvolvimento",
     Formato:"PDF",
-    img: "https://livrista.com.br/thumb/l600/capas/2014/7967/102690.jpg",
+    img: "https://m.media-amazon.com/images/I/81C6v0ElnxL._UF894,1000_QL80_.jpg",
     link: "https://drive.google.com/file/d/1o94RQQq9jDxRYNx9-N2Ud8JoUiDEW2h8/view?usp=drive_link",
     descricao: "Em As 48 leis do poder, o leitor aprende a manipular pessoas e situações para alcançar seus objetivos. E descobre por que alguns conseguem ser tão bem-sucedidos, enquanto outros estão sempre sendo passados para trás. Querer ser melhor do que o chefe, por exemplo, é um erro fatal."
   },
@@ -1129,14 +1129,226 @@ const livros = [
     "descricao": "Quando a água acaba na Califórnia, a sobrevivência se torna uma luta diária."
   },
   {
+    "id": 175,
+    "titulo": "Orgulho e Preconceito - Jane Austen",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71UHNHdoCqL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1GWwT-tqCE_37sPEmWgrBRcSEVcyaB7U4/view?usp=drive_link",
+    "descricao": "Clássico absoluto da literatura sobre orgulho, preconceito e amor improvável."
+  },
+  {
     "id": 176,
     "titulo": "Vencendo a Ansiedade",
     "categoria": "desenvolvimento",
     "formato": "PDF",
     "img": "https://m.media-amazon.com/images/I/71TLZfo0tdL._SL1500_.jpg",
-    "link": "https://drive.google.com/file/d/17rGySiJpQoJurhBU6hehTf8OdebdrpCb/view?usp=drive_link",
+    "link": "https://drive.google.com/file/d/17rGySiJpQoJurhBU6hehTf8OdebdrpCb/view?usp=sharing",
     "descricao": "Técnicas e orientações para entender e superar a ansiedade no dia a dia."
   },
+  {
+    "id": 177,
+    "titulo": "A Inconveniente Loja de Conveniência - Kim Ho-Yeon",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=EyVoEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1jW-6rCjaOGnOjb4AXX0P6Pit8DQwau3q/view?usp=drivesdk",
+    "descricao": "Uma história sensível sobre um jovem com dificuldades sociais que encontra estabilidade e propósito trabalhando em uma loja de conveniência."
+  },
+  {
+    "id": 178,
+    "titulo": "A Metamorfose - Franz Kafka",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/715JOcuqSSL._SL1021_.jpg",
+    "link": "https://drive.google.com/file/d/1UBtcKGmocKOBpYTYIsNRG-Wtpi1RWvMc/view?usp=drivesdk",
+    "descricao": "Um clássico da literatura que narra a transformação de Gregor Samsa em um inseto grotesco e o impacto disso em sua vida e família."
+  },
+  {
+    "id": 179,
+    "titulo": "A Professora - Freida McFadden",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=bGsiEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1iEQvB6y49qHEhu1qIYXFtdBR2NjhE0kd/view?usp=drivesdk",
+    "descricao": "Uma professora com um passado sombrio tenta proteger um aluno misterioso enquanto lida com seus próprios segredos."
+  },
+  {
+    "id": 180,
+    "titulo": "A Arte da Guerra - Sun Tzu",
+    "categoria": "desenvolvimento",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=TW5-uUZlkzIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1bqMQDuV_JkfM7OxCujgLeW2it6GgqkA_/view?usp=drivesdk",
+    "descricao": "Clássico da estratégia militar que também é amplamente aplicado no mundo dos negócios e desenvolvimento pessoal."
+  },
+  {
+    "id": 181,
+    "titulo": "A Hipótese do Amor - Ali Hazelwood",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81LTEfXYgcL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1XJjHYdRtQ9l5gO-ZujQatQURYg96JDPo/view?usp=drivesdk",
+    "descricao": "Uma comédia romântica envolvente entre uma estudante de PhD e um professor linha-dura, com toques de humor e ciência."
+  },
+  {
+    "id": 182,
+    "titulo": "Amêndoas - Won-pyung Sohn",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=4tawEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1DUEtaN5Oceso2Pnq5aMbTmh7TTUZaoti/view?usp=drivesdk",
+    "descricao": "Um jovem incapaz de sentir emoções embarca em uma jornada de autodescoberta e humanidade após um evento trágico."
+  },
+  {
+    "id": 183,
+    "titulo": "Amor, Teoricamente - Ali Hazelwood",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=BerIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1IKlOC-rntdDY5nQH_le29_5UG_5V8HeN/view?usp=drivesdk",
+    "descricao": "Uma física teórica precisa fingir estar apaixonada para manter sua carreira – até que o fingimento se torna real."
+  },
+  {
+    "id": 184,
+    "titulo": "Brisingr - Ciclo da Herança Vol. 3 - Christopher Paolini",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=43CqLq7TkroC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1s9Ft6XXIHEqkpcWShRslA7_wxQZfO0Pk/view?usp=drivesdk",
+    "descricao": "Eragon continua sua missão para derrotar o império de Galbatorix enquanto fortalece seus poderes como Cavaleiro de Dragão."
+  },
+  {
+    "id": 185,
+    "titulo": "Carrie Soto Está de Volta - Taylor Jenkins Reid",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=XLOFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1SNhEp7mgxVM4wwsqwhE6LN2xa7v_KktY/view?usp=drivesdk",
+    "descricao": "Uma lenda do tênis retorna à competição após anos de aposentadoria para reconquistar seu título e dignidade."
+  },
+  {
+    "id": 186,
+    "titulo": "Clube do Livro dos Homens - Lyssa Kay Adams",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=2mgNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1j_Gjx_RN-9dSwBsV_ydCnAwqmhnm5fnu/view?usp=drivesdk",
+    "descricao": "Homens formam um clube secreto para ler romances e salvar seus relacionamentos, provando que o amor pode ser aprendido."
+  },
+  {
+    "id": 187,
+    "titulo": "Murtagh - Christopher Paolini",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=mM5AEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/105rxPAAfETrSMDz_2kYhEodfYc5BgBe6/view?usp=drivesdk"
+  },
+  {
+    "id": 188,
+    "titulo": "Noiva - Ali Hazelwood",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=_7fvEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1ab1l2e3Pa5dUPbLFnp7Q4Es6QMMo4Ik_/view?usp=drivesdk"
+  },
+  {
+    "id": 189,
+    "titulo": "O cemiterio - Stephen King",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=bh5sSJhW81UC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1-Yt5p0vxQRXgI2y111k04Yc1OQqIu4V7/view?usp=drivesdk"
+  },
+  {
+    "id": 190,
+    "titulo": "O Despertar da Lua Caída - Sarah A. Parker",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=7hcXEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1BeoT5iUtYlriHVFLTrcwNKxEev24f8tG/view?usp=drivesdk"
+  },
+  {
+    "id": 191,
+    "titulo": "O massacre da família Hope",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=oQwSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1wZRvyPCErv-Nvsvvjq4zKqND50MlZajm/view?usp=drivesdk"
+  },
+  {
+    "id": 192,
+    "titulo": "O rei Elfo - Leia Stone",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=c3tEEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1ZHSnU9ZINsTfnWy8yGAnojrPU_L4p0xc/view?usp=drivesdk"
+  },
+  {
+    "id": 193,
+    "titulo": "O Casal que Mora Ao Lado - Shari Lapena",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81Nxysd0pFL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/19SDCeBvwWxzaY4nNIxjPyHmyCsGCgMKB/view?usp=drivesdk"
+  },
+  {
+    "id": 194,
+    "titulo": "Ondas do Oeste - Série Bússola Vol. 3 - Brittainy C. Cherry",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=HEiMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1Yt2zKQtP3Y6QPmObPFBTUtEK8dF1yrhS/view?usp=drivesdk"
+  },
+  {
+    "id": 195,
+    "titulo": "Parte do seu Mundo - Abby Jimenez",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=mSQhEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1W0hTsH1Q4Cg-r9kZ7KYn4eR0O-OHp82E/view?usp=drivesdk"
+  },
+  {
+    "id": 196,
+    "titulo": "Powerful - Lauren Roberts",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=l63-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1SPrTBDNNHrvoL-2J86NvaIHiRvjZFmuo/view?usp=drivesdk"
+  },
+  {
+    "id": 197,
+    "titulo": "Powerless - Lauren Roberts",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=QkTAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1f-stw-2voQEXKxjFtTtLGJb8xRxukZQZ/view?usp=drivesdk"
+  },
+  {
+    "id": 198,
+    "titulo": "Quebrando o gelo - Hannah Grace",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=yonAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/16RlZnB6iNn9cfIyy-b4yj8gYvbkYKFun/view?usp=drivesdk"
+  },
+  {
+    "id": 199,
+    "titulo": "Queria morrer, mas no céu não tem tteokbokki - Baek Sehee",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=W-y2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/10kalRzlCE0ETKryK0DNE6nR9uef4GZ33/view?usp=drivesdk"
+  },
+  {
+    "id": 200,
+    "titulo": "Quem é voce, Alasca - John Green",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=npWMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/12bXOz205CFhumH8QZ0wgSQFoHdqVYL5B/view?usp=drivesdk"
+  },
+  
   ];
 let currentPage = 1;
 const itemsPerPage = 25;
@@ -1280,10 +1492,24 @@ function toggleMenuCategorias() {
     btn.setAttribute('aria-expanded', 'true');
   }
 }
-
 window.onload = () => {
   mostrarPagina(1);
 
+  document.querySelector('.logo').addEventListener('click', () => {
+    // Define a categoria como 'todos'
+    filtrar('todos');
+
+    // Rola suavemente para a seção inicial
+    const hero = document.getElementById('heroSection');
+    if (hero) {
+      hero.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Garante que a visualização do catálogo esteja ativa
+    voltarCatalogo();
+  });
+
+  // outros event listeners que você já tem, por exemplo:
   document.getElementById('searchInput')?.addEventListener('input', buscar);
 
   document.querySelectorAll('.categoria-btn').forEach(btn => {
