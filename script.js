@@ -2397,15 +2397,6 @@ const livros = [
     "descricao": "Livro para reflexão sobre autoconhecimento e identidade."
   },
   {
-    "id": 329,
-    "titulo": "Alasca? - John Green",
-    "categoria": "romance",
-    "formato": "PDF",
-    "img": "https://books.google.com/books/content?id=npWMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "link": "https://drive.google.com/file/d/1mZwLHycfdL35IUZ31ea_XQFMH9f3x1bz/view?usp=drivesdk",
-    "descricao": "Romance juvenil com reflexões sobre a vida e a morte."
-  },
-  {
     "id": 330,
     "titulo": "Rainha das Chamas - Laura Sebastian",
     "categoria": "fantasia",
