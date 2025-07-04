@@ -1983,15 +1983,6 @@ const livros = [
     "descricao": "Continuação de O Iluminado: Danny Torrance luta com demônios internos e ajuda uma menina com poderes semelhantes."
   },
   {
-    "id": 280,
-    "titulo": "Viveram Felizes Para Sempre",
-    "categoria": "romance",
-    "formato": "PDF",
-    "img": "https://books.google.com/books/content?id=U39ADQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "link": "https://drive.google.com/file/d/1KFELAFRKAo104V0osHvlqxDxd8y27c1V/view?usp=drive_link",
-    "descricao": "Compilação de contos finais e epílogos de casais da série Bridgerton, reunindo finais reconfortantes e felizes."
-  },
-  {
     "id": 281,
     "titulo": "Eclipse Total",
     "categoria": "terror",
@@ -2095,7 +2086,7 @@ const livros = [
     "titulo": "Homem-Formiga",
     "categoria": "aventura",
     "formato": "PDF",
-    "img": "https://books.google.com/books/content?id=71G4344ZlVL._SL1000_.jpg",
+    "img": "https://www.livrariamegafauna.com.br/wp-content/uploads/2024/01/9786599972539-e1706816416529.png",
     "link": "https://drive.google.com/file/d/11e6zlPH0ZksXBeroJDcos_fEB1MZbxNq/view?usp=drivesdk",
     "descricao": "Scott Lang assume seus poderes, enfrentando vilões e equilibrando vida pessoal e heroica."
   },
@@ -2370,15 +2361,6 @@ const livros = [
     "descricao": "Continuação da história de Sir Philip, com muito romance e drama."
   },
   {
-    "id": 323,
-    "titulo": "Percy Jackson e os Deuses Gregos - Rick Riordan",
-    "categoria": "fantasia",
-    "formato": "PDF",
-    "img": "https://books.google.com/books/content?id=_2gtBgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "link": "https://drive.google.com/file/d/1L-T067hXpJ7WRTmn8bF-Dt6uUO4Ite2R/view?usp=drive_link",
-    "descricao": "Relatos dos mitos gregos recontados pelo personagem Percy Jackson."
-  },
-  {
     "id": 324,
     "titulo": "Percy Jackson e os Heróis Gregos - Rick Riordan",
     "categoria": "fantasia",
@@ -2386,15 +2368,6 @@ const livros = [
     "img": "https://books.google.com/books/content?id=_2gtBgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "link": "https://drive.google.com/file/d/1L-T067hXpJ7WRTmn8bF-Dt6uUO4Ite2R/view?usp=drivesdk",
     "descricao": "Exploração dos heróis da mitologia grega com o toque Riordan."
-  },
-  {
-    "id": 325,
-    "titulo": "Pesadelos e Paisagens Noturnas (Volume 1) - Stephen King",
-    "categoria": "terror",
-    "formato": "PDF",
-    "img": "https://books.google.com/books/content?id=nDkqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "link": "https://drive.google.com/file/d/1Hp27NCUTxo4XgpiUb6bnriFFivZoYbfP/view?usp=drive_link",
-    "descricao": "Coleção de contos assustadores de Stephen King."
   },
   {
     "id": 326,
