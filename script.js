@@ -1348,10 +1348,1192 @@ const livros = [
     "img": "https://books.google.com/books/content?id=npWMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "link": "https://drive.google.com/file/d/12bXOz205CFhumH8QZ0wgSQFoHdqVYL5B/view?usp=drivesdk"
   },
-  
+  {
+    "id": 201,
+    "titulo": "The Dark One",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91L305UUPuL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1TVGDk_m6ju_ajPkl78POoYSGaao9HTVH/view?usp=drivesdk",
+    "descricao": "A sombria continuação de The Never King, com magia sombria e paixão perigosa."
+  },
+  {
+    "id": 202,
+    "titulo": "Um Encontro não tão Inocente",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=G5G4EAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/19BsbSZqufZpizk7_9GN48o8v1bIK6b2S/view?usp=drivesdk",
+    "descricao": "Julie Murphy entrega um romance leve e divertido sobre amor e autoconfiança."
+  },
+  {
+    "id": 203,
+    "titulo": "De Olho em Você",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=5HWeEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1-qPIxJFkVYwff8-uIuNuI3gPaRD9dv5d/view?usp=drivesdk",
+    "descricao": "Amy Lea apresenta uma comédia romântica encantadora com personagens cativantes."
+  },
+  {
+    "id": 204,
+    "titulo": "Aprendiz do Vilão",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=5s1AEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1rZ2BHnwfdn-7D9HbrMKcBK1zDF8VXFqf/view?usp=drivesdk",
+    "descricao": "Uma aventura mágica entre bem e mal com um toque de romance e humor."
+  },
+  {
+    "id": 205,
+    "titulo": "Minha Culpa",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=XTYFEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1EKg_NBIv3Gm9WznkEHBMyW5WB4XIjMCR/view?usp=drivesdk",
+    "descricao": "Mercedes Ron entrega um drama romântico intenso e cheio de reviravoltas."
+  },
+  {
+    "id": 206,
+    "titulo": "Uma Mulher na Escuridão",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=gpfKEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1JQdkHbSRn4rFuGTnM2VlHSq75JXTCcMX/view?usp=drivesdk",
+    "descricao": "Charlie Donlea conduz um thriller envolvente com segredos, mistério e tensão."
+  },
+  {
+    "id": 207,
+    "titulo": "No Calor do Momento",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=S9L9EAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1pRzvgmG2-QWRNLb-_mKpr3oNfzSWm6uf/view?usp=drivesdk",
+    "descricao": "Hannah Grace retorna com um romance universitário cativante, com tensão e química no ar."
+  },
+  {
+    "id": 208,
+    "titulo": "Garotas de Neve e Vidro",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/617a89W+a-L._SL1280_.jpg",
+    "link": "https://drive.google.com/file/d/1wYdhbCbH7ku9sx9LnXqBtbj38aPo3x4z/view?usp=drivesdk",
+    "descricao": "Melissa Bashardoust reinventa o conto da Branca de Neve com um olhar sombrio e feminista."
+  },
+  {
+    "id": 209,
+    "titulo": "As Irmãs Blue",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=bpUDEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1Jj8OFgjqpSL412uS_WDsTxRgbiA-iopn/view?usp=drivesdk",
+    "descricao": "Coco Mellors explora laços familiares, traumas e segredos entre três irmãs intensas."
+  },
+  {
+    "id": 210,
+    "titulo": "Uma Alma de Cinzas e Sangue",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=1eLoEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1KTPtkIykTmjjGmL0zFChwTCn2v3vD4Jb/view?usp=drivesdk",
+    "descricao": "Quinto volume da série Sangue e Cinzas, com batalhas épicas e revelações impactantes."
+  },
+  {
+        "id": 221,
+        "titulo": "A Guerra das Duas Rainhas - Sangue e Cinzas Vol. 4",
+        "autor": "Jennifer L. Armentrout",
+        "categoria": "fantasia",
+        "formato": "PDF",
+        "img": "https://books.google.com/books/content?id=fZmgEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+        "link": "https://drive.google.com/file/d/1lfa-JpK88K-4yo63MKyJ0NJC4vJ8DazX/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 222,
+        "titulo": "King of Scars - Nikolai Duology - Vol. 1",
+        "autor": "Leigh Bardugo",
+        "categoria": "fantasia",
+        "formato": "PDF",
+        "img": "https://m.media-amazon.com/images/I/A1205lr1SwL._SL1500_.jpg",
+        "link": "https://drive.google.com/file/d/1qEyvfd56rmBZtqkck3zyyKZI397x1Xqw/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 223,
+        "titulo": "Em Rota de Colisão",
+        "autor": "Bal Khabra",
+        "categoria": "romance",
+        "formato": "PDF",
+        "img": "https://books.google.com/books/content?id=_5gUEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+        "link": "https://drive.google.com/file/d/1-6zZ1f6bAx-KarzYBu_8Jpd2ONe7hsc8/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 224,
+        "titulo": "O Amor das Nossas Vidas",
+        "autor": "Axie Oh",
+        "categoria": "romance",
+        "formato": "PDF",
+        "img": "https://books.google.com/books/content?id=97MIEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+        "link": "https://drive.google.com/file/d/1BqMa5N2GBpmQt1KDMFc9Wm58AMXjClNH/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 225,
+        "titulo": "Minha Melhor Parte",
+        "autor": "Hannah Bonam-Young",
+        "categoria": "romance",
+        "formato": "PDF",
+        "img": "https://m.media-amazon.com/images/I/81A7dIAnhhL._SL1500_.jpg",
+        "link": "https://drive.google.com/file/d/1YgPgxFyA-a2fXmEZFMr8MNpDbFWaYrsu/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 226,
+        "titulo": "Termos e Condições para o Amor - Bilionários de Dreamland Vol. 2",
+        "autor": "Lauren Asher",
+        "categoria": "romance",
+        "formato": "PDF",
+        "img": "https://books.google.com/books/content?id=W0jJEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+        "link": "https://drive.google.com/file/d/1ZFKloDwB8oZdkItnGbJ-TSZvcMYazFNH/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 227,
+        "titulo": "Oferta Final: Para o Amor",
+        "autor": "Lauren Asher",
+        "categoria": "romance",
+        "formato": "PDF",
+        "img": "https://books.google.com/books/content?id=SzUFEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+        "link": "https://drive.google.com/file/d/1f29h0I8ornuRjp6Q57LrvmfCnuiDsGzx/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 228,
+        "titulo": "Amor nas Entrelinhas",
+        "autor": "Lauren Asher",
+        "categoria": "romance",
+        "formato": "PDF",
+        "img": "https://books.google.com/books/content?id=DmSFEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+        "link": "https://drive.google.com/file/d/1uv0Z-IZqY5_PtIxgE5uV0aA8VLNTty9E/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 229,
+        "titulo": "Império dos Malditos",
+        "autor": "Jay Kristoff",
+        "categoria": "fantasia",
+        "formato": "PDF",
+        "img": "https://books.google.com/books/content?id=pJhAEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+        "link": "https://drive.google.com/file/d/1RuPt8Yf9bRzteeLZ5pxXpRIBH1UorHXd/view?usp=drivesdk",
+        "descricao": ""
+    },
+    {
+        "id": 230,
+        "titulo": "Caçador sem Coração",
+        "autor": "Kristen Ciccarelli",
+        "categoria": "fantasia",
+        "formato": "PDF",
+        "img": "https://m.media-amazon.com/images/I/819kt0LhQmL._SL1500_.jpg",
+        "link": "https://drive.google.com/file/d/1Q8YwZTVNaCy3A3QreO7aF4Rc2hJviXka/view?usp=drivesdk",
+        "descricao": ""
+    },
+  {
+    "id": 231,
+    "titulo": "Caída Por Você",
+    "autor": "Amy Lea",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91kjbYlntsL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/17H_n3cbto015UxszMkIpLQvA8CCLvinY/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 232,
+    "titulo": "O Reaparecimento de Rachel Price",
+    "autor": "Holly Jackson",
+    "categoria": "mistério",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81fzWwt4BnL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1W6Aoc2Vr15cG5JDL5yR56IHGnIRzanoO/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 233,
+    "titulo": "Um Encantamento Delicado",
+    "autor": "Allison Saft",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=fYEZEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1ytRHPp37hpin8GBOYPK3sFuVZg_9vt9U/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 234,
+    "titulo": "Sem Coração",
+    "autor": "Elsie Silver",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=JnAqEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1MKLpTTYSwN9rkAAeA4KmsizUKJX53n4l/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 235,
+    "titulo": "Sem Defeitos",
+    "autor": "Elsie Silver",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91oxxhsqgqL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/167cU1pP_rP_7lz8e6lwq91BAH2bwpsAX/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 236,
+    "titulo": "Para Sir Philip, Com Amor",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=AG0mBgAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1EJPpNI7mZRdUdG8SCkI9zKrAbzuzQuSa/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 237,
+    "titulo": "Os Segredos de Colin Bridgerton",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/9142-aLfqDL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1epUdmKHLyDgKT-V3c08rfXNicXL4Qwg2/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 238,
+    "titulo": "O Visconde Que Me Amava",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=hSNnAAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1DfZuF6ohCzNv7DzJB1kwCsMaLbqsp87C/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 239,
+    "titulo": "Nada Escapa a Lady Whistledown",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=pl9RDwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1o6SJrjM_tpKMHU9Mr0qBkv10f_zYMGkD/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 240,
+    "titulo": "Lady Whistledown Contra-Ataca",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61voPQfhfEL._SL1006_.jpg",
+    "link": "https://drive.google.com/file/d/1nw8-m0I8RbZ-KvpzJeUii76po2l_W1mK/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 241,
+    "titulo": "E Viveram Felizes Para Sempre",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=U39ADQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1KFELAFRKAo104V0osHvlqxDxd8y27c1V/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 242,
+    "titulo": "A Caminho do Altar",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=dxUiDAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1gx_20X52r_5yBJZrnHjKgWrpDXbB9cJB/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 243,
+    "titulo": "O Conde Enfeitiçado",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=5rctCgAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1GuT12Vc0AmR1z3uo1zGVR9EeosP-Q1b7/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 244,
+    "titulo": "Um Perfeito Cavalheiro",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=EBaHAgAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1bxFoU_TRdag6vUFKR6Oit7Dj0YUqbXvh/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 245,
+    "titulo": "Um Beijo Inesquecível",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61RwAQuKKHL._SL1006_.jpg",
+    "link": "https://drive.google.com/file/d/10Ln2WbMv4l2T-djArC_nnRflhsqsg0-b/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 246,
+    "titulo": "O Duque e Eu",
+    "autor": "Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81+gwbkDUtL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1qH5XR0xCU1y1fEkxSVw_YQHMITDP-1rl/view?usp=drivesdk",
+    "descricao": ""
+  },
+  {
+    "id": 247,
+    "titulo": "Caminho do Altar",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=dxUiDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/17zJb-RHV5bxs1xgJZyGC0EU7wVTaKhUL/view?usp=drivesdk",
+    "descricao": "Último volume da série Os Bridgertons, acompanha Gregory em busca de seu grande amor enquanto enfrenta desafios inesperados."
+  },
+  {
+    "id": 248,
+    "titulo": "Casa de Hades",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61D7SPJIzmL._SL1000_.jpg",
+    "link": "https://drive.google.com/file/d/1ZbEsdo8vg8ceqFZpdIz2uiNmAc2Q4SQe/view?usp=drivesdk",
+    "descricao": "Percy e Annabeth enfrentam os horrores do Tártaro enquanto seus amigos buscam uma maneira de salvá-los no mundo mortal."
+  },
+  {
+    "id": 249,
+    "titulo": "Culpa É Das Estrelas",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=0Ce7HDOnNFMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1jQxo-LXIvjunF4_KOLNEVtU_EDOW7hfM/view?usp=drivesdk",
+    "descricao": "Uma história emocionante sobre dois adolescentes com câncer que descobrem o amor e enfrentam a fragilidade da vida com sensibilidade e humor."
+  },
+  {
+    "id": 250,
+    "titulo": "Dança da Morte",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=sjkqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1hTdz3RQD9eDVqsb7nZmvUiJR1B57Z7Z7/view?usp=drivesdk",
+    "descricao": "Uma praga mortal devasta a humanidade, dando início a uma batalha épica entre o bem e o mal no estilo apocalíptico de Stephen King."
+  },
+  {
+    "id": 251,
+    "titulo": "A Garota que Adorava Tom Gordon",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/916oPkdzlDL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/14BoQNBiYo6IFLp1fPtOwaRlJpWo401Sj/view?usp=drivesdk",
+    "descricao": "Uma menina se perde na floresta e enfrenta perigos reais e sobrenaturais, guiada apenas pela voz de seu ídolo do beisebol no rádio."
+  },
+  {
+    "id": 252,
+    "titulo": "A Hora do Vampiro",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81ryDLGSF6L._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1XRiEUp-XjNomz0aBEBRjWlYOtu1QiI2q/view?usp=drivesdk",
+    "descricao": "Vampiros tomam conta de uma cidade do interior, enquanto um pequeno grupo de moradores tenta conter a ameaça sobrenatural."
+  },
+  {
+    "id": 253,
+    "titulo": "A Longa Marcha",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=soGUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1isSK2jv2OPe4zLlWeHfYg1-L_LXz_oFM/view?usp=drivesdk",
+    "descricao": "Um concurso mortal onde cem adolescentes devem caminhar sem parar até restar apenas um vencedor, em uma crítica brutal à sociedade."
+  },
+  {
+    "id": 254,
+    "titulo": "A Marca de Atena",
+    "categoria": "aventura",
+    "img": "https://books.google.com/books/content?id=SM6CmHdXw90C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1p3yDXf-pU502StvB14Mcvx6Fvu2g-kNk/view?usp=drivesdk",
+    "descricao": "Annabeth parte em uma missão perigosa guiada por um chamado ancestral de Atena, enfrentando novos desafios mitológicos."
+  },
+  {
+    "id": 255,
+    "titulo": "A Memória de Babel",
+    "categoria": "fantasia",
+    "img": "https://m.media-amazon.com/images/I/A10XPALvX7L._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1AqRV8dxmrenWlH9lmImh3lgUIXGTJ_as/view?usp=drivesdk",
+    "descricao": "Ofelia busca respostas em uma torre de conhecimento e segredos, enfrentando jogos políticos e dilemas pessoais."
+  },
+  {
+    "id": 256,
+    "titulo": "A Princesa das Cinzas",
+    "categoria": "fantasia",
+    "img": "https://books.google.com/books/content?id=kwduDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1Wa_AucreBDDFQFVk5PCy-qb8tigZTS-M/view?usp=drivesdk",
+    "descricao": "Uma princesa rebelde tenta retomar seu trono roubado e vingar a destruição de seu povo sob o domínio de um império tirano."
+  },
+  {
+    "id": 257,
+    "titulo": "A Tempestade de Ecos",
+    "categoria": "fantasia",
+    "img": "https://m.media-amazon.com/images/I/A1VWDfME0tL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1t_m727hvQyLvG83-a6Hm1EEDGysLlMxI/view?usp=drivesdk",
+    "descricao": "Ofélia continua explorando a intrigante Torre de Babel, enfrentando surpresas mágicas e alianças perigosas."
+  },
+  {
+    "id": 258,
+    "titulo": "Almanaque Heartstopper",
+    "categoria": "ficcao",
+    "img": "https://books.google.com/books/content?id=0cJZ0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1iPdQ54NKGa8BM5grb6Nt7zt1LJtNj3j6/view?usp=drivesdk",
+    "descricao": "Compilação dos bastidores, ilustrações e curiosidades da popular série de graphic novel LGBTQIA+ Heartstopper."
+  },
+  {
+    "id": 259,
+    "titulo": "Antropoceno - Notas Sobre a Vida na Terra",
+    "categoria": "desenvolvimento",
+    "img": "https://books.google.com/books/content?id=obs8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1xPdgw3wbL8BUPpUOssKmQL4Z1eJJDKrX/view?usp=drivesdk",
+    "descricao": "Análise reflexiva sobre a era em que vivemos, os impactos humanos no planeta e desafios para o futuro da vida."
+  },
+  {
+    "id": 260,
+    "titulo": "As Crianças do Milharal",
+    "categoria": "terror",
+    "img": "https://books.google.com/books/content?id=JjwqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/15Bh2ygVGcydaDix3NnJxvHs5ejJ4_SWV/view?usp=drivesdk",
+    "descricao": "Um fazendeiro e sua família enfrentam forças sobrenaturais e eventos macabros após eventos estranhos em um milharal."
+  },
+  {
+    "id": 261,
+    "titulo": "Batman",
+    "categoria": "aventura",
+    "img": "https://books.google.com/books/content?id=GNRreYO91ogC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1FwUCKOAJWesLIsmm8-bVY69s0aZdXu6i/view?usp=drivesdk",
+    "descricao": "História em quadrinhos ou romance que acompanha as origens e desafios do herói mascarado de Gotham."
+  },
+  {
+    "id": 262,
+    "titulo": "Criaturas da Noite",
+    "categoria": "fantasia",
+    "img": "https://m.media-amazon.com/images/I/71qMXU7uBnL._SL1006_.jpg",
+    "link": "https://drive.google.com/file/d/1FwUCKOAJWesLIsmm8-bVY69s0aZdXu6i/view?usp=drivesdk",
+    "descricao": "Rivalidades entre bestas sobrenaturais emergem em um contexto urbano, com criaturas sombrias lutando por poder."
+  },
+  {
+    "id": 263,
+    "titulo": "Capitã Marvel - A Ascenção Da Starforce",
+    "categoria": "aventura",
+    "img": "https://books.google.com/books/content?id=_k_YDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1_oz9rbhqNZRZ0XSPMLqkKWsZrlXiyqUw/view?usp=drivesdk",
+    "descricao": "Crônica da origem de Carol Danvers enquanto ela treina com a força militar intergaláctica Starforce."
+  },
+  {
+    "id": 264,
+    "titulo": "Capitão América - Designios Sombrios",
+    "categoria": "aventura",
+    "img": "https://books.google.com/books/content?id=DtlVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1KcNAd4TUTr5tDeNwowM2N-8_-y_R6odd/view?usp=drivesdk",
+    "descricao": "Steve Rogers enfrenta dilemas éticos e missões perigosas enquanto lida com segredos e conspirações."
+  },
+  {
+    "id": 265,
+    "titulo": "Carrie",
+    "categoria": "terror",
+    "img": "https://books.google.com/books/content?id=gm1_ZjzjEboC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1d2vrs3EpCtjEWFRhrzUsjkE085BSXQzv/view?usp=drivesdk",
+    "descricao": "Adolescente com poderes telecinéticos lida com bullying extremo e desencadeia uma vingança sangrenta."
+  },
+  {
+    "id": 266,
+    "titulo": "Celular",
+    "categoria": "terror",
+    "img": "https://books.google.com/books/content?id=h85mDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/10_JFqu_jT2qKAX3UaMlc9Al9CKmQ-EhS/view?usp=drivesdk",
+    "descricao": "Após um misterioso replay de chamadas perdidas, um homem é envolvido em uma batalha mortal com tecnologia macabra."
+  },
+  {
+    "id": 267,
+    "titulo": "Cidades de Papel",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=xYtfAAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/13UBJjXqzMqg-wXPOtPkfMAuYTgbdx3yL/view?usp=drivesdk",
+    "descricao": "Quentin embarca em uma busca misteriosa por Margo, atravessando pistas enigmáticas e repensando quem ela realmente é."
+  },
+  {
+    "id": 268,
+    "titulo": "Conto de Fadas",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=1gCBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1darvPSCkuk_Nsc0A9gSVLOvtNT-xSKaP/view?usp=drivesdk",
+    "descricao": "Um narrador perturbado promete contar um conto de fadas moderno... e oferece uma arma para você decidir seu próprio final."
+  },
+  {
+    "id": 269,
+    "titulo": "Corações na Atlântida",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81Xqr-Kt3EL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1JiCjwfblZY728xJBMFdPnxPC3_fXmq--/view?usp=drivesdk",
+    "descricao": "Histórias entrelaçadas em torno de amizade, inocência perdida e o impacto da guerra na vida de crianças e adultos."
+  },
+  {
+    "id": 270,
+    "titulo": "Cujo",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=mwhODQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1TgN4KQ9E0Fphy6BIs_QHJHU15FW9YxVm/view?usp=drivesdk",
+    "descricao": "Um cão São Bernardo raivoso aterroriza uma mãe e seu filho presos em um carro, em um pesadelo claustrofóbico e aterrorizante."
+  },
+  {
+    "id": 271,
+    "titulo": "Dama da Névoa",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=2oXVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1eciTF9Qt1MXtVQvXg6H0i0Lpg4sNHMvE/view?usp=drivesdk",
+    "descricao": "Em um reino mágico, uma jovem herdeira luta para recuperar seu poder e salvar seu povo das sombras da névoa."
+  },
+  {
+    "id": 272,
+    "titulo": "Dança Macabra",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=JO91pSLUREAC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/14iByrX0hrfRDTrmeZzjOHxN1bMKKOopf/view?usp=drivesdk",
+    "descricao": "Um estudo eclético do terror moderno, reunindo contos, ensaios e reflexões sobre o gênero e suas influências culturais."
+  },
+  {
+    "id": 273,
+    "titulo": "Deixe a Neve Cair",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71coRYssz8S._SL1223_.jpg",
+    "link": "https://drive.google.com/file/d/1kYpvcghF6jruRJSbL-RrV4m5CMadTi8J/view?usp=drivesdk",
+    "descricao": "Três histórias interligadas acontecem em uma véspera de Natal nevada, revelando o poder do destino e do amor."
+  },
+  {
+    "id": 274,
+    "titulo": "Maureen Johnson",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=cgt7tgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/19ioDddHUfgVjWGsdbZuKm5V4Bk81R96N/view?usp=drivesdk",
+    "descricao": "Obra de Maureen Johnson (título genérico fornecido), contendo aventuras e mistérios típicos da autora jovem- adulta."
+  },
+  {
+    "id": 275,
+    "titulo": "Lauren Myracle",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=e2-OswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1kYpvcghF6jruRJSbL-RrV4m5CMadTi8J/view?usp=drivesdk",
+    "descricao": "Livro da autora Lauren Myracle (título genérico), explorando temas adolescentes com sensibilidade e humor."
+  },
+  {
+    "id": 276,
+    "titulo": "Demolidor - O Homem Sem Medo",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=yfw6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1ShP-Uug4JOZGm_k9gE7vE6tDA8qedITa/view?usp=drivesdk",
+    "descricao": "Matt Murdock encara seus medos e justiça em Hell’s Kitchen, emergindo como o herói cego conhecido como Demolidor."
+  },
+  {
+    "id": 277,
+    "titulo": "Desaparecidos em Luz da Lua",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81-xbIAL87L._SL1447_.jpg",
+    "link": "https://drive.google.com/file/d/1MxambaimHFMRmyccFSErE9ZO3SBYmTdo/view?usp=drivesdk",
+    "descricao": "Christelle Dabos introduz novas personagens em um universo mágico, entrelaçadas por desaparecimentos misteriosos e clima onírico."
+  },
+  {
+    "id": 278,
+    "titulo": "Desespero",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=kDK2jEA4faEC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1PqkLw1kXsrH1gln2wHn3dRSax0A5oWiy/view?usp=drivesdk",
+    "descricao": "Moradores de uma estrada deserta enfrentam o terror absoluto quando um misterioso xerife tenta destruí-los psicologicamente."
+  },
+  {
+    "id": 279,
+    "titulo": "Doutor Sono",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=UPewBAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1993smWndOW9VHVIPiJvQHTQRPJRl58CA/view?usp=drivesdk",
+    "descricao": "Continuação de O Iluminado: Danny Torrance luta com demônios internos e ajuda uma menina com poderes semelhantes."
+  },
+  {
+    "id": 280,
+    "titulo": "Viveram Felizes Para Sempre",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=U39ADQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1KFELAFRKAo104V0osHvlqxDxd8y27c1V/view?usp=drive_link",
+    "descricao": "Compilação de contos finais e epílogos de casais da série Bridgerton, reunindo finais reconfortantes e felizes."
+  },
+  {
+    "id": 281,
+    "titulo": "Eclipse Total",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=PbrvEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/19XYmOuNHvMk76t5mLnANr1vWRSbBpPXy/view?usp=drivesdk",
+    "descricao": "Durante um eclipse solar, uma cidade é consumida por acontecimentos macabros e forças inexplicáveis."
+  },
+  {
+    "id": 282,
+    "titulo": "Fúria",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=ruX0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1RWfTjoMamql8rYJHZ8sPs9iA5KwY5Ooz/view?usp=drivesdk",
+    "descricao": "Coleção de contos sombrios de Stephen King explorando violência, obsessão e a fragilidade psicológica."
+  },
+  {
+    "id": 283,
+    "titulo": "Guardiões da Galáxia: Rocket Raccoon e Groot",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=39nFCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1ORRIo865bjp8INj7wxFxWVV7aa-bjT2j/view?usp=drivesdk",
+    "descricao": "Rocket e Groot se envolvem em uma missão cheia de humor e ação intergaláctica."
+  },
+  {
+    "id": 284,
+    "titulo": "Guerras Secretas",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=zzrT0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/10HQA-o4gE7B6EDni5vL9c96lUAY2xkRF/view?usp=drivesdk",
+    "descricao": "Super-heróis e vilões são transportados para um planeta de batalha, enfrentando desafios épicos entre si."
+  },
+  {
+    "id": 285,
+    "titulo": "Heartstopper",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=_IG3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1iPdQ54NKGa8BM5grb6Nt7zt1LJtNj3j6/view?usp=drivesdk",
+    "descricao": "Charlie e Nick iniciam um relacionamento adorável e cheio de descobertas sobre identidade e amizade."
+  },
+  {
+    "id": 286,
+    "titulo": "Heartstopper Vol 2",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=p2q_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/18l9Tk74ycpd5hHb5Oa2C-iXE2PoTy681/view?usp=drivesdk",
+    "descricao": "Continuação doce e sensível do relacionamento de Charlie e Nick, com novos desafios emocionais."
+  },
+  {
+    "id": 287,
+    "titulo": "Heartstopper Vol 3 (espanhol)",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=Pah_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1iPLkd8hBQUeKk_v16niFn52cOYu_WEAh/view?usp=drivesdk",
+    "descricao": "Terceira edição da série em espanhol, acompanhando o crescimento emocional dos protagonistas."
+  },
+  {
+    "id": 288,
+    "titulo": "Heartstopper Vol 4 (inglês)",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=ahz3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1MC2r1PCSMikXsaU_BquWTR_VA5ALGhPQ/view?usp=drivesdk",
+    "descricao": "Versão em inglês do quarto volume, onde Charlie e Nick enfrentam os altos e baixos do amor."
+  },
+  {
+    "id": 289,
+    "titulo": "Homem-Aranha: Entre Trovões",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=r2rkCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1wnRzZ2x7S48sX-1zLbUYG6yK3mxYKpVv/view?usp=drive_link",
+    "descricao": "Peter Parker enfrenta novas ameaças em meio a tempestades emocionais e desafios de super-herói."
+  },
+  {
+    "id": 290,
+    "titulo": "Homem de Ferro - A Manopla",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81M12t4IY2L._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1rdkX6lLb3DpRgCqeZObKzNxC4KtyGEHK/view?usp=drivesdk",
+    "descricao": "Tony Stark enfrenta uma nova tecnologia poderosa, enquanto seu legado é testado sob grandes riscos."
+  },
+  {
+    "id": 291,
+    "titulo": "Homem de Ferro: Vírus",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=_y9tCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1onMCo46CiU7qJK2gH9gbKWWf54D2KKKx/view?usp=drivesdk",
+    "descricao": "Stark investiga um vírus tecnológico que ameaça destruir sua armadura e o equilíbrio global."
+  },
+  {
+    "id": 292,
+    "titulo": "Homem-Formiga",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=71G4344ZlVL._SL1000_.jpg",
+    "link": "https://drive.google.com/file/d/11e6zlPH0ZksXBeroJDcos_fEB1MZbxNq/view?usp=drivesdk",
+    "descricao": "Scott Lang assume seus poderes, enfrentando vilões e equilibrando vida pessoal e heroica."
+  },
+  {
+    "id": 293,
+    "titulo": "It: A Coisa",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=tDkqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1-EEa91x-u_wUKaNspGIgOSzcctQ0AkF5/view?usp=drivesdk",
+    "descricao": "Uma entidade maligna em forma de palhaço aterroriza crianças em Derry, forçando um grupo a enfrentar traumas do passado."
+  },
+  {
+    "id": 294,
+    "titulo": "Lady Whistledown Contra-Ataca",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=L7iZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1nw8-m0I8RbZ-KvpzJeUii76po2l_W1mK/view?usp=drive_link",
+    "descricao": "Lady Whistledown desafia convenções sociais ao proteger segredos que podem abalar a alta sociedade."
+  },
+  {
+    "id": 295,
+    "titulo": "Loki - Onde Mora a Trapaça - Mackenzi Lee",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=L6PYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1K7c07UOBQswBZGQyvGTjbuxfgjbsyNR0/view?usp=drivesdk",
+    "descricao": "Uma história de fantasia centrada no deus da trapaça, Loki."
+  },
+  {
+    "id": 296,
+    "titulo": "Mulher-Gato: Ladra de Almas - Sarah J. Maas",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71cvduH725L._SL1020_.jpg",
+    "link": "https://drive.google.com/file/d/1PJVVNpfa2okt68tG3pFNv_ywj68PW2mj/view?usp=drivesdk",
+    "descricao": "Aventure-se com a icônica Mulher-Gato em uma trama repleta de fantasia."
+  },
+  {
+    "id": 297,
+    "titulo": "Mulher-Maravilha: Sementes da Guerra - Leigh Bardugo",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/711NDLOUTFL._SL1006_.jpg",
+    "link": "https://drive.google.com/file/d/1vBHkm2oiN-kt5jqPU0y_UXPnXG-4RfmG/view?usp=drivesdk",
+    "descricao": "A origem e batalhas da Mulher-Maravilha em uma narrativa fantástica."
+  },
+  {
+    "id": 298,
+    "titulo": "Nada Escapa a Lady Whistledown - Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=pl9RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1o6SJrjM_tpKMHU9Mr0qBkv10f_zYMGkD/view?usp=drive_link",
+    "descricao": "Romance regado a intrigas sociais no estilo clássico de Julia Quinn."
+  },
+  {
+    "id": 299,
+    "titulo": "Novos Vingadores: Motim - Alisa Kwitney",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=2KmiDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/16vSPlwm4zdRFPpp7N_tC7RkxR7_bJYK5/view?usp=drivesdk",
+    "descricao": "Ação e aventura com os heróis dos Novos Vingadores em meio a um motim."
+  },
+  {
+    "id": 300,
+    "titulo": "O Apanhador de Sonhos - Stephen King",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=3RgzAAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1FduUAoif3v1lB0D_pEpXcw4teFnUNmbU/view?usp=drivesdk",
+    "descricao": "Clássico do terror sobre amizade e forças sobrenaturais."
+  },
+  {
+    "id": 301,
+    "titulo": "O Concorrente - Stephen King",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=7jkqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/108Qr4xc2la8m3dRdznG7RaPQqMSA2A8Y/view?usp=drivesdk",
+    "descricao": "Suspense envolvente de Stephen King sobre competição e perigo."
+  },
+  {
+    "id": 302,
+    "titulo": "O Conde Enfeitiçado - Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=5rctCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1GuT12Vc0AmR1z3uo1zGVR9EeosP-Q1b7/view?usp=drivesdk",
+    "descricao": "Romance histórico cheio de charme e encantos."
+  },
+  {
+    "id": 303,
+    "titulo": "O Duque e Eu - Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91LzeKCuAGL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1QcW8fyAi0Id_ZkrhWtWoUIn9npucXP6J/view?usp=drivesdk",
+    "descricao": "Romance histórico, início da popular série Bridgerton."
+  },
+  {
+    "id": 304,
+    "titulo": "O Filho de Netuno - Rick Riordan",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=CRP4nUi3pSIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1YWRwTCLA8i1NPe-aXAbNAsLUfD2QGsI_/view?usp=drivesdk",
+    "descricao": "Aventura fantástica no universo mitológico de Rick Riordan."
+  },
+  {
+    "id": 305,
+    "titulo": "O Filho Rebelde - Rainbow Rowell",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=nBIBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/15HQYH5wf5VTwd3JCvPirVZp_117Tpb8o/view?usp=drivesdk",
+    "descricao": "Romance contemporâneo explorando temas familiares e pessoais."
+  },
+  {
+    "id": 306,
+    "titulo": "O Herói Perdido - Rick Riordan",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=6R5XCabaEd4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1tspWcOSksMtx-t_HnahUgELurjTyf_7V/view?usp=drivesdk",
+    "descricao": "Mais uma aventura fantástica no universo mitológico de Rick Riordan."
+  },
+  {
+    "id": 307,
+    "titulo": "O Nevoeiro - Stephen King",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=QO9hBAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1S-XkkegCfaqrCbw9PPlLTiR1xiI1ZIxn/view?usp=drivesdk",
+    "descricao": "Um nevoeiro misterioso traz horrores indescritíveis numa pequena cidade."
+  },
+  {
+    "id": 308,
+    "titulo": "O Sangue do Olimpo - Rick Riordan",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=IVBEBAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1kRMJ-hHT2JFBdfCJJ_Ojk04RZRfJRpdb/view?usp=drivesdk",
+    "descricao": "A batalha final dos semideuses contra forças antigas do Olimpo."
+  },
+  {
+    "id": 309,
+    "titulo": "O Talismã - Stephen King",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=zIO1a3RR4lwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1K_wnhKBlz-4FfjqMmBBlW9zO4Hyg-8al/view?usp=drivesdk",
+    "descricao": "Uma jornada épica por mundos paralelos em busca de um talismã mágico."
+  },
+  {
+    "id": 310,
+    "titulo": "O Teorema Katherine - John Green",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=F2MTgBpMt5MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1BfBlYI7pL1O46hYqEHmW7QhS9s1z4DWO/view?usp=drivesdk",
+    "descricao": "Romance jovem adulto com muito humor e reflexões sobre relacionamentos."
+  },
+  {
+    "id": 311,
+    "titulo": "O Toque da Vampira - Christine Woodward",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=c2NtCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1gWo95OH0Q-LnoJigvVHtl2fkIZrbciUL/view?usp=drivesdk",
+    "descricao": "Uma história envolvente de vampiros e mistérios sobrenaturais."
+  },
+  {
+    "id": 312,
+    "titulo": "O Visconde Que Me Amava - Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=hSNnAAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1DfZuF6ohCzNv7DzJB1kwCsMaLbqsp87C/view?usp=drive_link",
+    "descricao": "Romance histórico com intrigas e paixão na Inglaterra do século XIX."
+  },
+  {
+    "id": 313,
+    "titulo": "Os Diários do Semideus - Rick Riordan",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=viYSygyffLQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1jlSkWohlXj7wUW-YJsEBtFnz-dyhwgWy/view?usp=drivesdk",
+    "descricao": "Coleção de diários que revelam os segredos dos heróis mitológicos."
+  },
+  {
+    "id": 314,
+    "titulo": "Os Estranhos - Stephen King",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=GeWhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1BNaBMQ_yM9zk4IiZj0BJAePlNuRwMD2U/view?usp=drivesdk",
+    "descricao": "Terror psicológico envolvendo seres estranhos e situações sinistras."
+  },
+  {
+    "id": 315,
+    "titulo": "Os Noivos do Inverno - Christelle Dabos",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=Oq-xDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1uwe3t5FQPSL0U2HPRJSVjgqmDiEUPf3h/view?usp=drivesdk",
+    "descricao": "Fantasia em um mundo gelado com mistérios e personagens cativantes."
+  },
+  {
+    "id": 316,
+    "titulo": "Os Segredos de Colin Bridgerton - Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/813yhDOya5L._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1epUdmKHLyDgKT-V3c08rfXNicXL4Qwg2/view?usp=sharing",
+    "descricao": "Mais um romance histórico da famosa série Bridgerton."
+  },
+  {
+    "id": 317,
+    "titulo": "Os Últimos Dias de Krypton - Kevin J. Anderson",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=VxDwTkDWwAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1xmVgl-kzcpM46QaUzeFHTYyX_eYfIS5z/view?usp=drivesdk",
+    "descricao": "Ficção científica sobre os últimos momentos do planeta Krypton."
+  },
+  {
+    "id": 318,
+    "titulo": "Os Vingadores: O Destino Chega - Liza Palmer",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=ikzYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1WKbRcxda165Y9peWnK7wEVopp05sg2-m/view?usp=drivesdk",
+    "descricao": "Aventura de ação com os famosos heróis dos Vingadores."
+  },
+  {
+    "id": 319,
+    "titulo": "Pantera Negra - Quem é o Pantera Negra?",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=quro0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1K741F28QxCfM8tFk-MpiWLjcwPDskmwV/view?usp=drivesdk",
+    "descricao": "História e aventuras do herói Pantera Negra."
+  },
+  {
+    "id": 320,
+    "titulo": "Pantera Negra: O Jovem Príncipe - Ronald L. Smith",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/911yE+9oF2L._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1E9OwJLjiuk_tshmme_ouejQM62bh-xLS/view?usp=drivesdk",
+    "descricao": "A origem do Pantera Negra, focando no jovem príncipe de Wakanda."
+  },
+  {
+    "id": 321,
+    "titulo": "Para Sir Philip",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=AG0mBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1EJPpNI7mZRdUdG8SCkI9zKrAbzuzQuSa/view?usp=drivesdk",
+    "descricao": "Romance histórico envolvente com temas de amor e honra."
+  },
+  {
+    "id": 322,
+    "titulo": "Para Sir Philip, Com Amor - Julia Quinn",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=AG0mBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1EJPpNI7mZRdUdG8SCkI9zKrAbzuzQuSa/view?usp=drive_link",
+    "descricao": "Continuação da história de Sir Philip, com muito romance e drama."
+  },
+  {
+    "id": 323,
+    "titulo": "Percy Jackson e os Deuses Gregos - Rick Riordan",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=_2gtBgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1L-T067hXpJ7WRTmn8bF-Dt6uUO4Ite2R/view?usp=drive_link",
+    "descricao": "Relatos dos mitos gregos recontados pelo personagem Percy Jackson."
+  },
+  {
+    "id": 324,
+    "titulo": "Percy Jackson e os Heróis Gregos - Rick Riordan",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=_2gtBgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1L-T067hXpJ7WRTmn8bF-Dt6uUO4Ite2R/view?usp=drivesdk",
+    "descricao": "Exploração dos heróis da mitologia grega com o toque Riordan."
+  },
+  {
+    "id": 325,
+    "titulo": "Pesadelos e Paisagens Noturnas (Volume 1) - Stephen King",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=nDkqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1Hp27NCUTxo4XgpiUb6bnriFFivZoYbfP/view?usp=drive_link",
+    "descricao": "Coleção de contos assustadores de Stephen King."
+  },
+  {
+    "id": 326,
+    "titulo": "Pesadelos e Paisagens Noturnas (Volume 2) - Stephen King",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=nDkqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/18ditGUHfuUn6wNDRzixpPZpvAYOqsSVY/view?usp=drive_link",
+    "descricao": "Continuação da antologia de contos de terror de Stephen King."
+  },
+  {
+    "id": 327,
+    "titulo": "Planeta Hulk - Greg Pak",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=BFFyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/15U9HrN-pFpGTVYyA99tTIg-fw33oCPup/view?usp=drivesdk",
+    "descricao": "A saga do Hulk exilado em um planeta alienígena."
+  },
+  {
+    "id": 328,
+    "titulo": "Quem é Você",
+    "categoria": "autoajuda",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=Udbg5QLui_0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1mZwLHycfdL35IUZ31ea_XQFMH9f3x1bz/view?usp=drivesdk",
+    "descricao": "Livro para reflexão sobre autoconhecimento e identidade."
+  },
+  {
+    "id": 329,
+    "titulo": "Alasca? - John Green",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=npWMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1mZwLHycfdL35IUZ31ea_XQFMH9f3x1bz/view?usp=drivesdk",
+    "descricao": "Romance juvenil com reflexões sobre a vida e a morte."
+  },
+  {
+    "id": 330,
+    "titulo": "Rainha das Chamas - Laura Sebastian",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71PgisgY+uL._SL1439_.jpg",
+    "link": "https://drive.google.com/file/d/1AfaMxpAXLpmIzuTMLmbJWB-LSaqKsuNy/view?usp=drivesdk",
+    "descricao": "Uma história épica de fantasia com uma rainha poderosa."
+  },
+  {
+    "id": 331,
+    "titulo": "Sempre em Frente - Rainbow Rowell",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=oBIBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1L_bxavbyMQtgLIG63nwLWHXy0fPMII6N/view?usp=drivesdk",
+    "descricao": "Romance contemporâneo com toques de amadurecimento."
+  },
+  {
+    "id": 332,
+    "titulo": "Sob a Redoma - Stephen King",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=dfkoAAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1CZjsdZlspoIQviYlGg1ZB9FH7_92dD7g/view?usp=drivesdk",
+    "descricao": "Cidade aprisionada sob uma cúpula misteriosa e ameaçadora."
+  },
+  {
+    "id": 333,
+    "titulo": "Tartarugas Até Lá Embaixo - John Green",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=94wwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1yl5c3Rj6huOS8V8-fjn78i7o7phKgNNM/view?usp=drivesdk",
+    "descricao": "História sobre amizade, amor e transtornos mentais."
+  },
+  {
+    "id": 334,
+    "titulo": "Thanos: Sentença de Morte - Stuart Moore",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=-aRaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1PCMc5OJYHPUg2sIWqEKyDeKzViMUO4Xv/view?usp=drivesdk",
+    "descricao": "A saga do vilão Thanos com ação e conflito intergaláctico."
+  },
+  {
+    "id": 335,
+    "titulo": "Venha O Que Vier - Rainbow Rowell",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=EA0zEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1ACVdJa8fDRYJMQeodXlj3rWPSvbp4rqv/view?usp=drivesdk",
+    "descricao": "Romance contemporâneo com emoções profundas."
+  },
+  {
+    "id": 336,
+    "titulo": "Vingadores: Todos Querem Dominar o Mundo - Dan Abnett",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=GWptCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1_3HPiFIYYvGiU8A31qxl6PDTBQYJ0ivY/view?usp=drive_link",
+    "descricao": "Ação e aventura com os heróis dos Vingadores."
+  },
+  {
+    "id": 337,
+    "titulo": "Wayne de Gotham - Tracy Hickman",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=ymXjZwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1usNcFLSW49iYyxPPyRHolkn6ALn5kisp/view?usp=drive_link",
+    "descricao": "História sobre o jovem Bruce Wayne antes de se tornar Batman."
+  },
+  {
+    "id": 338,
+    "titulo": "X-Men: Dias de um Futuro Esquecido - Alex Irvine",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=uH-KDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1XeT5gPgaaoK4F4ZN7VmMdzh8SGnwJYVJ/view?usp=drivesdk",
+    "descricao": "Aventura dos mutantes X-Men com viagem no tempo."
+  },
+  {
+    "id": 339,
+    "titulo": "X-Men: Espelho Negro - Marjorie M. Liu",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=znVtCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1n_HyptQ8xBiJOTcvtL6WceK7aYilakGm/view?usp=drivesdk",
+    "descricao": "História dos X-Men com ação e drama intenso."
+  },
+  {
+    "id": 340,
+    "titulo": "Zona Morta - Stephen King",
+    "categoria": "terror",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=7PCuDgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1-fOXJB4UsCIMwlRfH59PpHxOAZwM0MLG/view?usp=drivesdk",
+    "descricao": "Terror e suspense com um homem que desenvolve poderes psíquicos."
+  }
   ];
 let currentPage = 1;
-const itemsPerPage = 35;
+const itemsPerPage = 25;
 let currentFilter = 'todos';
 let currentSearch = '';
 
