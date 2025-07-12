@@ -2494,6 +2494,1068 @@ const livros = [
     "img": "https://books.google.com/books/content?id=7PCuDgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "link": "https://drive.google.com/file/d/1-fOXJB4UsCIMwlRfH59PpHxOAZwM0MLG/view?usp=drivesdk",
     "descricao": "Terror e suspense com um homem que desenvolve poderes psíquicos."
+  },
+  {
+    "id": 342,
+    "titulo": "A Verdade Sobre O Caso Harry Quebert - Joël Dicker",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=GkO9EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1t2Rpq1Je2jkFMLm4UH8W20S81XxkI5qu/view?usp=drivesdk",
+    "descricao": "Um jovem escritor tenta desvendar o assassinato de uma jovem em uma pequena cidade americana. A busca pela verdade o leva a confrontar segredos enterrados e a questionar tudo o que acreditava sobre seu mentor literário."
+  },
+  {
+    "id": 343,
+    "titulo": "A Viúva Silenciosa - Sidney Sheldon",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=qK9yDwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1Y-BVCGuwAWE1lzKMIeEJE3Q9gVrTxoZf/view?usp=drivesdk",
+    "descricao": "Uma mulher é acusada de assassinar o marido, um renomado professor. A medida que a investigação se desenrola, segredos obscuros vêm à tona, colocando em dúvida sua inocência e revelando um passado sombrio."
+  },
+  {
+    "id": 344,
+    "titulo": "Absolutamente Romântico - Lyssa Kay Adams",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=UaKmEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1PIdXjsQpR3A-7ohhKLLlMRCyUf40mb_H/view?usp=drivesdk",
+    "descricao": "Um astro do esporte e uma curadora de museu são forçados a trabalhar juntos em um projeto de caridade. Entre faíscas e desentendimentos, um romance improvável começa a florescer — com muitas reviravoltas e risos garantidos."
+  },
+  {
+    "id": 345,
+    "titulo": "Academia dos Casos Arquivados - Jennifer Lynn Barnes",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81Lh-feDbxL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1ndUZVhQHG6rSJBNB4QFe36KaxmFmoKMJ/view?usp=drivesdk",
+    "descricao": "Um grupo seleto de adolescentes com habilidades excepcionais é recrutado pelo FBI para resolver casos arquivados. Quando um crime pessoal atinge o time, eles devem usar tudo que sabem para descobrir a verdade antes que seja tarde demais."
+  },
+  {
+    "id": 346,
+    "titulo": "Amar e Assim - Dolly Alderton",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61i43q6LGlL._SL1005_.jpg",
+    "link": "https://drive.google.com/file/d/1vxFYqbjwkbeodZmATniLnHYmkmWLgfKj/view?usp=drivesdk",
+    "descricao": "Uma comédia romântica moderna sobre encontros, desencontros e o caos dos relacionamentos contemporâneos. Com humor e sensibilidade, o livro retrata os altos e baixos de se apaixonar no século 21."
+  },
+  {
+    "id": 347,
+    "titulo": "Amor em Manhattan - Sarah Margaret Morgan",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81UeP7LVpFL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1IHzMEO2557jkD_B2uDBjyUNEXFrrAqPr/view?usp=drivesdk",
+    "descricao": "Três amigas em Nova York enfrentam o amor, o trabalho e a vida com coragem e paixão. Entre encontros desastrosos e amizades verdadeiras, o romance floresce nas esquinas de Manhattan."
+  },
+  {
+    "id": 348,
+    "titulo": "Amor nas Entrelinhas - Lauren Asher",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=DmSFEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/12D8kA-jHFNPgbAtLNaW_2PRSzu5jyQ72/view?usp=drivesdk",
+    "descricao": "Quando um autor recluso se vê obrigado a contratar uma assistente para terminar seu próximo best-seller, o que começa como uma parceria profissional se transforma em algo muito mais profundo — e perigoso para o coração."
+  },
+  {
+    "id": 349,
+    "titulo": "Apostando no amor - Lynn Painter",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=cQxIEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1YoSq6cUbBPYwExS932-fXbJhJoJbl-3Q/view?usp=drivesdk",
+    "descricao": "Dois colegas de trabalho decidem fingir um namoro para provocar seus chefes... mas o que era para ser um plano divertido se transforma em um jogo arriscado quando sentimentos reais entram em cena."
+  },
+  {
+    "id": 350,
+    "titulo": "A Quinta Estação - N. K. Jemisin",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81Qnzqi3XlL._SL1447_.jpg",
+    "link": "https://drive.google.com/file/d/1CMYm-mQZXyXB6P57lNOK0KFShN7MuOOK/view?usp=drivesdk",
+    "descricao": "Em um mundo devastado por cataclismos constantes, uma mulher parte em uma jornada desesperada para salvar sua filha — e talvez, o mundo. Uma fantasia poderosa sobre destruição, sobrevivência e o poder oculto da terra."
+  },
+  {
+    "id": 351,
+    "titulo": "Arqui Inimigos - Renegados - Vol. 02 - Marissa Meyer",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=sSN-EAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1MRHFhnXeexELtiCAlxOWdAnvPhRG6LEi/view?usp=drivesdk",
+    "descricao": "Nova lida com as consequências de suas escolhas ao lado de Adrian, enfrentando reviravoltas em Gatlon City onde a linha entre herói e vilão se torna ainda mais tênue."
+  },
+  {
+    "id": 352,
+    "titulo": "As Irmãs Blue - Coco Mellors",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=bpUDEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1zYzALiRuesppBc0696ZzS70jnNv9qIht/view?usp=drivesdk",
+    "descricao": "Um drama familiar intenso sobre duas irmãs ligadas pelo trauma e segredos do passado, que precisam decidir se irão se proteger ou destruir uma à outra."
+  },
+  {
+    "id": 353,
+    "titulo": "Beleza Perversa - Katee Robert",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=f4MBEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1b_zhu5OPkGl4w6KmgpP2jnfvEJFhL61j/view?usp=drivesdk",
+    "descricao": "Num romance moderno e sensual, uma jovem embarca num jogo de sedução e poder ao se envolver com um magnata enigmático e cheio de segredos."
+  },
+  {
+    "id": 354,
+    "titulo": "Belo mundo, onde você está - Sally Rooney",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=1585EAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1tG4V1zqXNsD_6yjcZF5K8xfziRcnPPas/view?usp=drivesdk",
+    "descricao": "Continuação de \"Normal People\", este romance acompanhando Connell, Marianne e suas relações, explorando amor, ansiedade e as complexas conexões que os unem."
+  },
+  {
+    "id": 355,
+    "titulo": "Binding 13 - Boys of Tommen Vol. 1 - Chloe Walsh",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=ATgXEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1R2F6dqD0X0PeEQ8wXam6aLqti-lGjtpn/view?usp=drivesdk",
+    "descricao": "Em uma academia de elite para herdeiros, uma jovem questiona a si mesma e seus sentimentos ao se envolver com um atleta misterioso e intenso."
+  },
+  {
+    "id": 356,
+    "titulo": "Birthday Girl - O Presente Perfeito - Penelope Douglas",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/812vpGMUUBL._SL1500_.jpg",
+    "link": "https://drive.google.com/file/d/1q7z_DcOlElJcSo8fEwYhR3PLdIlH_5Ph/view?usp=drivesdk",
+    "descricao": "Um encontro casual num café muda a vida de uma jovem no dia do seu aniversário, despertando uma conexão inesperada e avassaladora."
+  },
+  {
+    "id": 357,
+    "titulo": "Casa de Chama e Sombra Vol. 3 - Sarah J. Maas",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=zg1YEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1Onbn5zZZP8-ikV8gPS9XfL_4fNUleHav/view?usp=drivesdk",
+    "descricao": "A conclusão épica da trilogia: Feyre e Rhysand enfrentam poderes antigos e ameaças finais, selando seu destino e o do reino das sombras."
+  },
+  {
+    "id": 358,
+    "titulo": "Chama de Ferro - Rebecca Yarros",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=56YVEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1szhj1qso9DHNOkMZ2FIPVdEnh6j_W4Q9/view?usp=drivesdk",
+    "descricao": "Em um mundo onde magia e guerra colidem, uma piloto com poderes extraordinários deve escolher entre seu dever militar e seu coração."
+  },
+  {
+    "id": 359,
+    "titulo": "Cinderela Está Morta - Kalynn Bayron",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=EfsbEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1FccilaQezFUhT3CQBxwjsRzn_3M8HWEM/view?usp=drivesdk",
+    "descricao": "Uma releitura sombria de Cinderela, onde uma jovem rebelde desafia as tradições e tenta libertar seu reino de uma monarquia opressora."
+  },
+  {
+    "id": 360,
+    "titulo": "Conclave - Penelope Douglas",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81ULqUzT74L._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1Ba49S_HV1_jOIHBurB0ma11pesQBZuzU/view?usp=drivesdk",
+    "descricao": "Quando uma peregrinação secreta reúne um grupo de jovens, paixões proibidas surgem. Em meio ao sagrado e ao segredo, os corações se inflamam."
+  },
+  {
+    "id": 361,
+    "titulo": "Confesse - Colleen Hoover",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91JhEqiauUL._UF1000,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/18X8ezDkHSk__sLfAgR0D2f1HgUnFnu2b/view?usp=drivesdk",
+    "descricao": "Uma artista luta para lembrar seu passado enquanto se conecta com um homem que ganha dinheiro compartilhando os segredos dos outros. Um romance emocionante com segredos artísticos."
+  },
+  {
+    "id": 362,
+    "titulo": "Corrupt - Penelope Douglas",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91EEn1ZVw+L._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1pgTEA_Wb9IG3s2vaMepIxM-pyH4xweUG/view?usp=drivesdk",
+    "descricao": "Após um acidente traumático, uma mulher enfrenta seu passado e sua vingança em um universo de poder, queima de reputações e redescoberta."
+  },
+  {
+    "id": 363,
+    "titulo": "Credence - Quebrando as Regras - Penelope Douglas",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81XTUIDHP+L._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1XmdMcE4DscDkWvFmRfZIi0e96EfSUK7u/view?usp=drivesdk",
+    "descricao": "Uma história de segunda chance e redenção, onde dois ex–amantes se reencontram e enfrentam os medos do passado enquanto tentam quebrar barreiras para ficarem juntos."
+  },
+  {
+    "id": 364,
+    "titulo": "De Olho em Você - Amy Lea",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=5HWeEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1aqaJ0RGefeeLFjUIGbtoCXSGh_Z8On2l/view?usp=drivesdk",
+    "descricao": "Um thriller romântico onde um universitário consegue o emprego dos sonhos cuidando de uma estrela do cinema. À medida que a paixão cresce, segredos perigosos vêm à tona."
+  },
+  {
+    "id": 365,
+    "titulo": "Deuses de Neon - Dark Olympus Vol. 1 - Katee Robert",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81ueRKFOrPL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1DbFFwzsrTLOgPNcUzfQMiLtIg6UK_Emp/view?usp=drivesdk",
+    "descricao": "Na mitologia moderna, Deusa e mortal colidem quando uma jovem herdeira se vê envolvida em um mundo perigoso de deuses neoliberais em Las Vegas."
+  },
+  {
+    "id": 366,
+    "titulo": "Divinos Rivais - Rebecca Ross",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/810NKENMWoL.jpg",
+    "link": "https://drive.google.com/file/d/1u75RHqwrtPa4txxG6YBwrjsX3Kzll_xG/view?usp=drivesdk",
+    "descricao": "Em um reino marcado por rivalidades entre deuses antigos, jovens heróis enfrentam conflitos de poder, lealdade e magia para salvar seu mundo da destruição."
+  },
+  {
+    "id": 367,
+    "titulo": "Dois Erros, um Acerto - Irmãs Wilmot Vol. 1 - Chloe Liese",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81pLpCoHQVL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1hxtmWHvEDzEfTql3Utur-VRJujTrjHkJ/view?usp=drivesdk",
+    "descricao": "Entre encontros inesperados e segredos familiares, duas irmãs descobrem que o amor pode surgir nas situações mais improváveis e transformar suas vidas para sempre."
+  },
+  {
+    "id": 368,
+    "titulo": "Dungeons & Drama - Kristy Boyce",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=U2rAEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1g6iXjnBMWcUrzEj6OWaG6ZI8yzLb4-Wy/view?usp=drivesdk",
+    "descricao": "Uma aventura apaixonante entre jogos de RPG e sentimentos reais, onde duas jovens aprendem que a vida e o amor podem ser tão imprevisíveis quanto uma masmorra cheia de surpresas."
+  },
+  {
+    "id": 369,
+    "titulo": "Em Busca de um Novo Amanhã - Sidney Sheldon",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=WRX3DAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/18KWHMgwy28XfJAeUo0tBKlbNB0DbLLU9/view?usp=drivesdk",
+    "descricao": "Um thriller envolvente onde personagens enfrentam traições, segredos e um futuro incerto, lutando para recomeçar em meio ao caos e às mentiras."
+  },
+  {
+    "id": 370,
+    "titulo": "Em Outra Vida Talvez - Taylor Jenkins Reid",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=lexHDwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1VnhVz3px9Mw6iQuqneX2firdR6qjmVgK/view?usp=drivesdk",
+    "descricao": "Dois amantes se reencontram após anos, confrontando escolhas do passado e refletindo sobre as vidas que poderiam ter vivido, em uma história de amor e destino."
+  },
+  {
+    "id": 371,
+    "titulo": "Era uma vez um coração partido - Stephanie Garber",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=Oh9iEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1VRVRm0rCJDiNsGO7V5DiSETAlpg1lGwn/view?usp=drivesdk",
+    "descricao": "Em um universo encantado, uma jovem enfrenta desafios mágicos e perigosos para curar um coração partido, descobrindo sua verdadeira força e coragem."
+  },
+  {
+    "id": 372,
+    "titulo": "Escolhas de um Verão - Dahlia Adler",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=dzfpEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1HtDZKRWJOGn8KOu3sDj0_YwC5mJG2dG_/view?usp=drivesdk",
+    "descricao": "Durante um verão inesquecível, decisões amorosas e amizades profundas mudam o rumo da vida de jovens que buscam seu lugar no mundo e no coração uns dos outros."
+  },
+  {
+    "id": 373,
+    "titulo": "Estrelas nas Sombras - Marie Lu",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=1VHXEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/14m4voMlmr2nbW2RnymD8n_sTtPpuMQMu/view?usp=drivesdk",
+    "descricao": "Numa galáxia onde a rebelião e o poder se enfrentam, jovens guerreiros lutam por justiça e sobrevivência, enquanto segredos do passado ameaçam destruir tudo."
+  },
+  {
+    "id": 375,
+    "titulo": "Estupidamente Apaixonados - Lyssa Kay Adams",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=jkyGEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1FV-aL_K8pHq2SGXnGBfcICXoUgFcoYr2/view?usp=drivesdk",
+    "descricao": "Uma história leve e divertida sobre o amor inesperado, onde duas pessoas com personalidades opostas descobrem que, às vezes, apaixonar-se faz mesmo sentido."
+  },
+  {
+    "id": 376,
+    "titulo": "Finais Violentos Vol. 2 - Chloe Gong",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=AJWsEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1IkFN8nZM_jqOGlrv_NqEOuCbyiXCQjUQ/view?usp=drivesdk",
+    "descricao": "Continuação intensa de uma saga de traição, romance e guerra, onde alianças são testadas e a luta pelo poder traz consequências violentas."
+  },
+  {
+    "id": 377,
+    "titulo": "Fire Night - Penelope Douglas",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81N2LTYRWiL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1i3IiOsKRpZCv3Xc1r7ZlvPmesUm_rxHy/view?usp=drivesdk",
+    "descricao": "Em meio a uma cidade em chamas, dois jovens enfrentam seus passados turbulentos e encontram um amor intenso e transformador."
+  },
+  {
+    "id": 378,
+    "titulo": "Girls Like Girls - Hayley Kiyoko",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=tFmBEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1-5iYWeYdLlmnHBi64IKOouGMGHIJuO5n/view?usp=drive_link",
+    "descricao": "Uma narrativa emocionante sobre amor e descoberta, onde jovens mulheres exploram suas identidades e sentimentos em busca da verdadeira conexão."
+  },
+  {
+    "id": 379,
+    "titulo": "Herdeiro Caído - The Royals - Vol. 04 - Erin Watt",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/819CGo7V4dL._UF1000,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/18EdrEMANWC0vXtGUO0JHaAtJhrgfSmre/view?usp=drivesdk",
+    "descricao": "O quarto volume da série The Royals traz intrigas, poder e romance, onde o herdeiro enfrenta desafios para proteger seu legado e o amor verdadeiro."
+  },
+  {
+    "id": 380,
+    "titulo": "Hideaway - Devil's Night Vol. 2 - Penelope Douglas",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91Iym6-6xML._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1QytO9YJqVMFVWgTVvPnVp4QHZaHiTzqL/view?usp=drivesdk",
+    "descricao": "Seguindo os eventos sombrios de Devil’s Night, este volume traz mistério, vingança e uma busca implacável por justiça em um cenário cheio de perigos."
+  },
+  {
+    "id": 381,
+    "titulo": "Ídolo Elétrico - Dark Olympus Vol. 2 - Katee Robert",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61HRbAp7AyL.jpg",
+    "link": "https://drive.google.com/file/d/1s2r3OeR_lcJ4ax7t9shwuYMzI9Iq13Uv/view?usp=drivesdk",
+    "descricao": "Segunda parte da saga Dark Olympus, onde deuses e mortais se enfrentam em batalhas intensas de poder, paixão e traição no mundo da mitologia reinventada."
+  },
+  {
+    "id": 382,
+    "titulo": "Império dos Malditos - Jay Kristoff",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=gb4WEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1WckS6Gzs38FHighFPITKatPeS5qmOJ7l/view?usp=drivesdk",
+    "descricao": "Um universo sombrio e épico onde reinos guerreiros lutam pelo domínio, entre intrigas, batalhas sangrentas e segredos ancestrais que podem mudar o destino do mundo."
+  },
+  {
+    "id": 383,
+    "titulo": "Keeping 13 - Boys of Tommen Vol. 2 - Chloe Walsh",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=cp7tEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1_pgz6b0mgpoLUexTJl6L0GDGHM_ZGwVN/view?usp=drivesdk",
+    "descricao": "Continuação da série Boys of Tommen, revelando novos desafios e conexões emocionais entre personagens que buscam amor e redenção em meio a dramas intensos."
+  },
+  {
+    "id": 384,
+    "titulo": "Kill Switch - Penelope Douglas",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91Lv8AOyXnL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1F6WQOUQY-QnPkWEc4bspoKn1YOUx0GxC/view?usp=drivesdk",
+    "descricao": "Um suspense eletrizante onde um segredo pode custar vidas, e personagens precisam desvendar mistérios perigosos antes que seja tarde demais."
+  },
+  {
+    "id": 385,
+    "titulo": "Landon & Shay Vol. 2 - Brittainy Cherry",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=mhj9EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1rIV34u8ucKJxbDEGeUKIAxUbT-FuwGC-/view?usp=drivesdk",
+    "descricao": "Continuação emocional da história de Landon e Shay, explorando os desafios do amor, perdão e esperança em meio a dificuldades pessoais."
+  },
+  {
+    "id": 386,
+    "titulo": "Big Rock - Lauren Blekely",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81uMShFGWmL.jpg",
+    "link": "https://drive.google.com/file/d/14xwa0-a9V9QA_wp690FJ0dFDJmSAWeA2/view?usp=drive_link",
+    "descricao": "Um romance contemporâneo divertido e sensual sobre encontros inesperados, química avassaladora e a busca pelo amor verdadeiro."
+  },
+  {
+    "id": 387,
+    "titulo": "Layla - Colleen Hoover",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91-M+6ZOjuL._UF1000,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/14fWSIMI3M77e9mpXisJ10sccouEjn-xI/view?usp=drivesdk",
+    "descricao": "Um suspense psicológico que mistura amor, perda e mistério, onde um casal precisa confrontar seus maiores medos para encontrar a verdade."
+  },
+  {
+    "id": 388,
+    "titulo": "Lembranças da Meia-Noite - Sidney Sheldon",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71ul+6k6TvL._UF1000,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1SWCpgDaXZvdEwju00Z4ZRtvkAabTdse_/view?usp=drivesdk",
+    "descricao": "Mistério e suspense se entrelaçam enquanto um passado obscuro ressurge, ameaçando destruir vidas e revelar segredos guardados por décadas."
+  },
+  {
+    "id": 389,
+    "titulo": "Loucos Por Livros - Emily Henry",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=A6q5EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1hzZvT-xciwSz0gX_xHQQUUyHUAdAqB-g/view?usp=drivesdk",
+    "descricao": "Uma divertida e romântica história sobre o amor pela leitura, encontros inusitados e segundas chances na vida e no coração."
+  },
+  {
+    "id": 390,
+    "titulo": "Lugar Feliz - Emily Henry",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=TqzNEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1SB_FxznM3F_hFSRdy8YSBMWojqNuDyLm/view?usp=drivesdk",
+    "descricao": "Um romance emocionante sobre encontrar um refúgio e o amor inesperado que transforma vidas em momentos difíceis."
+  },
+  {
+    "id": 391,
+    "titulo": "Lux - The Nocte Trilogy Vol. 03 - Courtney Cole",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91AZUQ8RtfL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/16DEm33U5JxZxBUuFECxUbFfYROXYzozl/view?usp=drivesdk",
+    "descricao": "Concluindo a trilogia Nocte, Lux traz uma história de fantasia urbana cheia de mistério, poder sobrenatural e descobertas sobre si mesmo."
+  },
+  {
+    "id": 392,
+    "titulo": "Má Conduta - Penelope Douglas",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=s14iEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1xOcr8VYgLp7zMNnmEKHV9EUP_qH_PGBv/view?usp=drivesdk",
+    "descricao": "Um suspense intenso que explora segredos sombrios, traições e a luta para descobrir a verdade antes que seja tarde."
+  },
+  {
+    "id": 393,
+    "titulo": "Mais Frio Que Gelo - Dark Elements Vol. 2 - Jennifer L. Armentrout",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/814ePvxadeL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1PmgVMw8VJYfO3_WF-o1kAVlhdqAclkXv/view?usp=drivesdk",
+    "descricao": "Segundo volume da série Dark Elements, onde criaturas sobrenaturais e humanos lutam para manter o equilíbrio entre seus mundos."
+  },
+  {
+    "id": 394,
+    "titulo": "Mais Quente Que Fogo - Dark Elements Vol. 1 - Jennifer L. Armentrout",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71IFJF4aH0L._UF1000,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1TLGF_1yoCrF89DS7W7TWVLVFn6jSx1YZ/view?usp=drivesdk",
+    "descricao": "Primeiro volume da série Dark Elements, apresentando um mundo onde magia, perigo e romance se entrelaçam em uma aventura sobrenatural."
+  },
+  {
+    "id": 395,
+    "titulo": "Matéria Escura - Blake Crouch",
+    "categoria": "ficcao",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/61xHkoffp3L._UF1000,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1BW0hm0yMl0p79IqRKP9Hc7py8AHQyTaO/view?usp=drivesdk",
+    "descricao": "Um thriller de ficção científica que explora realidades alternativas, escolhas de vida e o impacto das decisões no destino de um homem comum."
+  },
+  {
+    "id": 396,
+    "titulo": "Maxton Hall: Salve-me - Mona Kasten",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=jnE1EQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1jmXImueKPvaAFGl-X2q0M8iLB3yQBSbD/view?usp=drivesdk",
+    "descricao": "Um romance jovem adulto que explora amizades, segredos e o despertar do amor durante os anos decisivos na escola Maxton Hall."
+  },
+  {
+    "id": 397,
+    "titulo": "Melhor do que nos filmes - Lynn Painter",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=otmtEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1B4dmqO77RHk_5lIsZu3kDZjb4gsBaThT/view?usp=drivesdk",
+    "descricao": "Uma história leve e divertida sobre segundas chances e o amor inesperado que pode superar qualquer roteiro de filme."
+  },
+  {
+    "id": 398,
+    "titulo": "Melhor do que o Baile - Lynn Painter",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=ZuvNEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1mqZUBZii-_HVuFn_ittrC3pQsciYqZwY/view?usp=drivesdk",
+    "descricao": "Um romance jovem adulto que mostra que o verdadeiro baile acontece fora dos holofotes, entre emoções e conexões reais."
+  },
+  {
+    "id": 399,
+    "titulo": "Minha vida com os garotos Walte - Ali Novak",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=QTe9EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1JLmyfAyTmkSjygh3NGvTWOhqYgp_vPWG/view?usp=drivesdk",
+    "descricao": "Uma comédia romântica divertida e envolvente sobre os altos e baixos da vida amorosa com os garotos Walte."
+  },
+  {
+    "id": 400,
+    "titulo": "Missão Romance - Lisa Klays",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=b1FPEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1DuAnPt0QmliEnSc3UksxtBR38ZpYYWLa/view?usp=drivesdk",
+    "descricao": "Uma história de amor moderna onde uma missão pode virar um romance inesperado, cheio de desafios e descobertas."
+  },
+  {
+    "id": 401,
+    "titulo": "Morando com um Vampiro - Jenna Levine",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=csH7EAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/19WPOJ8pLH5JEFjkENTRs9-TaPaWGEgvX/view?usp=drivesdk",
+    "descricao": "Em meio a mistérios sobrenaturais, uma jovem descobre os desafios e segredos de dividir a vida com um vampiro, misturando fantasia e romance."
+  },
+  {
+    "id": 402,
+    "titulo": "Nem te Conto - Emily Henry",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=86iIEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1rTFrXlzowb5XSIxaG5ZrPq_Z_yx2Tx-R/view?usp=drivesdk",
+    "descricao": "Um romance contemporâneo que celebra a amizade, o amor e as pequenas grandes histórias que transformam nossas vidas."
+  },
+  {
+  "id": 403,
+  "titulo": "Nightfall - Penelope Douglas",
+  "categoria": "suspense",
+  "formato": "PDF",
+  "img": "https://m.media-amazon.com/images/I/71QbHTPna7L._UF894,1000_QL80_.jpg",
+  "link": "https://drive.google.com/file/d/1Bb2zIxnVwAb956UvY1Ez-EcUg83Xkphm/view?usp=drivesdk",
+  "descricao": "Um suspense intenso que explora segredos sombrios e relacionamentos complexos, onde nada é o que parece."
+},
+{
+  "id": 404,
+  "titulo": "Nocte - The Nocte Trilogy Vol. 01 - Courtney Cole",
+  "categoria": "ficcao",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=Sa5mDwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1EvnxBh0WvTk8RhTx5uEE0_UOmpSvbYQ4/view?usp=drivesdk",
+  "descricao": "Uma ficção envolvente que mistura mistério e fantasia, acompanhando personagens em uma jornada cheia de reviravoltas."
+},
+{
+  "id": 405,
+  "titulo": "O Amor que Partiu o Mundo - Emily Henry",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=86iIEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1qOQXTgmSvaqsKMMDSxYyKfgNE9I-72B_/view?usp=drivesdk",
+  "descricao": "Um romance emocionante que explora amor, perda e segundas chances de forma tocante e realista."
+},
+{
+  "id": 406,
+  "titulo": "O Caso Alaska Sanders - Joël Dicker",
+  "categoria": "suspense",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=H8h8EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1K88wT-YJY8_EemBLZ9LZhmZnVTM3jiNf/view?usp=drivesdk",
+  "descricao": "Um suspense investigativo que prende o leitor do início ao fim com mistérios e revelações surpreendentes."
+},
+{
+  "id": 407,
+  "titulo": "O Céu Está Caindo - Sidney Sheldon",
+  "categoria": "suspense",
+  "formato": "PDF",
+  "img": "https://m.media-amazon.com/images/I/91ky+-jlZjL.jpg",
+  "link": "https://drive.google.com/file/d/189_V-3veGiQbIDg0M60T_akH73t23d8k/view?usp=drivesdk",
+  "descricao": "Uma trama de suspense com intrigas, traições e segredos que desafiam a percepção do leitor."
+},
+{
+  "id": 408,
+  "titulo": "O Efeito Graham - Elle Kennedy",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=CMv1EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/12fkAO1iOmBQmLBVmCEYZ601L-claKp0h/view?usp=drivesdk",
+  "descricao": "Um romance jovem adulto que aborda crescimento pessoal, amizade e os desafios do amor verdadeiro."
+},
+{
+  "id": 409,
+  "titulo": "O Estrangulador - Sidney Sheldon",
+  "categoria": "suspense",
+  "formato": "PDF",
+  "img": "https://m.media-amazon.com/images/I/61KKUVah5XL.jpg",
+  "link": "https://drive.google.com/file/d/1Cq9Fz4WK-JiGcHaRwLKommDmi_rMXQI_/view?usp=drivesdk",
+  "descricao": "Um suspense eletrizante com um assassino à solta e personagens que lutam para sobreviver e desvendar a verdade."
+},
+{
+  "id": 410,
+  "titulo": "O Experimento do Amor Verdadeiro - Christina Lauren",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=-ZjiEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1WYY-Fh__ZEUqFQZFBwM-x-_-UWErny-z/view?usp=drivesdk",
+  "descricao": "Um romance divertido e emocionante que explora a química entre os protagonistas e o poder do amor."
+},
+{
+  "id": 411,
+  "titulo": "O Herdeiro Roubado - Holly Black",
+  "categoria": "fantasia",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=iS2dEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1y4IGCbR68FuEP6ykaSETk81mEBjtz8fS/view?usp=drivesdk",
+  "descricao": "Uma fantasia envolvente sobre poder, família e segredos em um mundo mágico e perigoso."
+},
+{
+  "id": 412,
+  "titulo": "O Legado de Chandler - Abdi Nazemian",
+  "categoria": "drama",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=t4JlEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/17a8axdJ6845Tna99rWGc7-KzoRRcArSN/view?usp=drivesdk",
+  "descricao": "Um drama tocante que explora temas familiares, identidade e legado através de personagens profundos."
+},
+{
+  "id": 414,
+  "titulo": "O Priorado da Laranjeira - The Roots of Chaos Vol. 1 - Samantha Shannon",
+  "categoria": "fantasia",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=p2l2EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1AruY4HDOpeNoMvEMRRWVXTO9g9BUlXy_/view?usp=drivesdk",
+  "descricao": "Uma fantasia épica que mistura magia, intrigas e batalhas pelo controle do destino."
+},
+{
+  "id": 415,
+  "titulo": "O Telefone Preto e Outras Histórias - Joe Hill",
+  "categoria": "terror",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=kGFoEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1kLQuZVSbxK8s55El57frNNUn1F1LLjqh/view?usp=drive_link",
+  "descricao": "Uma coletânea de contos de terror que misturam suspense sobrenatural e o medo do desconhecido."
+},
+{
+  "id": 416,
+  "titulo": "O Trono do Prisioneiro - Holly Black",
+  "categoria": "fantasia",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=mrUpEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1VxY2TvVFaRgz6J1tb83XAyDAJtlVP1Gn/view?usp=drivesdk",
+  "descricao": "Uma fantasia sombria que explora traições e alianças em um reino mágico cheio de perigos."
+},
+{
+  "id": 417,
+  "titulo": "O Céu de Pedra - N. K. Jemisin",
+  "categoria": "fantasia",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=6dR2EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1IBpmoF5yrgo_DZtgiFNrQZ3CzkcQJPkJ/view?usp=drivesdk",
+  "descricao": "Uma narrativa épica de fantasia que mistura mitologia, poder e a luta pela sobrevivência em um mundo hostil."
+},
+{
+  "id": 418,
+  "titulo": "Oferta Final: Para o Amor - Lauren Asher",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=SzUFEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1a_zlo7LHL7_yRvy-doMe-S-_XQ7D9psK/view?usp=drivesdk",
+  "descricao": "Um romance envolvente sobre segundas chances e o poder transformador do amor verdadeiro."
+},
+{
+  "id": 419,
+  "titulo": "Operação Paixão - Carlie Walker",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=8vrsEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1iQOrUqW95rx2vgIeGaz4FevIn1hccJg1/view?usp=drivesdk",
+  "descricao": "Um romance divertido e apaixonante que combina ação e emoções intensas."
+},
+{
+  "id": 420,
+  "titulo": "O Portão do Obelisco - N. K. Jemisin",
+  "categoria": "fantasia",
+  "formato": "PDF",
+  "img": "https://m.media-amazon.com/images/I/81OlSOMgX3L._UF1000,1000_QL80_.jpg",
+  "link": "https://drive.google.com/file/d/188bO6k_D0_W2A7XBEo9ozE327r4gvKW8/view?usp=drivesdk",
+  "descricao": "Fantasia rica em detalhes, onde magia antiga e mistérios se entrelaçam em uma trama fascinante."
+},
+{
+  "id": 421,
+  "titulo": "Os Garotos do Cemitério - Aiden Thomas",
+  "categoria": "fantasia",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=v4MzEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1vDsA3VnEzaN3GhuRZt14VHv0-WnaNnSc/view?usp=drivesdk",
+  "descricao": "Uma fantasia emocionante sobre amizade, identidade e o sobrenatural em um cenário único."
+},
+{
+  "id": 422,
+  "titulo": "Os Números do Amor - Helen Hoang",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=79djDwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1V8mjrpajXSQojcBo2EhlqKX17EwCGOYO/view?usp=drivesdk",
+  "descricao": "Um romance sensível que explora desafios pessoais e o poder do amor para transformar vidas."
+},
+{
+  "id": 423,
+  "titulo": "Palácio de Mentiras - Erin Watt",
+  "categoria": "drama",
+  "formato": "PDF",
+  "img": "https://m.media-amazon.com/images/I/91VbwaNZSWL._UF1000,1000_QL80_.jpg",
+  "link": "https://drive.google.com/file/d/14qJYWw65qenAIAmwFPEbLu-APDdbBTgU/view?usp=drivesdk",
+  "descricao": "Um drama envolvente cheio de segredos, traições e relações complicadas."
+},
+{
+  "id": 424,
+  "titulo": "Para Sempre Seu - Abby Jimenez",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=lVLXEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1uY51xN2q7Cnena-Zn5vbN26B-OQ08YPD/view?usp=drivesdk",
+  "descricao": "Um romance comovente sobre amor, perda e esperança para o futuro."
+},
+{
+  "id": 425,
+  "titulo": "Para Sir, Com Amor - Lauren Layne",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=vqatEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1uujPFDaTfhSZmRpmVlNwrcu22f3ElVVM/view?usp=drivesdk",
+  "descricao": "Um romance doce e divertido que mostra a química entre dois opostos que se atraem."
+},
+{
+  "id": 426,
+  "titulo": "Prazeres Violentos - Chloe Gong",
+  "categoria": "fantasia",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=EhFuEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/10-jqWF4h7BBGYO1AtEFgWf8fKw_bDipH/view?usp=drivesdk",
+  "descricao": "Uma fantasia intensa e cheia de reviravoltas, explorando temas de poder e paixão."
+},
+{
+  "id": 427,
+  "titulo": "Presa Com Você - Ali Hazelwood",
+  "categoria": "romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=ooSjEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1KeeTlkVHgewblDayRq6QndrePP-0WcM6/view?usp=drivesdk",
+  "descricao": "Um romance envolvente e divertido que explora encontros inesperados e conexões profundas."
+},
+ {
+    "id": 428,
+    "titulo": "Princesa de Papel - Erin Watt",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81SpiNEHndL.jpg",
+    "link": "https://drive.google.com/file/d/1TPPvhAiQwkiuFCYy41PNyuQRpjcRwOWr/view?usp=drivesdk",
+    "descricao": "Um drama intenso sobre segredos familiares e escolhas difíceis em um mundo de privilégios."
+  },
+  {
+    "id": 429,
+    "titulo": "Príncipe Partido - The Royals - Vol. 02 - Erin Watt",
+    "categoria": "drama",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81hicXIux7L._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1CdjBVXhhMthY8paaFY0tyEdLgQoRNJTI/view?usp=drivesdk",
+    "descricao": "Continuação da série Royals que aborda conflitos familiares, poder e redenção."
+  },
+  {
+    "id": 430,
+    "titulo": "Promessas Cruéis - Rebecca Ross",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=yXQMEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1LO95pHWBYOrNxkSOp6QgXhUwOIs5kT3J/view?usp=drivesdk",
+    "descricao": "Fantasia cheia de intrigas e reinos em guerra, onde promessas moldam o destino dos personagens."
+  },
+  {
+    "id": 431,
+    "titulo": "Punk 57 - Penelope Douglas",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91KsZkUtV8L.jpg",
+    "link": "https://drive.google.com/file/d/11dFCvFLgnUJw9QzUNOWmijvSD8uwHLO5/view?usp=drivesdk",
+    "descricao": "Um romance intenso que explora identidade, segredos e a complexidade dos relacionamentos."
+  },
+  {
+    "id": 432,
+    "titulo": "Quarta Asa - Rebecca Yarros",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=dSXuEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1arxgZRgJ3qW6p7RrEEyOeJW12PiqvJRt/view?usp=drivesdk",
+    "descricao": "Uma aventura emocionante de coragem, honra e batalhas que definem o destino."
+  },
+  {
+    "id": 433,
+    "titulo": "Quem Tem Medo de Escuro - Sidney Sheldon",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71S7hhrIAQL._UF1000,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1HViBv7Btxf8UWlpoPRjIBKvRn2JdaqSs/view?usp=drivesdk",
+    "descricao": "Suspense cheio de mistérios e reviravoltas em uma trama envolvente e eletrizante."
+  },
+  {
+    "id": 434,
+    "titulo": "Rei da Ganância - Ana Huang",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=0f8jEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1h7EL5jm8-tbLVrLUel_Qfp3a412Ll-kh/view?usp=drivesdk",
+    "descricao": "Romance contemporâneo sobre poder, ambição e a complexidade dos relacionamentos."
+  },
+  {
+    "id": 435,
+    "titulo": "Rei do Orgulho - Ana Huang",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=OifyEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1ZP4twlA1P3zX5kjaWUR0n0gSuANEf2u8/view?usp=drivesdk",
+    "descricao": "Continuação da série que explora orgulho, paixão e segredos familiares."
+  },
+  {
+    "id": 436,
+    "titulo": "Renegados - Vol. 01 - Marissa Meyer",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=sSN-EAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/10X5DJPY01BxP2b1hqSLods9k-OmMmGH4/view?usp=drivesdk",
+    "descricao": "Uma aventura cheia de ação e poderes extraordinários em um mundo de heróis e vilões."
+  },
+  {
+    "id": 437,
+    "titulo": "Se Não Fosse Você - Colleen Hoover",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=x539DwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1VlTW-mC7hR4Jui2x_iAFhCHqbCzECswv/view?usp=drivesdk",
+    "descricao": "Romance emocionante sobre escolhas, segundas chances e o poder do amor verdadeiro."
+  },
+  {
+    "id": 438,
+    "titulo": "Sob o Mesmo Teto - Ali Hazelwood",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=WB2jEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1t8bqRuk1jMeo6b9QhSpoP-ngp7CSGGwr/view?usp=drivesdk",
+    "descricao": "Uma comédia romântica que mostra a convivência inusitada e a química entre dois opostos."
+  },
+  {
+    "id": 439,
+    "titulo": "Termos e Condições para o Amor - Bilionários de Dreamland Vol. 2 - Lauren Asher",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=W0jJEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1fe529EG8lV4Ml2mAirQGIzzKJ3DfJEEg/view?usp=drivesdk",
+    "descricao": "Romance contemporâneo que mistura paixão, drama e segredos em um cenário luxuoso."
+  },
+  {
+    "id": 440,
+    "titulo": "Tudo ou Nada - Jennifer Lynn Barnes",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71s4XpCCjoL.jpg",
+    "link": "https://drive.google.com/file/d/11pTpCxX1f2SXHRxVf6duiKoSMSvp6cSo/view?usp=drivesdk",
+    "descricao": "Suspense cheio de reviravoltas em uma trama eletrizante de segredos e verdades ocultas."
+  },
+  {
+    "id": 441,
+    "titulo": "Twisted Games - Twisted #2 - Ana Huang",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=8BWiEAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/12bSOt2gWZXz9Lm1he5xhUF7f0_rZrL_t/view?usp=drivesdk",
+    "descricao": "Romance cheio de jogos de poder, paixão e segredos em uma sequência eletrizante."
+  },
+  {
+    "id": 442,
+    "titulo": "Twisted Hate - Twisted #3 - Ana Huang",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=eFXgEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1tIytxOZ5Y1RPkwgWcp-wzQ-R8pUdYKRp/view?usp=drivesdk",
+    "descricao": "Continuação da série Twisted, explorando conflitos intensos e relações complicadas."
+  },
+  {
+    "id": 443,
+    "titulo": "Twisted Lies - Twisted #4 - Ana Huang",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/81FQf+D21LL.jpg",
+    "link": "https://drive.google.com/file/d/1RtVu61-1CiCucBajSCjVinsKDxtxIzrR/view?usp=drivesdk",
+    "descricao": "O quarto livro da série Twisted, cheio de reviravoltas e emoções intensas."
+  },
+  {
+    "id": 444,
+    "titulo": "Twisted Love - Twisted #1 - Ana Huang",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71Ii6a7sajL.jpg",
+    "link": "https://drive.google.com/file/d/1RMicPL5gy8kqsqPiQbqCertsj4eNddBG/view?usp=drivesdk",
+    "descricao": "O início da série Twisted, apresentando uma história intensa de amor e conflitos."
+  },
+  {
+    "id": 445,
+    "titulo": "Um Encontro Não Tão Inocente - Julie Murphy",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=G5G4EAAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/17Lpd1lkPnvp9D0HRWb7qyedRgNkEiYx1/view?usp=drivesdk",
+    "descricao": "Romance divertido e provocante sobre encontros inesperados e química irresistível."
+  },
+  {
+    "id": 446,
+    "titulo": "Um Estranho no Espelho - Sidney Sheldon",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71XICCVxTLL.jpg",
+    "link": "https://drive.google.com/file/d/1dMqImts3gG9QR2VR7hc6_zf48vGZ_nWP/view?usp=drivesdk",
+    "descricao": "Suspense envolvente com mistérios e segredos que desafiam a percepção da realidade."
+  },
+  {
+    "id": 447,
+    "titulo": "Um Experimento de Amor em Nova York - Elena Armas",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=oBCrEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1zgESJ1jUig-kFtyJMNAyfN4s8Boc602j/view?usp=drive_link",
+    "descricao": "Romance contemporâneo leve e encantador ambientado na agitação de Nova York."
+  },
+  {
+    "id": 448,
+    "titulo": "Um Favorzinho do Vizinho - Kristina Forest",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=pivKEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1fT0cA8hBrmFlYBtYccl3uAZTDouYR1ES/view?usp=drivesdk",
+    "descricao": "Um romance doce e envolvente sobre vizinhos que descobrem o amor de forma inesperada."
+  },
+  {
+    "id": 449,
+    "titulo": "Uma Luz na Chama - Carne e Fogo Vol. 2 - Jennifer L. Armentrout",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=8PvREAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1xlUh9t-ez0sledvgcWLoZOdxqjnF3Dgy/view?usp=drivesdk",
+    "descricao": "Romance quente e emocionante que continua a saga cheia de paixão e desafios."
+  },
+  {
+    "id": 450,
+    "titulo": "Uma Mulher na Escuridão - Rory Moore Vol. 1 - Charlie Donlea",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=gpfKEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1S-odrKOFEbzJKWUBeU--xdbvP8Vst5jL/view?usp=drivesdk",
+    "descricao": "Um suspense eletrizante que mergulha em mistérios profundos e personagens complexos."
+  },
+  {
+    "id": 451,
+    "titulo": "Vergonha - Brittainy Cherry",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=vit8EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1MglFQoL73tODYEVeaOc58Rwob5cQPUku/view?usp=drivesdk",
+    "descricao": "Romance emocional que explora temas de vulnerabilidade, redenção e amor verdadeiro."
+  },
+  {
+    "id": 452,
+    "titulo": "Verum - The Nocte Trilogy Vol. 02 - Courtney Cole",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/71mPEtmp2+L._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1xLXgzAbjTm12eT_jgDjF8NVNuhADBToq/view?usp=drivesdk",
+    "descricao": "Continuação épica de fantasia cheia de magia, batalhas e segredos sombrios."
+  },
+  {
+    "id": 453,
+    "titulo": "Você - Caroline Kepnes",
+    "categoria": "suspense",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=TSBGEQAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1FkuTt77UlSN3Ywykq66LskHqbDRBYVGO/view?usp=drivesdk",
+    "descricao": "Suspense psicológico que explora obsessão, manipulação e os limites do amor."
+  },
+  {
+    "id": 454,
+    "titulo": "Xeque-mate - Ali Hazelwood",
+    "categoria": "romance",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=nobZEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/14nnPL_wGVmKt4-Pi2SBj-IPp_rGMZqwI/view?usp=drivesdk",
+    "descricao": "Comédia romântica que envolve jogos de estratégia, química inesperada e diversão."
+  },
+  {
+    "id": 455,
+    "titulo": "The Never King",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91eHSa0sVYL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1Ynps9Y0X41ejgQzU1cEtNY__B--4vm3Z/view?usp=drivesdk",
+    "descricao": "Fantasia sombria que mistura mitologia e aventura em uma narrativa fascinante."
+  },
+  {
+    "id": 456,
+    "titulo": "Their Vicious Darling",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91FhvIF4mOL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1NE3ffVQgeSCXWsXdvVCsIHa7EuUg2mwq/view?usp=drivesdk",
+    "descricao": "Fantasia urbana com personagens complexos e uma trama cheia de tensão e paixão."
+  },
+  {
+    "id": 457,
+    "titulo": "The Fae Princes",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91PzOyb5JnL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/10mVchCh9u8BMkU1KP9L6qQtKEd2kthQp/view?usp=drivesdk",
+    "descricao": "Uma aventura mágica no mundo das fadas, repleta de mistérios e romance."
+  },
+  {
+    "id": 458,
+    "titulo": "A Balada do Felizes Para Nunca - Stephanie Garber",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=Lq6eEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1coMwmQpB_BoOdNHhWm_iIIS8OeLGbiLP/view?usp=drivesdk",
+    "descricao": "Fantasia envolvente que mistura contos de fadas com reviravoltas surpreendentes."
+  },
+  {
+    "id": 459,
+    "titulo": "A Cada Último Suspiro - Dark Elements Vol. 3 - Jennifer L. Armentrout",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://m.media-amazon.com/images/I/91HEkIEQTdL._UF894,1000_QL80_.jpg",
+    "link": "https://drive.google.com/file/d/1GCUd270NtZneFcUt6dVwU6SGfm7jbrEK/view?usp=drivesdk",
+    "descricao": "Continuação da série Dark Elements, recheada de ação, romance e criaturas sobrenaturais."
+  },
+  {
+    "id": 460,
+    "titulo": "A Canção de Aquiles - Madeline Miller",
+    "categoria": "aventura",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=8iEfEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1Ph-LSGVWX513OhfrwzWBLsAWCLOFCr1X/view?usp=drivesdk",
+    "descricao": "Uma releitura épica da Ilíada, focando na história e aventura de Aquiles."
+  },
+  {
+    "id": 461,
+    "titulo": "A Casa no Mar Cerúleo - TJ Klune",
+    "categoria": "fantasia",
+    "formato": "PDF",
+    "img": "https://books.google.com/books/content?id=cBz3EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
+    "link": "https://drive.google.com/file/d/1KnWnKvx1_PiPIs_TYX01qtL0Ng7Bdx7E/view?usp=drivesdk",
+    "descricao": "Fantasia sensível e emocionante que mistura magia, emoção e autodescoberta."
   }
   ];
 let currentPage = 1;
