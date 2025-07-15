@@ -3591,18 +3591,18 @@ function mostrarPagina(page, rolarParaTopo = false) {
     produtosContainer.innerHTML = '<p style="text-align:center; margin-top:20px;">Nenhum livro encontrado.</p>';
   } else {
     livrosPagina.forEach(livro => {
-  const livroDiv = document.createElement('div');
-  livroDiv.className = 'livro';
-  livroDiv.dataset.categoria = livro.categoria;
-  livroDiv.addEventListener('click', () => mostrarDetalhes(livro.id));
-  livroDiv.innerHTML = `
-    <img src="${livro.img}" alt="${livro.titulo}" />
-    <h3>${livro.titulo}</h3>
-    <p><strong>Formato:</strong> ${livro.formato ? livro.formato : 'PDF'}</p>
-    <span class="ver-mais">Clique para ver mais</span>
-  `;
-  produtosContainer.appendChild(livroDiv);
-});
+      const livroDiv = document.createElement('div');
+      livroDiv.className = 'livro';
+      livroDiv.dataset.categoria = livro.categoria;
+      livroDiv.addEventListener('click', () => mostrarDetalhes(livro.id));
+      livroDiv.innerHTML = `
+        <img src="${livro.img}" alt="${livro.titulo}" />
+        <h3>${livro.titulo}</h3>
+        <p><strong>Formato:</strong> ${livro.formato ? livro.formato : 'PDF'}</p>
+        <span class="ver-mais">Clique para ver mais</span>
+      `;
+      produtosContainer.appendChild(livroDiv);
+    });
   }
 
   atualizarPaginacao(filteredLivros.length);
@@ -3617,14 +3617,52 @@ function atualizarPaginacao(totalItems) {
   paginacaoContainer.innerHTML = '';
 
   const totalPages = Math.ceil(totalItems / itemsPerPage);
+  const maxButtons = 5;
+  const range = 2;
 
-  for (let i = 1; i <= totalPages; i++) {
+  function createButton(text, page, isActive = false, isDisabled = false) {
     const btn = document.createElement('button');
-    btn.innerText = i;
-    btn.classList.toggle('active', i === currentPage);
-    btn.addEventListener('click', () => mostrarPagina(i, true));
+    btn.innerText = text;
+    if (isActive) btn.classList.add('active');
+    if (isDisabled) btn.disabled = true;
+    btn.addEventListener('click', () => mostrarPagina(page, true));
     paginacaoContainer.appendChild(btn);
   }
+
+  // Botão Anterior
+  createButton('« Anterior', currentPage - 1, false, currentPage === 1);
+
+  if (totalPages <= maxButtons + 4) {
+    for (let i = 1; i <= totalPages; i++) {
+      createButton(i, i, i === currentPage);
+    }
+  } else {
+    createButton(1, 1, currentPage === 1);
+
+    if (currentPage > range + 2) {
+      const dots = document.createElement('span');
+      dots.innerText = '...';
+      paginacaoContainer.appendChild(dots);
+    }
+
+    const start = Math.max(2, currentPage - range);
+    const end = Math.min(totalPages - 1, currentPage + range);
+
+    for (let i = start; i <= end; i++) {
+      createButton(i, i, i === currentPage);
+    }
+
+    if (currentPage < totalPages - range - 1) {
+      const dots = document.createElement('span');
+      dots.innerText = '...';
+      paginacaoContainer.appendChild(dots);
+    }
+
+    createButton(totalPages, totalPages, currentPage === totalPages);
+  }
+
+  // Botão Próximo
+  createButton('Próximo »', currentPage + 1, false, currentPage === totalPages);
 }
 
 function filtrar(categoria) {
@@ -3700,37 +3738,25 @@ function toggleMenuCategorias() {
     btn.setAttribute('aria-expanded', 'true');
   }
 }
+
 window.onload = () => {
   mostrarPagina(1);
 
-  document.querySelector('.logo').addEventListener('click', () => {
-    // Define a categoria como 'todos'
+  document.querySelector('.logo')?.addEventListener('click', () => {
     filtrar('todos');
-
-    // Rola suavemente para a seção inicial
     const hero = document.getElementById('heroSection');
     if (hero) {
       hero.scrollIntoView({ behavior: 'smooth' });
     }
-
-    // Garante que a visualização do catálogo esteja ativa
     voltarCatalogo();
   });
 
-  // outros event listeners que você já tem, por exemplo:
   document.getElementById('searchInput')?.addEventListener('input', buscar);
 
   document.querySelectorAll('.categoria-btn').forEach(btn => {
     btn.addEventListener('click', () => filtrar(btn.dataset.categoria));
   });
 
-  const btnVoltar = document.querySelector('.btn-voltar');
-  if (btnVoltar) {
-    btnVoltar.addEventListener('click', voltarCatalogo);
-  }
-
-  const btnCategorias = document.getElementById('toggleCategorias');
-  if (btnCategorias) {
-    btnCategorias.addEventListener('click', toggleMenuCategorias);
-  }
+  document.querySelector('.btn-voltar')?.addEventListener('click', voltarCatalogo);
+  document.getElementById('toggleCategorias')?.addEventListener('click', toggleMenuCategorias);
 };
