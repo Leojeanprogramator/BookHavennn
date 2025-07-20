@@ -547,3 +547,116 @@ body.light-theme .detalhes-produto img {
         transform: translateY(0);
     }
 }
+
+/* Importa a fonte Inter do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Reset e base */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Botão flutuante */
+#botaoFlutuante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #7e57c2, #9c27b0);
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#botaoFlutuante:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* Menu expansível */
+#menuExpansivel {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 340px;
+  max-width: 95vw;
+  border-radius: 16px;
+  display: none;
+  overflow: hidden;
+  z-index: 1000;
+  animation: fadeIn 0.5s ease forwards;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  background: #fff;
+}
+#menuExpansivel.active {
+  display: block;
+}
+
+.menu-com-imagem {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* Imagem promocional sem corte */
+.promo-full-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+/* Botão "Saiba mais" sobreposto à imagem */
+.btnFalarAgora {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #7e57c2, #ab47bc);
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+  z-index: 10;
+}
+.btnFalarAgora:hover {
+  transform: translateX(-50%) scale(1.05);
+  background: linear-gradient(135deg, #9575cd, #ce93d8);
+}
+
+/* Botão X no menu expansível */
+.close-btn-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.6);
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 11;
+}
