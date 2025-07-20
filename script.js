@@ -3760,3 +3760,34 @@ window.onload = () => {
   document.querySelector('.btn-voltar')?.addEventListener('click', voltarCatalogo);
   document.getElementById('toggleCategorias')?.addEventListener('click', toggleMenuCategorias);
 };
+
+// Elementos
+const botao = document.getElementById('botaoFlutuante');
+const menu = document.getElementById('menuExpansivel');
+const fecharMenu = document.getElementById('btnFecharMenu');
+const conversar = document.getElementById('btnConversar');
+const chat = document.getElementById('chatLayla');
+const fecharChat = document.getElementById('fecharChat');
+const sendBtn = document.getElementById('sendBtn');
+const userInput = document.getElementById('userInput');
+const chatBody = document.getElementById('chatBody');
+
+// Mostrar menu ao clicar no botão flutuante
+botao.addEventListener('click', () => {
+  menu.classList.add('active');
+  botao.style.display = 'none';
+});
+
+// Fechar menu ao clicar no X
+fecharMenu.addEventListener('click', () => {
+  menu.classList.remove('active');
+  botao.style.display = 'block';
+});
+
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const content = btn.nextElementSibling;
+    content.classList.toggle('active');
+  });
+});
+
