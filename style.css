@@ -660,3 +660,29 @@ body {
   cursor: pointer;
   z-index: 11;
 }
+
+.mensagem-aviso {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  background: linear-gradient(135deg, #7b39e8, #6a0dad);
+  color: white;
+  padding: 18px 35px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(107, 13, 173, 0.6);
+  user-select: none;
+  cursor: default;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  z-index: 9999;
+}
+
+.mensagem-aviso.ativo {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
