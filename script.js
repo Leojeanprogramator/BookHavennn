@@ -3791,3 +3791,16 @@ document.querySelectorAll('.faq-question').forEach(btn => {
   });
 });
 
+window.addEventListener('load', () => {
+  const mensagem = document.getElementById('mensagemAviso');
+
+  // Mostrar mensagem com efeito
+  setTimeout(() => {
+    mensagem.classList.add('ativo');
+  }, 200);
+
+  // Esconder após 8 segundos
+  setTimeout(() => {
+    mensagem.classList.remove('ativo');
+  }, 8200);
+});
