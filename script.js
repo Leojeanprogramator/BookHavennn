@@ -1,5 +1,6 @@
+// Dados dos livros (expandidos)
 const livros = [
-  {
+ {
     id: 1,
     titulo: "As 48 Leis Do Poder",
     categoria: "desenvolvimento",
@@ -13,7 +14,7 @@ const livros = [
     titulo: "Verity - Colleen Hoover",
     categoria: "romance",
    Formato:"PDF",
-    img: "https://i.postimg.cc/FKkbcb9S/Chat-GPT-Image-2-05-2025-18-39-44.png",
+    img: "https://m.media-amazon.com/images/I/91SDZ2eUj+L.jpg",
     link: "https://drive.google.com/file/d/1Dxux7OvO1ZZuOfQ277dVYm7YlxIAaISw/view?usp=drive_link",
     descricao: "O livro 'Verity', de Colleen Hoover, é um thriller psicológico que acompanha Lowen Ashleigh, uma escritora contratada para terminar a série de livros de sucesso de Verity Crawford, uma autora que se encontra em estado catatônico após um grave acidente."
   },
@@ -54,7 +55,7 @@ const livros = [
   {id: 23, titulo:"Boa garota, segredo mortal(Vol.2)", categoria:"suspense", preco:4.99, img:"https://m.media-amazon.com/images/I/81JPQxDDNeL._SY425_.jpg", link:"https://drive.google.com/file/d/1Idn0SWgrvgouft6bCK6wqYSY9HWpyd-T/view?usp=drive_link", descricao:"Um ano após a investigação obsessiva que reescreveu a história de sua pacata cidade, Pip acredita que seus dias de detetive amadora chegaram ao fim. Prometendo nunca mais se envolver no emaranhado de segredos de Little Kilton, a garota planeja lançar um podcast sobre a resolução do caso e voltar a ter uma vida normal."},
   {id: 24, titulo:"Uma segunda chance - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/813WvRoZ0HL._SY466_.jpg", link:"https://drive.google.com/file/d/1zAWBKBgIwXuI9v2dYjAKg8WPxdzNIztr/view?usp=drive_link", descricao:"Será que todos merecem uma segunda chance? É o que mais deseja Kenna Rowan, na luta para recuperar os pedaços estilhaçados de sua antiga vida após um trágico acidente ter colocado tudo a perder. Uma segunda chance é o tão esperado novo romance de Colleen Hoover, CoHo para os íntimos, autora fenômeno de vendas, que já ultrapassou a marca de 1 milhão de exemplares vendidos no Brasil. "},
   {id: 25, titulo:"O lado feio do amor - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81FEytag46L._SY466_.jpg", link:"https://drive.google.com/file/d/1AMbXDEVskly_7UWn-rZpKNRB_6bjRCl5/view?usp=drive_link", descricao:"Quando começou a se envolver com Miles, Tate prometeu não se apaixonar. Mas vai descobrir que nenhuma regra é capaz de controlar o amor e o desejo...Da autora-fenômeno Colleen Hoover, que acumula best- sellers , visualizações no TikTok e milhares de leitores apaixonados no mundo todo."},
-  {id: 26, titulo:"É Assim que Acaba: 1 - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91r5G8RxqfL._SY466_.jpg", link:"https://drive.google.com/file/d/11Y2f3PdOn54CDnVLHTaAPPuFOI1FHa5y/view?usp=drive_link", descricao:"Considerado o livro do ano, que virou febre no TikTok e sozinho já acumulou mais de um milhão de exemplares vendidos no Brasil. É assim que acaba é o romance mais pessoal da carreira de Colleen Hoover, discutindo temas como violência doméstica e abuso psicológico de forma sensível e direta. "},
+  {id: 26, titulo:"É Assim que Acaba: 1 - Colleen Hoover", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/91r5G8RxqfL._SY466_.jpg", link:"https://drive.google.com/file/d/1WdGx7_e9s-Pxrg2abhRJJZ0Te24iozki/view?usp=sharing", descricao:"Considerado o livro do ano, que virou febre no TikTok e sozinho já acumulou mais de um milhão de exemplares vendidos no Brasil. É assim que acaba é o romance mais pessoal da carreira de Colleen Hoover, discutindo temas como violência doméstica e abuso psicológico de forma sensível e direta. "},
   {id: 27, titulo:"A Biblioteca da Meia-Noite", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/81iqH8dpjuL._SY425_.jpg", link:"https://drive.google.com/file/d/1wCK6osKyhWvvdlLqwbG3VHCsfgC_ZiRc/view?usp=drive_link", descricao:"A Biblioteca da Meia-Noite é um romance incrível que fala dos infinitos rumos que a vida pode tomar e da busca incessante pelo rumo certo."},
   {id: 28, titulo:"Vermelho, branco e sangue azul", categoria:"romance", preco:4.99, img:"https://m.media-amazon.com/images/I/41QaXCahKrL._SY445_SX342_.jpg", link:"https://drive.google.com/file/d/1jDl-TW2lBfYhU6O0fbUZ73Mjwo-9obM7/view?usp=drive_link", descricao:"Quando sua mãe foi eleita presidenta dos Estados Unidos, Alex Claremont-Diaz se tornou o novo queridinho da mídia norte-americana. Bonito, carismático e com personalidade forte, Alex tem tudo para seguir os passos de seus pais e conquistar uma carreira na política, como tanto deseja. Mas quando sua família é convidada para o casamento real do príncipe britânico Philip, Alex tem que encarar o seu primeiro desafio diplomático: lidar com Henry, irmão mais novo de Philip, o príncipe mais adorado do mundo, com quem ele é constantemente comparado ― e que ele não suporta."},
   {id: 29, titulo:"Coraline: Neil Gaiman & Chris Riddell", categoria:"ficcao", preco:4.99, img:"https://m.media-amazon.com/images/I/818565mPygL._SY466_.jpg", link:"https://drive.google.com/file/d/12zYqvFAY7mKy_86tAlA6HZdRPL49ukps/view?usp=drive_link", descricao:"Não é a névoa, nem o gato que parece estar sempre a observá-la, nem os sinais de perigo que a Srta. Spink e a Srta. Forcible, suas novas vizinhas, leem nas folhas de chá. É a outra casa – aquela atrás da velha porta da sala de estar. Outra mãe e um pai com olhos de botão preto e pele fina como papel esperam que Coraline se junte a eles. E querem que ela fique com eles. Para sempre. Ela sabe que, se se aventurar por aquela porta, pode nunca mais voltar."},
@@ -400,7 +401,7 @@ const livros = [
   titulo: "Mil beijos de garoto",
   categoria: "romance",
   preco: 4.99,
-  img: "https://m.media-amazon.com/images/I/71PwlBLehAL._SL1500_.jpg",
+  img: "https://m.media-amazon.com/images/I/81hK-E1S3lL.jpg",
   link: "https://drive.google.com/file/d/1rn_MbCqjh7C9cugKtJRx2DuNxr-y69az/view?usp=drive_link",
   descricao: "Um romance comovente sobre amor, perda e a beleza das memórias que resistem ao tempo."
 },
@@ -2495,7 +2496,7 @@ const livros = [
     "link": "https://drive.google.com/file/d/1-fOXJB4UsCIMwlRfH59PpHxOAZwM0MLG/view?usp=drivesdk",
     "descricao": "Terror e suspense com um homem que desenvolve poderes psíquicos."
   },
-  {
+ {
     "id": 342,
     "titulo": "A Verdade Sobre O Caso Harry Quebert - Joël Dicker",
     "categoria": "suspense",
@@ -3556,251 +3557,912 @@ const livros = [
     "img": "https://books.google.com/books/content?id=cBz3EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&source=gbs_api",
     "link": "https://drive.google.com/file/d/1KnWnKvx1_PiPIs_TYX01qtL0Ng7Bdx7E/view?usp=drivesdk",
     "descricao": "Fantasia sensível e emocionante que mistura magia, emoção e autodescoberta."
-  }
-  ];
-let currentPage = 1;
-const itemsPerPage = 25;
-let currentFilter = 'todos';
-let currentSearch = '';
+  },
+  {
+  "id": 462,
+  "titulo": "Corajosas",
+  "categoria": "drama",
+  "formato": "PDF",
+  "img": "https://m.media-amazon.com/images/I/81NQ5Ab53fL._SL1500_.jpg",
+  "link": "https://drive.google.com/file/d/1PQdecnO7flgvlg5H3ASReXk2hrY4SK5Y/view?usp=drive_link",
+  "descricao": "Uma narrativa inspiradora sobre mulheres que enfrentam desafios com bravura e determinação, superando medos e transformando suas vidas em busca de empowerment e autodescoberta."
+},
+{
+  "id": 463,
+  "titulo": "Um Reino de Carne e Fogo - Sangue e Cinzas Vol. 2",
+  "categoria": "fantasia",
+  "formato": "PDF",
+  "img": "https://m.media-amazon.com/images/I/91pnDB6miDL._SL1500_.jpg",
+  "link": "https://drive.google.com/file/d/1IdihpeaNvzFgaq_AcfVGNDcGiB01Pegd/view?usp=drive_link",
+  "descricao": "Continuação da série Sangue e Cinzas, 'Um Reino de Carne e Fogo' de Jennifer L. Armentrout aprofunda a jornada de Poppy em um mundo repleto de deuses, segredos e escolhas difíceis. O livro mistura romance, fantasia e ação em uma narrativa envolvente que desafia a protagonista a escolher entre o dever e o desejo."
+},
+{
+  "id": 464,
+  "titulo": "A Sombra do Vento",
+  "categoria": "suspense",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=EfGuDgAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1AH9uS8vGG64xbfkiKfhIl0uqh-V8IDjd/view?usp=drivesdk",
+  "descricao": "Ambientado na Barcelona de 1945, o jovem Daniel Sempere descobre um livro chamado “A Sombra do Vento” em um misterioso lugar conhecido como o Cemitério dos Livros Esquecidos. Conforme investiga o autor Julián Carax, ele se vê envolvido em uma trama de mistério, romance e vingança, enquanto descobre que alguém está destruindo todos os exemplares da obra. Uma narrativa gótica, envolvente e cheia de suspense literário." 
+},
+{
+  "id": 465,
+  "titulo": "O Jogo do Anjo",
+  "categoria": "suspense",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=CiPVDgAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1rnrmrU51v_Zs31WLklBhUI516zPke_zN/view?usp=drivesdk",
+  "descricao": "Na Barcelona turbulenta dos anos 1920, o escritor David Martín, atormentado por uma doença terminal e um amor impossível, recebe uma proposta misteriosa de um editor para escrever um livro único. À medida que mergulha nesse projeto, ele se vê envolvido em uma trama de segredos, obsessões e perigos sobrenaturais, conectada ao universo do Cemitério dos Livros Esquecidos. Uma narrativa sombria e envolvente de suspense literário." 
+},
+{
+  "id": 466,
+  "titulo": "O Prisioneiro do Céu",
+  "categoria": "Romance",
+  "formato": "PDF",
+  "img": "https://books.google.com/books/content?id=9wMtDwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+  "link": "https://drive.google.com/file/d/1mN2yN_y66iYsTzNkbxQM4uhVOrDobMQT/view?usp=drivesdk",
+  "descricao": "Em 'O Prisioneiro do Céu', Carlos Ruiz Zafón retoma os personagens de seus romances anteriores para revelar segredos do passado. A trama se desenrola na Barcelona dos anos 1950 e 1930, entrelaçando mistério, amizade e lealdade em uma narrativa envolvente."
+},
 
-function normalizeText(text) {
-  return text
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase();
+]
+
+// Estado da aplicação
+let currentPage = 1
+const itemsPerPage = 15
+let currentFilter = "todos"
+let currentSearch = ""
+let currentSort = "default"
+let currentView = "grid"
+
+// Elementos DOM
+const elements = {
+  searchInput: document.getElementById("searchInput"),
+  clearSearch: document.getElementById("clearSearch"),
+  categoriesGrid: document.getElementById("categoriesGrid"),
+  booksGrid: document.getElementById("booksGrid"),
+  pagination: document.getElementById("pagination"),
+  paginationInfo: document.getElementById("paginationInfo"),
+  catalogSubtitle: document.getElementById("catalogSubtitle"),
+  sortSelect: document.getElementById("sortSelect"),
+  bookModal: document.getElementById("bookModal"),
+  bookDetails: document.getElementById("bookDetails"),
+  closeModal: document.getElementById("closeModal"),
+  mainFab: document.getElementById("mainFab"),
+  fabMenu: document.getElementById("fabMenu"),
+  loadingOverlay: document.getElementById("loadingOverlay"),
+  toastContainer: document.getElementById("toastContainer"),
+  particles: document.getElementById("particles"),
 }
 
-function mostrarPagina(page, rolarParaTopo = false) {
-  currentPage = page;
-  const produtosContainer = document.getElementById('produtos');
-  produtosContainer.innerHTML = '';
+// Utilitários
+const utils = {
+  normalizeText(text) {
+    return text
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+  },
 
-  const normalizedSearch = normalizeText(currentSearch);
-
-  const filteredLivros = livros.filter(livro => {
-    const normalizedTitle = normalizeText(livro.titulo);
-    const categoriaMatch = currentFilter === 'todos' || livro.categoria === currentFilter;
-    const titleMatch = normalizedTitle.includes(normalizedSearch);
-    return categoriaMatch && titleMatch;
-  });
-
-  const start = (page - 1) * itemsPerPage;
-  const livrosPagina = filteredLivros.slice(start, start + itemsPerPage);
-
-  if (livrosPagina.length === 0) {
-    produtosContainer.innerHTML = '<p style="text-align:center; margin-top:20px;">Nenhum livro encontrado.</p>';
-  } else {
-    livrosPagina.forEach(livro => {
-      const livroDiv = document.createElement('div');
-      livroDiv.className = 'livro';
-      livroDiv.dataset.categoria = livro.categoria;
-      livroDiv.addEventListener('click', () => mostrarDetalhes(livro.id));
-      livroDiv.innerHTML = `
-        <img src="${livro.img}" alt="${livro.titulo}" />
-        <h3>${livro.titulo}</h3>
-        <p><strong>Formato:</strong> ${livro.formato ? livro.formato : 'PDF'}</p>
-        <span class="ver-mais">Clique para ver mais</span>
-      `;
-      produtosContainer.appendChild(livroDiv);
-    });
-  }
-
-  atualizarPaginacao(filteredLivros.length);
-
-  if (rolarParaTopo) {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-}
-
-function atualizarPaginacao(totalItems) {
-  const paginacaoContainer = document.getElementById('paginacao');
-  paginacaoContainer.innerHTML = '';
-
-  const totalPages = Math.ceil(totalItems / itemsPerPage);
-  const maxButtons = 5;
-  const range = 2;
-
-  function createButton(text, page, isActive = false, isDisabled = false) {
-    const btn = document.createElement('button');
-    btn.innerText = text;
-    if (isActive) btn.classList.add('active');
-    if (isDisabled) btn.disabled = true;
-    btn.addEventListener('click', () => mostrarPagina(page, true));
-    paginacaoContainer.appendChild(btn);
-  }
-
-  // Botão Anterior
-  createButton('« Anterior', currentPage - 1, false, currentPage === 1);
-
-  if (totalPages <= maxButtons + 4) {
-    for (let i = 1; i <= totalPages; i++) {
-      createButton(i, i, i === currentPage);
+  debounce(func, wait) {
+    let timeout
+    return function executedFunction(...args) {
+      const later = () => {
+        clearTimeout(timeout)
+        func(...args)
+      }
+      clearTimeout(timeout)
+      timeout = setTimeout(later, wait)
     }
-  } else {
-    createButton(1, 1, currentPage === 1);
+  },
 
-    if (currentPage > range + 2) {
-      const dots = document.createElement('span');
-      dots.innerText = '...';
-      paginacaoContainer.appendChild(dots);
+  formatNumber(num) {
+    return new Intl.NumberFormat("pt-BR").format(num)
+  },
+
+  showLoading() {
+    elements.loadingOverlay?.classList.add("active")
+  },
+
+  hideLoading() {
+    elements.loadingOverlay?.classList.remove("active")
+  },
+
+  showToast(message, type = "info") {
+    const toast = document.createElement("div")
+    toast.className = `toast ${type}`
+
+    const icon = type === "success" ? "check-circle" : type === "error" ? "exclamation-circle" : "info-circle"
+
+    toast.innerHTML = `
+      <i class="fas fa-${icon}"></i>
+      <span>${message}</span>
+    `
+
+    elements.toastContainer?.appendChild(toast)
+
+    // Mostrar toast
+    setTimeout(() => toast.classList.add("show"), 100)
+
+    // Remover toast após 4 segundos
+    setTimeout(() => {
+      toast.classList.remove("show")
+      setTimeout(() => toast.remove(), 300)
+    }, 4000)
+  },
+
+  // Animação de contador
+  animateCounter(element, target, duration = 2000) {
+    const start = 0
+    const increment = target / (duration / 16)
+    let current = start
+
+    const timer = setInterval(() => {
+      current += increment
+      if (current >= target) {
+        current = target
+        clearInterval(timer)
+      }
+      element.textContent = Math.floor(current)
+    }, 16)
+  },
+
+  // Criar partículas
+  createParticles() {
+    if (!elements.particles) return
+
+    const particleCount = 50
+
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement("div")
+      particle.className = "particle"
+
+      // Posição aleatória
+      particle.style.left = Math.random() * 100 + "%"
+      particle.style.top = Math.random() * 100 + "%"
+
+      // Delay de animação aleatório
+      particle.style.animationDelay = Math.random() * 6 + "s"
+      particle.style.animationDuration = Math.random() * 3 + 3 + "s"
+
+      elements.particles.appendChild(particle)
+    }
+  },
+
+  // Observador de scroll para animações
+  setupScrollAnimations() {
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -50px 0px",
     }
 
-    const start = Math.max(2, currentPage - range);
-    const end = Math.min(totalPages - 1, currentPage + range);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible")
+        }
+      })
+    }, observerOptions)
 
-    for (let i = start; i <= end; i++) {
-      createButton(i, i, i === currentPage);
+    // Observar elementos com classes de animação
+    document.querySelectorAll(".fade-in, .slide-in-left, .slide-in-right").forEach((el) => {
+      observer.observe(el)
+    })
+  },
+}
+
+// Gerenciamento de busca
+const searchManager = {
+  init() {
+    const debouncedSearch = utils.debounce(() => {
+      currentSearch = elements.searchInput?.value.trim() || ""
+      currentPage = 1
+      this.updateClearButton()
+      bookManager.renderBooks()
+      bookManager.updatePagination()
+    }, 300)
+
+    elements.searchInput?.addEventListener("input", debouncedSearch)
+    elements.clearSearch?.addEventListener("click", () => {
+      elements.searchInput.value = ""
+      currentSearch = ""
+      currentPage = 1
+      this.updateClearButton()
+      bookManager.renderBooks()
+      bookManager.updatePagination()
+      utils.showToast("Busca limpa!", "success")
+    })
+  },
+
+  updateClearButton() {
+    if (elements.clearSearch) {
+      elements.clearSearch.style.display = currentSearch ? "block" : "none"
+    }
+  },
+}
+
+// Gerenciamento de categorias
+const categoryManager = {
+  init() {
+    this.updateCategoryCounts()
+    this.bindEvents()
+  },
+
+  updateCategoryCounts() {
+    const counts = {}
+    counts.todos = livros.length
+
+    livros.forEach((livro) => {
+      counts[livro.categoria] = (counts[livro.categoria] || 0) + 1
+    })
+
+    Object.entries(counts).forEach(([categoria, count]) => {
+      const countElement = document.getElementById(`count-${categoria}`)
+      if (countElement) {
+        // Animar contador
+        utils.animateCounter(countElement, count, 1500)
+      }
+    })
+  },
+
+  bindEvents() {
+    elements.categoriesGrid?.addEventListener("click", (e) => {
+      const categoryCard = e.target.closest(".category-card")
+      if (!categoryCard) return
+
+      const categoria = categoryCard.dataset.categoria
+      this.setActiveCategory(categoria)
+      currentFilter = categoria
+      currentPage = 1
+      bookManager.renderBooks()
+      bookManager.updatePagination()
+      this.updateCatalogSubtitle()
+
+      // Feedback visual
+      utils.showToast(`Categoria "${this.getCategoryName(categoria)}" selecionada`, "success")
+    })
+  },
+
+  setActiveCategory(categoria) {
+    document.querySelectorAll(".category-card").forEach((card) => {
+      card.classList.toggle("active", card.dataset.categoria === categoria)
+    })
+  },
+
+  getCategoryName(categoria) {
+    const categoryNames = {
+      todos: "Todos",
+      desenvolvimento: "Desenvolvimento",
+      romance: "Romance",
+      ficcao: "Ficção",
+      suspense: "Suspense",
+      fantasia: "Fantasia",
+      terror: "Terror",
+      drama: "Drama",
+      aventura: "Aventura",
+    }
+    return categoryNames[categoria] || categoria
+  },
+
+  updateCatalogSubtitle() {
+    if (!elements.catalogSubtitle) return
+
+    const filteredBooks = bookManager.getFilteredBooks()
+    const categoryName = this.getCategoryName(currentFilter)
+
+    let subtitle = `Mostrando ${utils.formatNumber(filteredBooks.length)} livros`
+    if (currentFilter !== "todos") {
+      subtitle += ` em ${categoryName}`
+    }
+    if (currentSearch) {
+      subtitle += ` para "${currentSearch}"`
     }
 
-    if (currentPage < totalPages - range - 1) {
-      const dots = document.createElement('span');
-      dots.innerText = '...';
-      paginacaoContainer.appendChild(dots);
+    elements.catalogSubtitle.textContent = subtitle
+  },
+}
+
+// Gerenciamento de livros
+const bookManager = {
+  init() {
+    this.bindEvents()
+    this.renderBooks()
+    this.updatePagination()
+  },
+
+  bindEvents() {
+    // View toggle
+    document.querySelectorAll(".view-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const view = btn.dataset.view
+        this.setView(view)
+      })
+    })
+
+    // Sort
+    elements.sortSelect?.addEventListener("change", (e) => {
+      currentSort = e.target.value
+      this.renderBooks()
+      utils.showToast("Ordenação aplicada!", "info")
+    })
+
+    // Book cards
+    elements.booksGrid?.addEventListener("click", (e) => {
+      const bookCard = e.target.closest(".book-card")
+      if (!bookCard) return
+
+      const bookId = Number.parseInt(bookCard.dataset.bookId)
+      const action = e.target.closest(".btn-read") ? "read" : "details"
+
+      if (action === "read") {
+        this.openBook(bookId)
+      } else {
+        this.showBookDetails(bookId)
+      }
+    })
+  },
+
+  setView(view) {
+    currentView = view
+
+    document.querySelectorAll(".view-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.view === view)
+    })
+
+    elements.booksGrid?.classList.toggle("list-view", view === "list")
+    localStorage.setItem("preferredView", view)
+
+    utils.showToast(`Visualização em ${view === "grid" ? "grade" : "lista"}`, "info")
+  },
+
+  getFilteredBooks() {
+    const normalizedSearch = utils.normalizeText(currentSearch)
+
+    return livros.filter((livro) => {
+      const categoryMatch = currentFilter === "todos" || livro.categoria === currentFilter
+      const searchMatch =
+        !currentSearch ||
+        utils.normalizeText(livro.titulo).includes(normalizedSearch) ||
+        utils.normalizeText(livro.categoria).includes(normalizedSearch)
+
+      return categoryMatch && searchMatch
+    })
+  },
+
+  getSortedBooks(books) {
+    const sortedBooks = [...books]
+
+    switch (currentSort) {
+      case "title-asc":
+        return sortedBooks.sort((a, b) => a.titulo.localeCompare(b.titulo))
+      case "title-desc":
+        return sortedBooks.sort((a, b) => b.titulo.localeCompare(a.titulo))
+      case "category":
+        return sortedBooks.sort((a, b) => a.categoria.localeCompare(b.categoria))
+      default:
+        return sortedBooks
+    }
+  },
+
+  renderBooks() {
+    if (!elements.booksGrid) return
+
+    const filteredBooks = this.getFilteredBooks()
+    const sortedBooks = this.getSortedBooks(filteredBooks)
+    const startIndex = (currentPage - 1) * itemsPerPage
+    const endIndex = startIndex + itemsPerPage
+    const booksToShow = sortedBooks.slice(startIndex, endIndex)
+
+    if (booksToShow.length === 0) {
+      elements.booksGrid.innerHTML = `
+        <div class="no-results fade-in">
+          <i class="fas fa-search" style="font-size: 4rem; color: var(--primary-purple); margin-bottom: 2rem; opacity: 0.5;"></i>
+          <h3 class="glow-text">Nenhum livro encontrado</h3>
+          <p>Tente ajustar seus filtros ou termo de busca</p>
+        </div>
+      `
+      return
     }
 
-    createButton(totalPages, totalPages, currentPage === totalPages);
+    elements.booksGrid.innerHTML = booksToShow
+      .map(
+        (livro, index) => `
+      <div class="book-card fade-in" data-book-id="${livro.id}" style="animation-delay: ${index * 0.1}s">
+        <div class="book-image">
+          <img src="${livro.img}" alt="${livro.titulo}" loading="lazy">
+          <div class="book-badge">${livro.formato || "PDF"}</div>
+        </div>
+        <div class="book-content">
+          <h3 class="book-title">${livro.titulo}</h3>
+          <div class="book-category">
+            <i class="fas fa-tag"></i>
+            ${categoryManager.getCategoryName(livro.categoria)}
+          </div>
+          <p class="book-description">${livro.descricao}</p>
+          <div class="book-actions">
+            <button class="btn-read">
+              <i class="fas fa-book-open"></i>
+              Ler Agora
+            </button>
+            <button class="btn-details">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    `,
+      )
+      .join("")
+
+    categoryManager.updateCatalogSubtitle()
+
+    // Reativar animações de scroll
+    setTimeout(() => {
+      utils.setupScrollAnimations()
+    }, 100)
+  },
+
+  updatePagination() {
+    if (!elements.pagination || !elements.paginationInfo) return
+
+    const filteredBooks = this.getFilteredBooks()
+    const totalPages = Math.ceil(filteredBooks.length / itemsPerPage)
+
+    if (totalPages <= 1) {
+      elements.pagination.innerHTML = ""
+      elements.paginationInfo.innerHTML = ""
+      return
+    }
+
+    // Pagination buttons com lógica profissional
+    let paginationHTML = ""
+
+    // Previous button
+    paginationHTML += `
+    <button class="nav-button" ${currentPage === 1 ? "disabled" : ""} onclick="bookManager.goToPage(${currentPage - 1})" title="Página anterior">
+      <i class="fas fa-chevron-left"></i>
+      <span style="margin-left: 0.5rem;">Anterior</span>
+    </button>
+  `
+
+    // Lógica profissional de paginação
+    const maxVisiblePages = 5 // Máximo de páginas visíveis
+    let startPage, endPage
+
+    if (totalPages <= maxVisiblePages) {
+      // Se temos poucas páginas, mostra todas
+      startPage = 1
+      endPage = totalPages
+    } else {
+      // Lógica para páginas com "..."
+      if (currentPage <= 3) {
+        // Início: 1 2 3 4 5 ... 18
+        startPage = 1
+        endPage = maxVisiblePages
+    } else if (currentPage >= totalPages - 2) {
+      // Final: 1 ... 14 15 16 17 18
+      startPage = totalPages - maxVisiblePages + 1
+      endPage = totalPages
+    } else {
+      // Meio: 1 ... 8 9 10 ... 18
+      startPage = currentPage - 1
+      endPage = currentPage + 1
+    }
   }
 
-  // Botão Próximo
-  createButton('Próximo »', currentPage + 1, false, currentPage === totalPages);
-}
-
-function filtrar(categoria) {
-  currentFilter = categoria;
-
-  document.querySelectorAll('.categoria-btn').forEach(btn => {
-    btn.classList.toggle('ativa', btn.dataset.categoria === categoria);
-    btn.setAttribute('aria-pressed', btn.dataset.categoria === categoria ? 'true' : 'false');
-  });
-
-  mostrarPagina(1);
-
-  const produtosSection = document.getElementById('catalogoView');
-  if (produtosSection) {
-    produtosSection.scrollIntoView({ behavior: 'smooth' });
-  }
-}
-
-function buscar() {
-  const input = document.getElementById('searchInput');
-  currentSearch = input.value.trim();
-  mostrarPagina(1);
-}
-
-function mostrarDetalhes(id) {
-  const livro = livros.find(l => l.id === id);
-  if (!livro) return;
-
-  document.getElementById('header').style.display = 'none';
-  document.getElementById('toggleCategorias').style.display = 'none';
-  document.getElementById('categoriasMenu').style.display = 'none';
-  document.getElementById('heroSection').style.display = 'none';
-
-  document.getElementById('catalogoView').style.display = 'none';
-  document.getElementById('detalhesView').style.display = 'block';
-
-  document.getElementById('detalhesProduto').innerHTML = `
-    <h1>${livro.titulo}</h1>
-    <img src="${livro.img}" alt="${livro.titulo}" />
-    <p>${livro.descricao}</p>
-    <p><strong>Formato:</strong> ${livro.formato}</p>
-    <a href="${livro.link}" class="btn-comprar" target="_blank" rel="noopener noreferrer">Acessar agora</a>
-  `;
-
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-function voltarCatalogo() {
-  document.getElementById('detalhesView').style.display = 'none';
-  document.getElementById('catalogoView').style.display = 'block';
-
-  document.getElementById('header').style.display = '';
-  document.getElementById('toggleCategorias').style.display = '';
-  document.getElementById('categoriasMenu').style.display = '';
-  document.getElementById('heroSection').style.display = '';
-
-  mostrarPagina(currentPage);
-}
-
-function toggleMenuCategorias() {
-  const btn = document.getElementById('toggleCategorias');
-  const menu = document.getElementById('categoriasMenu');
-
-  if (!menu || !btn) return;
-
-  const isOpen = menu.classList.contains('mostrar');
-
-  if (isOpen) {
-    menu.classList.remove('mostrar');
-    btn.setAttribute('aria-expanded', 'false');
-  } else {
-    menu.classList.add('mostrar');
-    btn.setAttribute('aria-expanded', 'true');
-  }
-}
-
-window.onload = () => {
-  mostrarPagina(1);
-
-  document.querySelector('.logo')?.addEventListener('click', () => {
-    filtrar('todos');
-    const hero = document.getElementById('heroSection');
-    if (hero) {
-      hero.scrollIntoView({ behavior: 'smooth' });
+  // Primeira página (se não estiver no range)
+  if (startPage > 1) {
+    paginationHTML += `<button onclick="bookManager.goToPage(1)" title="Primeira página">1</button>`
+    
+    if (startPage > 2) {
+      paginationHTML += `<span class="ellipsis" title="Mais páginas"></span>`
     }
-    voltarCatalogo();
-  });
+  }
 
-  document.getElementById('searchInput')?.addEventListener('input', buscar);
+  // Páginas do range atual
+  for (let i = startPage; i <= endPage; i++) {
+    paginationHTML += `
+      <button ${i === currentPage ? 'class="active"' : ""} onclick="bookManager.goToPage(${i})" title="Página ${i}">
+        ${i}
+      </button>
+    `
+  }
 
-  document.querySelectorAll('.categoria-btn').forEach(btn => {
-    btn.addEventListener('click', () => filtrar(btn.dataset.categoria));
-  });
+  // Última página (se não estiver no range)
+  if (endPage < totalPages) {
+    if (endPage < totalPages - 1) {
+      paginationHTML += `<span class="ellipsis" title="Mais páginas"></span>`
+    }
+    
+    paginationHTML += `<button onclick="bookManager.goToPage(${totalPages})" title="Última página">${totalPages}</button>`
+  }
 
-  document.querySelector('.btn-voltar')?.addEventListener('click', voltarCatalogo);
-  document.getElementById('toggleCategorias')?.addEventListener('click', toggleMenuCategorias);
-};
+  // Next button
+  paginationHTML += `
+    <button class="nav-button" ${currentPage === totalPages ? "disabled" : ""} onclick="bookManager.goToPage(${currentPage + 1})" title="Próxima página">
+      <span style="margin-right: 0.5rem;">Próximo</span>
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  `
 
-// Elementos
-const botao = document.getElementById('botaoFlutuante');
-const menu = document.getElementById('menuExpansivel');
-const fecharMenu = document.getElementById('btnFecharMenu');
-const conversar = document.getElementById('btnConversar');
-const chat = document.getElementById('chatLayla');
-const fecharChat = document.getElementById('fecharChat');
-const sendBtn = document.getElementById('sendBtn');
-const userInput = document.getElementById('userInput');
-const chatBody = document.getElementById('chatBody');
+  elements.pagination.innerHTML = paginationHTML
 
-// Mostrar menu ao clicar no botão flutuante
-botao.addEventListener('click', () => {
-  menu.classList.add('active');
-  botao.style.display = 'none';
-});
+  // Pagination info melhorada
+  const startItem = (currentPage - 1) * itemsPerPage + 1
+  const endItem = Math.min(currentPage * itemsPerPage, filteredBooks.length)
+  
+  elements.paginationInfo.innerHTML = `
+    <div class="pagination-stats">
+      <div class="pagination-stat">
+        <i class="fas fa-book"></i>
+        <span>Exibindo ${startItem}-${endItem} de ${utils.formatNumber(filteredBooks.length)} livros</span>
+      </div>
+      <div class="pagination-stat">
+        <i class="fas fa-layer-group"></i>
+        <span>Página ${currentPage} de ${totalPages}</span>
+      </div>
+      <div class="pagination-stat">
+        <i class="fas fa-percentage"></i>
+        <span>${Math.round((currentPage / totalPages) * 100)}% navegado</span>
+      </div>
+    </div>
+  `
+},
 
-// Fechar menu ao clicar no X
-fecharMenu.addEventListener('click', () => {
-  menu.classList.remove('active');
-  botao.style.display = 'block';
-});
-
-document.querySelectorAll('.faq-question').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const content = btn.nextElementSibling;
-    content.classList.toggle('active');
-  });
-});
-
-window.addEventListener('load', () => {
-  const mensagem = document.getElementById('mensagemAviso');
-
-  // Mostrar mensagem com efeito
+  goToPage(page) {
+  // Validação
+  const filteredBooks = this.getFilteredBooks()
+  const totalPages = Math.ceil(filteredBooks.length / itemsPerPage)
+  
+  if (page < 1 || page > totalPages) return
+  
+  // Animação de saída suave
+  elements.booksGrid?.classList.add('fade-out')
+  utils.showLoading()
+  
   setTimeout(() => {
-    mensagem.classList.add('ativo');
-  }, 200);
+    currentPage = page
+    this.renderBooks()
+    this.updatePagination()
+    
+    // Scroll suave para o topo do catálogo
+    document.getElementById("catalogSection")?.scrollIntoView({ 
+      behavior: "smooth",
+      block: "start"
+    })
+    
+    // Animação de entrada
+    setTimeout(() => {
+      elements.booksGrid?.classList.remove('fade-out')
+      utils.hideLoading()
+      
+      // Toast com informações da página
+      const filteredBooks = this.getFilteredBooks()
+      const totalPages = Math.ceil(filteredBooks.length / itemsPerPage)
+      const percentage = Math.round((page / totalPages) * 100)
+      
+      utils.showToast(`Página ${page} de ${totalPages} (${percentage}% navegado)`, "success")
+    }, 300)
+  }, 200)
+},
 
-  // Esconder após 8 segundos
+  showBookDetails(bookId) {
+    const livro = livros.find((l) => l.id === bookId)
+    if (!livro || !elements.bookModal || !elements.bookDetails) return
+
+    elements.bookDetails.innerHTML = `
+      <div class="book-details-image">
+        <img src="${livro.img}" alt="${livro.titulo}" class="glow-image">
+      </div>
+      <div class="book-details-content">
+        <h2 class="book-details-title glow-text">${livro.titulo}</h2>
+        <div class="book-details-meta">
+          <div class="book-category">
+            <i class="fas fa-tag"></i>
+            ${categoryManager.getCategoryName(livro.categoria)}
+          </div>
+          <div class="book-category">
+            <i class="fas fa-file-pdf"></i>
+            ${livro.formato || "PDF"}
+          </div>
+        </div>
+        <p class="book-details-description">${livro.descricao}</p>
+        <div class="book-details-actions">
+          <a href="${livro.link}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large glow-btn">
+            <i class="fas fa-book-open"></i>
+            <span>Ler Agora</span>
+            <div class="btn-glow"></div>
+          </a>
+        </div>
+      </div>
+    `
+
+    elements.bookModal.classList.add("active")
+    document.body.style.overflow = "hidden"
+  },
+
+  openBook(bookId) {
+    const livro = livros.find((l) => l.id === bookId)
+    if (!livro) return
+
+    if (livro.link === "#") {
+      utils.showToast("Este livro estará disponível em breve!", "info")
+      return
+    }
+
+    window.open(livro.link, "_blank", "noopener,noreferrer")
+    utils.showToast(`Abrindo "${livro.titulo}"...`, "success")
+  },
+}
+
+// Gerenciamento de modais
+const modalManager = {
+  init() {
+    // Close modal buttons
+    elements.closeModal?.addEventListener("click", () => this.closeBookModal())
+
+    // Close on overlay click
+    elements.bookModal?.addEventListener("click", (e) => {
+      if (e.target === elements.bookModal) this.closeBookModal()
+    })
+
+    // Close on escape key
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        this.closeBookModal()
+      }
+    })
+  },
+
+  closeBookModal() {
+    elements.bookModal?.classList.remove("active")
+    document.body.style.overflow = ""
+  },
+}
+
+// Gerenciamento do FAB
+const fabManager = {
+  init() {
+    elements.mainFab?.addEventListener("click", () => {
+      elements.fabMenu?.classList.toggle("active")
+    })
+
+    // Close FAB menu when clicking outside
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".floating-actions")) {
+        elements.fabMenu?.classList.remove("active")
+      }
+    })
+  },
+}
+
+// Gerenciamento do menu mobile
+const mobileMenuManager = {
+  init() {
+    const mobileMenuToggle = document.getElementById("mobileMenuToggle")
+    const mobileMenu = document.getElementById("mobileMenu")
+    const mobileMenuClose = document.getElementById("mobileMenuClose")
+
+    mobileMenuToggle?.addEventListener("click", () => {
+      mobileMenu?.classList.add("active")
+      document.body.style.overflow = "hidden"
+    })
+
+    mobileMenuClose?.addEventListener("click", () => {
+      mobileMenu?.classList.remove("active")
+      document.body.style.overflow = ""
+    })
+
+    // Fechar ao clicar fora
+    mobileMenu?.addEventListener("click", (e) => {
+      if (e.target === mobileMenu) {
+        mobileMenu.classList.remove("active")
+        document.body.style.overflow = ""
+      }
+    })
+
+    // Funcionalidade dos itens de categoria
+    document.querySelectorAll(".mobile-menu-item[data-categoria]").forEach((item) => {
+      item.addEventListener("click", () => {
+        const categoria = item.dataset.categoria
+        categoryManager.setActiveCategory(categoria)
+        currentFilter = categoria
+        currentPage = 1
+        bookManager.renderBooks()
+        bookManager.updatePagination()
+        categoryManager.updateCatalogSubtitle()
+        
+        // Fechar menu e ir para catálogo
+        mobileMenu?.classList.remove("active")
+        document.body.style.overflow = ""
+        document.getElementById("catalogSection")?.scrollIntoView({ behavior: "smooth" })
+        
+        utils.showToast(`Categoria "${categoryManager.getCategoryName(categoria)}" selecionada`, "success")
+      })
+    })
+  },
+}
+
+// Funções globais
+window.goHome = () => {
+  currentFilter = "todos"
+  currentSearch = ""
+  currentPage = 1
+  elements.searchInput.value = ""
+  categoryManager.setActiveCategory("todos")
+  bookManager.renderBooks()
+  bookManager.updatePagination()
+  searchManager.updateClearButton()
+  document.getElementById("heroSection")?.scrollIntoView({ behavior: "smooth" })
+  utils.showToast("Voltando ao início!", "info")
+}
+
+window.scrollToCatalog = () => {
+  document.getElementById("catalogSection")?.scrollIntoView({ behavior: "smooth" })
+}
+
+window.scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" })
+  utils.showToast("Voltando ao topo!", "info")
+}
+
+window.showTerms = () => {
+  const termsModal = document.getElementById("termsModal")
+  if (termsModal) {
+    termsModal.classList.add("active")
+    document.body.style.overflow = "hidden"
+  }
+}
+
+window.showPrivacy = () => {
+  utils.showToast("Página de privacidade em desenvolvimento", "info")
+}
+
+// Atualizar a função showSupport para evitar duplicata
+window.showSupport = () => {
+  showWhatsappModal()
+}
+
+// Funções para modais
+window.showWhatsappModal = () => {
+  const whatsappModal = document.getElementById("whatsappModal")
+  if (whatsappModal) {
+    whatsappModal.classList.add("active")
+    document.body.style.overflow = "hidden"
+  }
+}
+
+// Corrigir o gerenciamento dos novos modais
+const newModalManager = {
+  init() {
+    // Terms Modal
+    const termsModal = document.getElementById("termsModal")
+    const closeTermsModal = document.getElementById("closeTermsModal")
+    
+    closeTermsModal?.addEventListener("click", () => {
+      termsModal?.classList.remove("active")
+      document.body.style.overflow = ""
+    })
+    
+    termsModal?.addEventListener("click", (e) => {
+      if (e.target === termsModal) {
+        termsModal.classList.remove("active")
+        document.body.style.overflow = ""
+      }
+    })
+    
+    // WhatsApp Modal
+    const whatsappModal = document.getElementById("whatsappModal")
+    const closeWhatsappModal = document.getElementById("closeWhatsappModal")
+    const sendWhatsappMessage = document.getElementById("sendWhatsappMessage")
+    const templateButtons = document.querySelectorAll(".template-btn")
+    const userMessage = document.getElementById("userMessage")
+    
+    closeWhatsappModal?.addEventListener("click", () => {
+      whatsappModal?.classList.remove("active")
+      document.body.style.overflow = ""
+    })
+    
+    whatsappModal?.addEventListener("click", (e) => {
+      if (e.target === whatsappModal) {
+        whatsappModal.classList.remove("active")
+        document.body.style.overflow = ""
+      }
+    })
+    
+    // Template buttons - Corrigir duplicata
+    templateButtons.forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault()
+        e.stopPropagation()
+        const message = btn.dataset.message
+        if (userMessage) {
+          userMessage.value = message
+          userMessage.focus()
+        }
+      })
+    })
+    
+    // Send WhatsApp message - Corrigir duplicata
+    sendWhatsappMessage?.addEventListener("click", (e) => {
+      e.preventDefault()
+      e.stopPropagation()
+      
+      const userName = document.getElementById("userName")?.value || "Visitante"
+      const message = document.getElementById("userMessage")?.value || "Olá! Gostaria de mais informações."
+      
+      const fullMessage = `Olá! Meu nome é ${userName}.
+
+${message}
+
+Enviado através do site Book Haven.`
+      
+      const phoneNumber = "5511934339580" // Substitua pelo número real
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`
+      
+      window.open(whatsappUrl, "_blank")
+      
+      // Fechar modal
+      whatsappModal?.classList.remove("active")
+      document.body.style.overflow = ""
+      
+      utils.showToast("Redirecionando para o WhatsApp...", "success")
+    })
+    
+    // Fechar modais com ESC
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        termsModal?.classList.remove("active")
+        whatsappModal?.classList.remove("active")
+        document.body.style.overflow = ""
+      }
+    })
+  }
+}
+
+// Atualizar a função de inicialização
+document.addEventListener("DOMContentLoaded", () => {
+  // Mostrar loading
+  utils.showLoading()
+
+  // Criar partículas de fundo
+  utils.createParticles()
+
+  // Inicializar componentes
+  searchManager.init()
+  categoryManager.init()
+  bookManager.init()
+  modalManager.init()
+  fabManager.init()
+  mobileMenuManager.init()
+
+  // Configurar animações de scroll
+  utils.setupScrollAnimations()
+
+  // Restaurar preferências
+  const savedView = localStorage.getItem("preferredView") || "grid"
+  bookManager.setView(savedView)
+
+  // Animar contadores na hero
   setTimeout(() => {
-    mensagem.classList.remove('ativo');
-  }, 8200);
-});
+    document.querySelectorAll(".counter").forEach((counter) => {
+      const target = Number.parseInt(counter.dataset.target)
+      if (target) {
+        utils.animateCounter(counter, target, 2000)
+      }
+    })
+  }, 1000)
+
+  // Esconder loading
+  setTimeout(() => {
+    utils.hideLoading()
+    utils.showToast("Bem-vindo ao Book Haven!", "success")
+  }, 1500)
+  
+  // Inicializar novos modais
+  newModalManager.init()
+})
+
+// Atualizar função showSupport
+window.showSupport = () => {
+  showWhatsappModal()
+}
